@@ -1,0 +1,5 @@
+# Software related to the project available goes here.
+# local/external, LOCATION, DESCRIPTION
+local, bfd, Bayesian interpretation of kernel Fisher's discriminants.
+local, ncnm, Semi-supervised learning for Gaussian process classifiers.
+local, ivm, Sparse approximation for Gaussian process classifiers.

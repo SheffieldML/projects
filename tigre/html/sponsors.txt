@@ -1,0 +1,3 @@
+# Details of sponsor
+# SPONSORNAME, SPONSOR URL
+EPSRC Grant No EP/F005687/1 "Gaussian Processes for Systems Identification with Applications in Systems Biology", http://www.epsrc.ac.uk

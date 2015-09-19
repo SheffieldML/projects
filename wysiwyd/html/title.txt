@@ -1,0 +1,3 @@
+# Long and short name of the project
+# LONGNAME, SHORTNAME
+WYSIWYD Project, WYSIWYD: What You Say Is What You Did

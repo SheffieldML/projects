@@ -1,0 +1,6 @@
+# This file contains names of publications on the project.
+Journal Papers, Alvarez:computationally11, Honkela:modelbased10, Gao:latent08
+Book, Lawrence:licsb10
+Book Chapters, Lawrence:licsbintro10, Lawrence:licsbbayes10, Lawrence:licsbgp10,Titsias:mcmcgp11
+Conference Papers, Alvarez:efficient10, Alvarez:lfm09, Titsias:variational09, Alvarez:convolved08, Titsias:efficient08, Lawrence:transcriptionalGP06
+Related References, DellaGatta:direct08, Alon:systems06, Sanguinetti:chipdyno06, Sabatti:bayesian06, Sanguinetti:chipvar06, Nachman:inferring04

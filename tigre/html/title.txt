@@ -1,0 +1,3 @@
+# Long and short name of the project
+# LONGNAME, SHORTNAME
+TIGRE Project, TIGRE: Transcription factor Inference through Gaussian process Reconstruction of Expression

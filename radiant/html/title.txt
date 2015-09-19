@@ -1,0 +1,3 @@
+# Long and short name of the project
+# LONGNAME, SHORTNAME
+RADIANT Project, RADIANT: Rapid Development and Distribution of Statistical Tools for High-Throughput Sequencing Data

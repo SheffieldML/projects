@@ -1,0 +1,3 @@
+# Long and short name of the project
+# LONGNAME, SHORTNAME
+PUMA: Improved processing of microarray data with probabilistic models, PUMA: Improved processing of microarray data with probabilistic models

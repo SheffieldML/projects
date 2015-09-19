@@ -1,0 +1,5 @@
+# This file contains names of staff and students on the project.
+# The file is in the form NAME, POSITION, DCSLOOKUPNAME
+Zhenwen Dai, post-doctoral research assistant, Z.Dai
+Teo de Campos, post-doctoral research assistant, T.deCampos
+James Hensman, MRC Fellow, J.Hensman

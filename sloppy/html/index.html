@@ -1,0 +1,110 @@
+<html>
+<!--#include virtual="../header.shtml" -->
+
+<head>
+  <title>Learning Classifiers from Sloppily Labelled Data</title>
+</head>
+<body>
+
+<!--#include virtual="../navigation.shtml" -->
+
+<section id="content" class="three-col">
+<div id="inner"><h1>Learning Classifiers from Sloppily Labelled Data</h1>
+<h2>Overview</h2><p><p>This project was about learning classification decision boundaries when careful labelling of the data set is required. It was originally inspired by <a href="#Lawrence:noisy01">joint work with Bernhard Schoelkopf</a> on images. 
+
+<p>Key contributions of the project were:
+<ul>
+<li>An approach to learning kernel parameters in kernel Fisher's discriminant described in <a href="#Pena:fbd04">this JMLR paper</a>.</li>
+<li>An approach to semi-supervised learning in Gaussian processes which allows free choice of kernel, first presented in <a href="#Lawrence:semisuper04">this NIPS paper</a>.</li>
+<li>An approximation for Gaussian process classification which allows practical learning of large data sets described in this <a href="#Lawrence:ivm02">this NIPS paper</a>.</li>
+</ul>
+
+<p>Informal collaborations with <a href="http://www.cs.berkeley.edu/~jordan/">Michael Jordan</a>, <a href="http://www.research.microsoft.com/~rherb">Ralf Herbrich</a> and <a href="http://www.kyb.tuebingen.mpg.de/bs/people/seeger"> Matthias Seeger</a> were an important part of the project.<p>The project is sponsored by <a href="http://www.epsrc.ac.uk">EPSRC Grant no GR/R84801/01</a>.
+<a name="personnel"></a><h2>Personnel at Sheffield</h2>
+
+<table>
+<tr><td><a href="http://www.dcs.sheffield.ac.uk/cgi-bin/makeperson?T.Centeno">Tonatiuh  Peña-Centeno</a>, PhD Student</td></tr>
+</table>
+
+<a name="software"></a><h2>Software</h2>
+
+<p>The following software has been made available either wholly or partly as a result of work on this project:<p><table>
+<tr><td><a href="http://ml.sheffield.ac.uk//~neil/bfd">Bayesian interpretation of kernel Fisher's discriminants.</a></td></tr>
+<tr><td><a href="http://ml.sheffield.ac.uk//~neil/ncnm">Semi-supervised learning for Gaussian process classifiers.</a></td></tr>
+<tr><td><a href="http://ml.sheffield.ac.uk//~neil/ivm">Sparse approximation for Gaussian process classifiers.</a></td></tr>
+</table>
+
+<a name="publications"></a><h2>Publications</h2>
+
+<p>The following publications have provided background to our work in this project.<h3>Journal Papers</h3>
+
+<a name="Pena:fbd04"></a><span class=author>T. Pe&#241a-Centeno and N. D. Lawrence. </span> (2006) <span class=papertitle>"Optimising kernel parameters and regularisation coefficients for non-linear discriminant analysis"</span> in <span class=journal>Journal of Machine Learning Research</span>  7, pp 455--491  An earlier version is available as technical report number CS-04-13, see <a href=/~neil/cgi-bin/publications/bibpage.cgi?keyName=Pena:fbd-tech04&printAbstract=1>[Pena:fbd-tech04]</a>.[<a href="http://staffwww.dcs.shef.ac.uk/people/N.Lawrence/bfd/ " target="_blank">Software</a>][<a href=http://www.jmlr.org/papers/volume7/centeno06a/centeno06a.pdf>PDF</a>][<a href=http://www.jmlr.org/papers/v7/centeno06a.html>JMLR Abstract</a>][<a href="http://scholar.google.com/scholar?hl-en&lr=&q=Optimising+Kernel+Parameters+and+Regularisation+Coefficients+for+Non-linear+Discriminant+Analysis+&btnG=Search" target="_blank">Google Scholar Search</a>]
+
+<h4>Abstract</h4>
+
+<p class=abstract>In this paper we consider a novel Bayesian interpretation of Fisher's discriminiant analysis. We relate Rayleigh's coefficient to a noise model that minimizes a cost based on the most probable class centres and that abandons the `regression to the labels' assumption used by other algorithms. This yields a direction of discrimination equivalent to Fisher's discriminant. We use Bayes' rule to infer the posterior distribution for the direction of discrimination and in this process, priors and constraining distributions are incorporated to reach the desired result. Going further, with the use of a Gaussian process prior we show the equivalence of our model to a regularised kernel Fisher's discriminant. A key advantage of our approach is the facility to determine kernel parameters and the regularisation coefficient through the optimisation of the marginal log-likelihood of the data. An added bonus of the new formulation is that it enables us to link the regularisation coefficient with the generalisation error.
+<hr />
+
+<h3>NIPS Papers</h3>
+
+<a name="Lawrence:ivm02"></a><span class=author>N. D. Lawrence, M. Seeger and R. Herbrich. </span> (2003) <span class=papertitle>"Fast sparse Gaussian process methods: the informative vector machine"</span> in S. Becker, S. Thrun and K. Obermayer (eds) <span class=journal>Advances in Neural Information Processing Systems</span>, MIT Press, Cambridge, MA, pp 625--632. [<a href="http://staffwww.dcs.shef.ac.uk/people/N.Lawrence/ivm " target="_blank">Software</a>][<a href=ftp://ftp.dcs.shef.ac.uk/home/neil/ivm.ps.gz>Gzipped Postscript</a>][<a href="http://scholar.google.com/scholar?hl-en&lr=&q=Fast+Sparse+Gaussian+Process+Methods:+The+Informative+Vector+Machine+&btnG=Search" target="_blank">Google Scholar Search</a>]
+
+<h4>Abstract</h4>
+
+<p class=abstract>We present a framework for sparse Gaussian process (GP) methods which uses forward selection with criteria based on information-theoretical principles, previously suggested for active learning. In contrast to most previous work on sparse GPs, our goal is not only to learn sparse predictors (which can be evaluated in <i>O(d)</i> rather than <i>O(n)</i>, <i>d&lt;&lt;n</i>, <i>n</i> the number of training points), but also to perform training under strong restrictions on time and memory requirements. The scaling of our method is at most <i>O(nd<sup>2</sup>)</i>, and in large real-world classification experiments we show that it can match prediction performance of the popular support vector machine (SVM), yet it requires only a fraction of the training time. In contrast to the SVM, our approximation produces estimates of predictive probabilities (`error bars'), allows for Bayesian model selection and is less complex in implementation.
+<hr />
+
+<a name="Lawrence:semisuper04"></a><span class=author>N. D. Lawrence and M. I. Jordan. </span> (2005) <span class=papertitle>"Semi-supervised learning via Gaussian processes"</span> in L. Saul, Y. Weiss and L. Bouttou (eds) <span class=journal>Advances in Neural Information Processing Systems</span>, MIT Press, Cambridge, MA, pp 753--760. [<a href="http://staffwww.dcs.shef.ac.uk/people/N.Lawrence/ncnm/ " target="_blank">Software</a>][<a href=ftp://ftp.dcs.shef.ac.uk/home/neil/ncnm.ps.gz>Gzipped Postscript</a>][<a href="http://scholar.google.com/scholar?hl-en&lr=&q=Semi-supervised+Learning+via+Gaussian+Processes+&btnG=Search" target="_blank">Google Scholar Search</a>]
+
+<h4>Abstract</h4>
+
+<p class=abstract>We present a probabilistic approach to learning a Gaussian Process classifier in the presence of unlabeled data. Our approach involves a "null category noise model" (NCNM) inspired by ordered categorical noise models. The noise model reflects an assumption that the data density is lower between the class-conditional densities. We illustrate our approach on a toy problem and present comparative results for the semi-supervised classification of handwritten digits. 
+<hr />
+
+<h3>Other Conferences</h3>
+
+<a name="Lawrence:noisy01"></a><span class=author>N. D. Lawrence and B. Sch&#246lkopf. </span> (2001) <span class=papertitle>"Estimating a kernel Fisher discriminant in the presence of label noise"</span> in C. Brodley and A. P. Danyluk (eds) <span class=journal>Proceedings of the International Conference in Machine Learning</span>, Morgan Kauffman, San Francisco, CA. [<a href="http://staffwww.dcs.shef.ac.uk/people/N.Lawrence/nkfd/ " target="_blank">Software</a>][<a href=ftp://ftp.dcs.shef.ac.uk/home/neil/noisyfisher.ps.gz>Gzipped Postscript</a>][<a href="http://scholar.google.com/scholar?hl-en&lr=&q=Estimating+a+Kernel+Fisher+Discriminant+in+the+Presence+of+Label+Noise+&btnG=Search" target="_blank">Google Scholar Search</a>]
+
+<h4>Abstract</h4>
+
+<p class=abstract>Data noise is present in many machine learning problems domains, some of these are well studied but others have received less attention. In this paper we propose an algorithm for constructing a kernel Fisher discriminant (KFD) from training examples with <em>noisy labels</em>. The approach allows to associate with each example a probability of the label being flipped. We utilise an expectation maximization (EM) algorithm for updating the probabilities. The E-step uses class conditional probabilities estimated as a by-product of the KFD algorithm. The M-step updates the flip probabilities and determines the parameters of the discriminant. We have applied the approach to two real-world data-sets. The results show the feasibility of the approach.
+<hr />
+
+<h3>Book Chapters</h3>
+
+<a name="Lawrence:extensions05"></a><span class=author>N. D. Lawrence, J. C. Platt and M. I. Jordan. </span> (2005) <span class=papertitle>"Extensions of the informative vector machine"</span> in J. Winkler, N. D. Lawrence and M. Niranjan (eds) <span class=journal>Deterministic and Statistical Methods in Machine Learning</span>, Springer-Verlag, Berlin, pp 56--87.  [<a href="http://staffwww.dcs.shef.ac.uk/people/N.Lawrence/ivm/ " target="_blank">Software</a>][<a href=ftp://ftp.dcs.shef.ac.uk/home/neil/ivmdev.ps.gz>Gzipped Postscript</a>][<a href=http://www.springeronline.com/3-540-29073-7>Springer Site</a>][<a href="http://scholar.google.com/scholar?hl-en&lr=&q=Extensions+of+the+Informative+Vector+Machine+&btnG=Search" target="_blank">Google Scholar Search</a>]
+
+<h4>Abstract</h4>
+
+<p class=abstract>The informative vector machine (IVM) is a practical method for Gaussian process regression and classification. The IVM produces a sparse approximation to a Gaussian process by combining assumed density filtering with a heuristic for choosing points based on minimizing posterior entropy. This paper extends IVM in several ways. First, we propose a novel noise model that allows the IVM to be applied to a mixture of labeled and unlabeled data. Second, we use IVM on a block-diagonal covariance matrix, for "learning to learn" from related tasks. Third, we modify the IVM to incorporate prior knowledge from known invariances. All of these extensions are tested on artificial and real data.
+<hr />
+
+<a name="Lawrence:gpncnm05"></a><span class=author>N. D. Lawrence and M. I. Jordan. </span> (2006) <span class=papertitle>"Gaussian processes and the null-category noise model"</span> in O. Chapelle, B. Sch&#246lkopf and A. Zien (eds) <span class=journal>Semi-supervised Learning</span>, MIT Press, Cambridge, MA, pp 152--165.  [<a href=ftp://ftp.dcs.shef.ac.uk/home/neil/gpncnm.ps>Gzipped Postscript</a>][<a href=http://staffwww.dcs.shef.ac.uk/people/N.Lawrence/ncnm/>MATLAB Software</a>][<a href=http://staffwww.dcs.shef.ac.uk/people/N.Lawrence/ivmcpp/>C++ Software</a>][<a href="http://scholar.google.com/scholar?hl-en&lr=&q=Gaussian+Processes+and+the+Null-Category+Noise+Model+&btnG=Search" target="_blank">Google Scholar Search</a>]
+
+<h4>Abstract</h4>
+
+<p class=abstract>With Gaussian process classifiers (GPC) we aim to predict the posterior probability of the class labels given an input data point, <i>p(y<sub>i</sub>|x<sub>i</sub>)</i>. In general we find that this posterior distribution is unaffected by unlabeled data points during learning. Support vector machines are strongly related to GPCs, but one notable difference is that the decision boundary in an SVM can be influenced by unlabeled data. The source of this discrepancy is the SVM's margin: a characteristic which is not shared with the GPC. The presence of the marchin allows the support vector machine to seek low data density regions for the decision boundary, effectively allowing it to incorporate the cluster assumption (see Chapter 6). In this chapter we present the <em>null category noise model</em>. A probabilistic equivalent of the margin. By combining this noise model with a GPC we are able to incorporated the cluster assumption without explicitly modeling the input data density distributions and without a special choice of kernel.
+<hr />
+
+<h3>Technical Reports</h3>
+
+<a name="Pena:fbd-tech04"></a><span class=author>T. Pe&#241a-Centeno and N. D. Lawrence. </span> (2004) <span class=papertitle>"Optimising kernel parameters and regularisation coefficients for non-linear discriminant analysis"</span> Technical Report no CS-04-13, The University of Sheffield, Department of Computer Science.  [<a href="http://staffwww.dcs.shef.ac.uk/people/N.Lawrence/bfd/ " target="_blank">Software</a>][<a href=ftp://ftp.dcs.shef.ac.uk/home/neil/bfdPaper.ps.gz>Gzipped Postscript</a>][<a href="http://scholar.google.com/scholar?hl-en&lr=&q=Optimising+Kernel+Parameters+and+Regularisation+Coefficients+for+Non-linear+Discriminant+Analysis+&btnG=Search" target="_blank">Google Scholar Search</a>]
+
+<h4>Abstract</h4>
+
+<p class=abstract>In this paper we consider a Bayesian interpretation of Fisher's discriminant. By relating Rayleigh's coefficient to a likelihood function and through the choice of a suitable prior we use Bayes' rule to infer a posterior distribution over projections. Through the use of a Gaussian process prior we show the equivalence of our model to a regularised kernel Fisher's discriminant. A key advantage of our approach is the facility to determine kernel parameters and the regularisation coefficient through optimisation of the marginalised likelihood of the data.
+<hr />
+
+<a name="Lawrence:ivmTech04"></a><span class=author>N. D. Lawrence, M. Seeger and R. Herbrich. </span> (2004) <span class=papertitle>"The informative vector machine: a practical probabilistic alternative to the support vector machine"</span> Technical Report no CS-04-07, Department of Computer Science, University of Sheffield. Last updated December 2005 [<a href=ftp://ftp.dcs.shef.ac.uk/home/neil/ivmTechreport.ps.gz>Gzipped Postscript</a>][<a href=http://staffwww.dcs.shef.ac.uk/people/N.Lawrence/ivm/>Matlab Software</a>][<a href=http://staffwww.dcs.shef.ac.uk/people/N.Lawrence/ivmcpp/>C++ Software</a>][<a href="http://scholar.google.com/scholar?hl-en&lr=&q=The+Informative+Vector+Machine:+A+Practical+Probabilistic+Alternative+to+the+Support+Vector+Machine+&btnG=Search" target="_blank">Google Scholar Search</a>]
+
+<h4>Abstract</h4>
+
+<p class=abstract>We present a practical probabilistic alternative to the popular support vector machine (SVM). The algorithm is an approximation to a Gaussian process, and is probabilistic in the sense that it maintains the process variance that is implied by the use of a kernel function, which the SVM discards. We show that these variances may be tracked and made use of selection of an active set which gives a sparse representation for the model. For an active set size of <i>d</i> our algorithm exhibits <i>O(d<sup>2</sup>N)</i> computational complexity and <i>O(dN)</i> storage requirements. It has already been shown that the approach is comptetive with the SVM in terms of performance and running time, here we give more details of the approach and demonstrate that kernel parameters may also be learned in a practical and effective manner.
+<hr />
+
+<p>This document last modified <!--#flastmod file="index.html" --></p>
+</div>
+</section><!--#include virtual="../footer.shtml" -->
+
+
+</html>

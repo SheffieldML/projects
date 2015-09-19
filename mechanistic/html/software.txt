@@ -1,0 +1,4 @@
+# Software related to the project available goes here.
+# local/external, LOCATION, DESCRIPTION
+local, gpsim, GPSIM: Gaussian Process Modelling of Single Input Motif networks.
+local, multigp, MULTIGP: Modelling multiple outputs with Gaussian processes (will eventually supercede the gpsim toolbox).

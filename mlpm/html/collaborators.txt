@@ -1,0 +1,15 @@
+# This file contains names of collaborators on the project
+# NAME, INSTITUTE, HOMEPAGE
+Magnus Rattray, University of Manchester, http://www.ls.manchester.ac.uk/people/profile/?personid=10584
+Karsten Borgwardt, MPI for Intelligent Systems, http://webdav.tuebingen.mpg.de/u/karsten/group/index.html
+Bernhard Schoelkopf, MPI for Intelligent Systems, http://www.is.tuebingen.mpg.de/research/departments/bs.html
+Bertram Mueller-Myhsok, MPI for Psychiatry, http://www.mpipsykl.mpg.de/en/research/groups/muellermyhsok/index.html
+Volker Tresp, Siemens AG, http://www.siemens.com/
+Felix Agakov, Pharmatics LTD, http://www.pharmaticsltd.com/
+Kristel Van Steen, Universit\'e de Li\`ege, http://www.montefiore.ulg.ac.be/~kvansteen/
+Jean Philippe Vert, Mines ParisTech (Armines), http://cbio.ensmp.fr/~jvert/
+Florence Demenais, INSERM, http://www.univ-paris-diderot.fr/IUH/pgeng.php?np=97
+Fernando Perez Cruz, Universidad Carlos III de Madrid, http://www.tsc.uc3m.es/~fernando/
+Joaquin Dopazo, Principe Felipe Centro de Investigacion, http://bioinfo.cipf.es/
+Gunnar Raetsch, Memorial Sloan-Kettering Cancer Center, http://cbio.mskcc.org/research/ratsch-research-group/
+

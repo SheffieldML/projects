@@ -1,0 +1,3 @@
+# Details of sponsor
+# SPONSORNAME, SPONSOR URL
+BBSRC Project No BB/H018123/2 "An iterative pipeline of computational modelling and experimental design for uncovering gene regulatory networks in vertebrates", http://www.bbsrc.ac.uk/PA/grants/AwardDetails.aspx?FundingReference=BB%2fH018123%2f2

@@ -1,0 +1,4 @@
+# This file contains names of publications on the project.
+Technical Reports, Lawrence:gplvmtut06
+Conference Papers, Lawrence:larger07, Lawrence:hgplvm07, Ek:pose07, Ek:ambiguity08, Urtasun:topology08
+Talks, Lawrence:oxford06, Lawrence:google07

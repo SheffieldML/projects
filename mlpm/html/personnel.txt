@@ -1,0 +1,5 @@
+# This file contains names of staff and students on the project.
+# The file is in the form NAME, POSITION, DCSLOOKUPNAME
+Max Zwiessele, PhD Student, M.Zwiessele
+James McMurray, PhD Student, J.McMurray
+James Hensman, MRC Fellow, J.Hensman

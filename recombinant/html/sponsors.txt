@@ -1,0 +1,3 @@
+# Details of sponsor
+# SPONSORNAME, SPONSOR URL
+BBSRC Project No BB/K011197/1 "Linking recombinant gene sequence to protein product manufacturability using CHO cell genomic resources", http://www.bbsrc.ac.uk/pa/grants/AwardDetails.aspx?FundingReference=BB/K011197/1

@@ -1,0 +1,3 @@
+# Long and short name of the project
+# LONGNAME, SHORTNAME
+ITERATIVE Project, ITERATIVE: An iterative pipeline of computational modelling and experimental design for uncovering gene regulatory networks in vertebrates

@@ -1,0 +1,4 @@
+# This file contains names of staff and students on the project.
+# The file is in the form NAME, POSITION, DCSLOOKUPNAME
+Pei Gao, Post-doctorate Researcher, gaop
+Richard Pearson, PhD Student, pearsonr

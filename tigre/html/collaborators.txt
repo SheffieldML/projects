@@ -1,0 +1,5 @@
+# This file contains names of collaborators on the project
+# NAME, INSTITUTE, HOMEPAGE
+Dr Nick Monk, University of Nottingham, http://www.maths.nottingham.ac.uk/personal/nm/
+Dr Johannes Jaeger, CRG, http://www.crg.es/johannes_jaeger
+Dr Antti Honkela, Helsinki University of Technology (visitor and collaborator), http://www.cis.hut.fi/ahonkela/

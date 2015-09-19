@@ -1,0 +1,3 @@
+# Details of sponsor
+# SPONSORNAME, SPONSOR URL
+EU FP7-PEOPLE Project Ref 316861 "MLPM2012: Machine Learning for Personalized Medicine", http://cordis.europa.eu/projects/rcn/105442_en.html

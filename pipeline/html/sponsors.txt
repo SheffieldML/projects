@@ -1,0 +1,3 @@
+# Details of sponsor
+# SPONSORNAME, SPONSOR URL
+BBSRC Grant No BBS/B/0076X, http://www.bbsrc.ac.uk

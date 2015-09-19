@@ -1,0 +1,6 @@
+# This file contains names of publications on the project.
+Journal Papers, Hensman:hierarchical13, Donaldson:genome12
+#Book, 
+#Book Chapters, Lawrence:licsbintro10, Lawrence:licsbbayes10, Lawrence:licsbgp10,Titsias:mcmcgp11
+Conference Papers, Hensman:fast12,Hensman:bigdata13
+Related References, Alvarez:computationally11, Honkela:modelbased10, Lawrence:licsb10, Gao:latent08, Lawrence:licsbintro10, Lawrence:licsbbayes10, Lawrence:licsbgp10,Titsias:mcmcgp11

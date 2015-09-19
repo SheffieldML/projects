@@ -1,0 +1,7 @@
+# This file contains names of publications on the project.
+#Journal Papers, 
+#Book, 
+#Book Chapters, Lawrence:licsbintro10, Lawrence:licsbbayes10, Lawrence:licsbgp10,Titsias:mcmcgp11
+#Conference Papers, Alvarez:efficient10, Alvarez:lfm09, Titsias:variational09, Alvarez:convolved08, Titsias:efficient08, Lawrence:transcriptionalGP06
+Journal Papers, Titsias:identifying12, Glaus:bitseq12
+Related References, Alvarez:computationally11, Honkela:modelbased10, Lawrence:licsb10, Gao:latent08, Lawrence:licsbintro10, Lawrence:licsbbayes10, Lawrence:licsbgp10,Titsias:mcmcgp11

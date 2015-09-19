@@ -1,0 +1,4 @@
+# This file contains names of staff and students on the project.
+# The file is in the form NAME, POSITION, DCSLOOKUPNAME
+Javier Gonzalez Hernandez, Post doctoral research assistant, J.Gonzalez
+James Hensman, MRC Fellow, J.Hensman

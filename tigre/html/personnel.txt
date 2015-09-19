@@ -1,0 +1,5 @@
+# This file contains names of staff and students on the project.
+# The file is in the form NAME, POSITION, DCSLOOKUPNAME
+Michalis Titsias, post-doctoral research assistant, mtitsias
+Mauricio Alvarez, PhD student, alvarezm
+

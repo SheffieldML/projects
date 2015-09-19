@@ -1,0 +1,3 @@
+# Long and short name of the project
+# LONGNAME, SHORTNAME
+Dimensional Reduction and Style Based Inverse Kinematics, Dimensional Reduction and Style IK

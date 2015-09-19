@@ -1,0 +1,3 @@
+# Software related to the project available goes here.
+# local/external, LOCATION, DESCRIPTION
+SheffieldML, GPy, GPy: Gaussian process framework in Python.

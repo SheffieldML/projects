@@ -1,0 +1,6 @@
+# Software related to the project available goes here.
+# local/external, LOCATION, DESCRIPTION
+SheffieldML, GPy, GPy: Gaussian process modelling framework in Python
+local, gpsim, GPSIM: Gaussian Process Modelling of single input module motif networks.
+local, multigp, MULTIGP: Modelling multiple outputs with Gaussian processes (will eventually supercede the gpsim toolbox).
+local, disimrank, DISIMRANK: Ranking potential targets using a driven input single input model motif.

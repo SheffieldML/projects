@@ -1,0 +1,3 @@
+# Details of sponsor
+# SPONSORNAME, SPONSOR URL
+EU FP7-HEALTH Project Ref 305626 "Rapid development and distribution of statistical tools for high-throughput sequencing data", http://cordis.europa.eu/projects/rcn/105701_en.html

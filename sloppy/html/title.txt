@@ -1,0 +1,3 @@
+# Long and short name of the project
+# LONGNAME, SHORTNAME
+Learning Classifiers from Sloppily Labelled Data, Learning Classifiers from Sloppily Labelled Data

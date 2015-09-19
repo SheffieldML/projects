@@ -1,0 +1,7 @@
+# This file contains names of collaborators on the project
+# NAME, INSTITUTE, HOMEPAGE
+David James, Chemical and Biological Engineering, http://www.shef.ac.uk/cbe/people/staffprofiles/djames
+Mark Dickman, Chemical and Biological Engineering, https://www.shef.ac.uk/cbe/people/staffprofiles/mdickman
+Paul Dobson, Chemical and Biological Engineering, https://www.shef.ac.uk/cbe/people/staffprofiles/pdobson
+Josselin Noirel, Chemical and Biological Engineering, http://www.shef.ac.uk/cbe/people/staffprofiles/noirel
+

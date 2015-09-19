@@ -1,0 +1,9 @@
+# Software related to the project available goes here.
+# local/external, LOCATION, DESCRIPTION
+local, nppca, NPPCA: Probabilistic PCA that deals with different variances associated with each element of the data.
+local, chipdyno, CHIPDYNO: Inference of transcription factor activities from microarray data and network connectivity data.
+local, chipvar, CHIPVAR: Variational inference of transcription factor concentrations and actions on target genes from microarray data and network connectivity data.
+manchester, http://www.bioinf.manchester.ac.uk/resources/puma/mmgmos/mmgmos.html, mmgMOS: Modified multi-array gMOS algorithm for extracting uncertainties from Affymetrix slides.
+manchester, http://www.bioinf.manchester.ac.uk/resources/puma/pplr/pplr.html, PPLR: Detecting up regulated genes by using variances and looking at the probability of a positive log ratio.
+manchester, http://www.bioinf.manchester.ac.uk/resources/puma/puma/puma.html, PUMA: A Bioconductor package that inmplements mmgMOS, PPLR and PUMACLUST.
+local, gpsim, GPSIM: Gaussian Process Modelling of Single Input Motif networks.

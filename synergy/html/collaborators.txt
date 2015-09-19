@@ -1,0 +1,10 @@
+# This file contains names of collaborators on the project
+# NAME, INSTITUTE, HOMEPAGE
+Prof Magnus Rattray, University of Manchester, http://www.ls.manchester.ac.uk/people/profile/?personid=10584
+Dr Antti Honkela, University of Helsinki, http://www.hiit.fi/u/ahonkela/
+Dr Jaako Peltonen, Aalto University, http://users.ics.aalto.fi/jtpelto/
+Prof Henk Stunnenberg, Nijmegen Centre for Molecular Life Sciences, http://www.ncmls.eu/people/stunnenberg/
+Dr Sampsa Hautaniemi, University of Helsinki, http://www.helsinki.fi/~shautani/
+Dr George Reid, DKFZ Heidelberg, http://www.embl.de/~reid/
+Prof Olli A. Jänne, University of Helsinki, http://www.helsinki.fi/science/arlab/
+Dr Martin Seifert, Genomatix Software, http://www.genomatix.de/

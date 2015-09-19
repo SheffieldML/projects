@@ -1,0 +1,7 @@
+# This file contains names of collaborators on the project
+# NAME, INSTITUTE, HOMEPAGE
+# The file is in the form NAME, POSITION, DCSLOOKUPNAME
+Dr Marta Milo, Wellcome Trust Fellow at University of Sheffield, http://www.shef.ac.uk/bms/research/milo/
+Dr Xuejun Liu, Nanjing University of Aeronautics & Astronautics (former PhD student), http://parnec.nuaa.edu.cn/liux/
+Dr Guido Sanguinetti, University of Sheffield (former post-doc), http://www.dcs.shef.ac.uk/~guido
+Dr Antti Honkela, Helsinki University of Technology (visitor and collaborator), http://www.cis.hut.fi/ahonkela/

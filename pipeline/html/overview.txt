@@ -1,0 +1,16 @@
+<h3>Investigators: Neil Lawrence and Magnus Rattray</h3>
+
+<p>Affymetrix Genechip® arrays are currently the most widely used microarray technology. In this project we use probabilistic methods to propagate the uncertainty of gene expression levels from probe-level analysis of Affymetrix microarray data to the higher level of gene expression data analysis. The focus of the project is twofold: developing tractable probabilistic models for microarray data, allowing reliable estimates of the experimental noise associated with each gene and experiment. At a higher level, we aim to produce algorithms and software for data analysis (such as PCA, clustering, etc..) that uses the information obtained in the probe-level analysis. This can greatly improve the accuracy of methods, allow the biologist to obtain uncertainty levels on the final outcome of the analysis, and hopefully it should give a principled way to automate many of the heuristic procedures currently used in microarray data analysis.
+
+There is another <a href="http://umber.sbs.man.ac.uk/resources/puma/">project web page</a> at Manchester.
+
+<p>The following was achieved under this project:
+<ul>
+<li>We have made available a software package that implements our approaches through bioconductor (see this <a href="#Pearson:puma09">application note</a>).</li>
+<li>We have an approach for analysing multiple Affymetrix chips which gives an estimate of the uncertainty (see mmgMOS package below this <a href="#Liu:tractable04">Bioinformatics paper</a>).</li>
+<li>We make use of the variances to estimate the probability of one gene being more expressed than another (see PPLR software package below).
+<li>We have modified principal component analysis to take account of the uncertainty in the model (see NPPCA package below and this <a href="#Sanguinetti:accounting05">Bioinformatics paper</a>.)</li>
+<li>We have an approach to inferring the activity of transcription networks given expression data and a matrix of assumed connectivities. (see CHIPDYNO software below and this <a href="#Sanguinetti:chipdyno06">Bioinformatics paper</a>).</li>
+<li>We have an approach to inferring protein concentration given the gene expression of known targets in a single input motif. (see GPSIM software below, this <a href="#Lawrence:transcriptionalGP06">NIPS paper</a> and this <a href="#Gao:latent08">ECCB paper</a>). This is being built on in the TIGRA project. </li>
+<li> Also related is the VIS package for extracting uncertainty from cDNA arrays (see VIS software package below and this <a href="#Lawrence:variability03">Bioinformatics paper</a>).</li>
+</ul>

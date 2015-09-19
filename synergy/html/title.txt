@@ -1,0 +1,3 @@
+# Long and short name of the project
+# LONGNAME, SHORTNAME
+SYNERGY Project, SYNERGY: Systems approach to gene regulation biology through nuclear receptors

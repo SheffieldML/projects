@@ -1,0 +1,5 @@
+# Software related to the project available goes here.
+# local/external, LOCATION, DESCRIPTION
+local, fgplvm, FGPLVM Toolbox for large scale learning of GP-LVMs.
+local, hgplvm, HGPLVM Toolbox for hierarchical learning of GP-LVMs.
+local, mocap, Simple MATLAB utility toolbox for loading motion capture data sets.

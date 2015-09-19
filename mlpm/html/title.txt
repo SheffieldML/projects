@@ -1,0 +1,3 @@
+# Long and short name of the project
+# LONGNAME, SHORTNAME
+MLPM Project, MLPM: Machine Learning for Personalized Medicine

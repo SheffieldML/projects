@@ -1,0 +1,5 @@
+# Software related to the project available goes here.
+# local/external, LOCATION, DESCRIPTION
+SheffieldML, GPy, GPy: Gaussian process modelling framework in Python
+SheffieldML, colvb, Collapsed Variational Bayes Software
+SheffieldML, TVB, Tilted variational inference software

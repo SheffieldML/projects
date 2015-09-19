@@ -1,0 +1,6 @@
+# This file contains names of publications on the project.
+Journal Papers, Pena:fbd04
+NIPS Papers, Lawrence:ivm02, Lawrence:semisuper04
+Other Conferences, Lawrence:noisy01
+Book Chapters, Lawrence:extensions05, Lawrence:gpncnm05
+Technical Reports, Pena:fbd-tech04, Lawrence:ivmTech04

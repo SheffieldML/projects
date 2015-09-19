@@ -1,0 +1,3 @@
+# This file contains names of collaborators on the project
+# NAME, INSTITUTE, HOMEPAGE
+Prof. Philip Torr, Oxford Brookes, http://cms.brookes.ac.uk/staff/PhilipTorr/

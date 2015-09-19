@@ -1,0 +1,4 @@
+# This file contains names of publications on the project.
+Review Paper, Rattray:propagating06
+Journal Papers, Pearson:puma09, Gao:latent08, Sanguinetti:chipvar06, Liu:variances06, Sanguinetti:chipdyno06, Liu:tractable04, Sanguinetti:accounting05, Milo:probabilistic03, Lawrence:variability03
+Conference Papers, Sanguinetti:trento06, Lawrence:transcriptionalGP06

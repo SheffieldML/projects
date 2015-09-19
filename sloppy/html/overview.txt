@@ -1,0 +1,10 @@
+<p>This project was about learning classification decision boundaries when careful labelling of the data set is required. It was originally inspired by <a href="#Lawrence:noisy01">joint work with Bernhard Schoelkopf</a> on images. 
+
+<p>Key contributions of the project were:
+<ul>
+<li>An approach to learning kernel parameters in kernel Fisher's discriminant described in <a href="#Pena:fbd04">this JMLR paper</a>.</li>
+<li>An approach to semi-supervised learning in Gaussian processes which allows free choice of kernel, first presented in <a href="#Lawrence:semisuper04">this NIPS paper</a>.</li>
+<li>An approximation for Gaussian process classification which allows practical learning of large data sets described in this <a href="#Lawrence:ivm02">this NIPS paper</a>.</li>
+</ul>
+
+<p>Informal collaborations with <a href="http://www.cs.berkeley.edu/~jordan/">Michael Jordan</a>, <a href="http://www.research.microsoft.com/~rherb">Ralf Herbrich</a> and <a href="http://www.kyb.tuebingen.mpg.de/bs/people/seeger"> Matthias Seeger</a> were an important part of the project.

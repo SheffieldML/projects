@@ -1,0 +1,13 @@
+# This file contains names of collaborators on the project
+# NAME, INSTITUTE, HOMEPAGE
+Magnus Rattray, University of Manchester, http://www.ls.manchester.ac.uk/people/profile/?personid=10584
+Korbinian Grote, Genomatix Software GmbH Germany, http://radiant-project.eu/Consortium/Partners/Genomatix.html
+Alessandro Guffanti, Genomia Italy, http://radiant-project.eu/Consortium/Partners/Genomnia.html
+Wolfgang Huber, EMBL Heidelberg, http://radiant-project.eu/Consortium/Partners/EMBL.html
+Diego di Bernardo, Fondazione Telethon,http://dibernardo.tigem.it/wiki/index.php/Main_Page
+Mattia Pelizzola, Istituto Italiano di Tecnologia, http://radiant-project.eu/Consortium/Partners/IIT.html
+Jean-Philippe Vert, ARMINES France, http://radiant-project.eu/Consortium/Partners/ARMINES.html
+Klaus Mauch, Insilico Biotechnology, http://www.insilico-biotechnology.com/people
+Jean-Marie Mouillon, Fluxome Sciences A/S, http://www.fluxome.com/company/organization/leadership-team.aspx
+Mark Robinson, University of Zurich Switzerland, http://radiant-project.eu/Consortium/Partners/Zurich.html
+Simon Tavare, University of Cambridge, http://radiant-project.eu/Consortium/Partners/CAM.html

@@ -1,0 +1,4 @@
+# This file contains names of staff and students on the project.
+# The file is in the form NAME, POSITION, DCSLOOKUPNAME
+Carl Henrik Ek, PhD student and Manchester RA, http://cms.brookes.ac.uk/staff/CarlEk/
+Huma Lodhi, Former Post-doctorate Researcher, http://www.doc.ic.ac.uk/~hml/

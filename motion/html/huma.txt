@@ -1,0 +1,10 @@
+We present a novel methodology for human motion analysis and
+classification. Our methodology is based on transforming motion
+sequences into a form that is amenable to learning methods and
+then applying kernel leaning for classification and analysis. We
+measure similarity between the sequences by applying kernel
+functions that have been proved effective in text classification
+and bio-information namely word kernels and string kernels. We use
+support vector machines for performing one-class and multi-class
+classification in the context of human motion. We evaluated our
+methodology on motion capture data.

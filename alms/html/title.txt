@@ -1,0 +1,3 @@
+# Long and short name of the project
+# LONGNAME, SHORTNAME
+Advanced Lifestyle Monitoring Systems, Advanced Lifestyle Monitoring Systems

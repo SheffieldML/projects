@@ -1,0 +1,10 @@
+# This file contains names of collaborators on the project
+# NAME, INSTITUTE, HOMEPAGE
+Tony Prescott, University of Sheffield, http://www.abrg.group.shef.ac.uk/people/tony/
+Mat Evans, University of Sheffield, http://www.abrg.group.shef.ac.uk/people/mat/
+Paul Verschure, Universitat Pompeu Fabra, http://specs.upf.edu/people/331
+Peter Ford Dominey, Institute National de la Sante et de la Recherche Medicale (INSERM), http://pfdominey.perso.sfr.fr/RobotDemos.htm
+Giorgio Metta, Fondazione Istituto Italiano di Tecnologia, http://pasa.liralab.it/
+Peter Gardenfors, Lunds University, http://www.fil.lu.se/en/department/staff/PeterGardenfors/
+Yiannis Demiris, Imperial College,http://www.iis.ee.ic.ac.uk/yiannis/webcontent/HomePage.html
+

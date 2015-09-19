@@ -1,0 +1,3 @@
+# This file contains names of staff and students on the project.
+# The file is in the form NAME, POSITION, DCSLOOKUPNAME
+James Hensman, post-doctoral research assistant, J.Hensman

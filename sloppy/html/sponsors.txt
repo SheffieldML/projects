@@ -1,0 +1,3 @@
+# Details of sponsor
+# SPONSORNAME, SPONSOR URL
+EPSRC Grant no GR/R84801/01, http://www.epsrc.ac.uk
