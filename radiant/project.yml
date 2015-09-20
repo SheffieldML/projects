@@ -1,0 +1,62 @@
+# Title of the project
+shortname: "RADIANT Project"
+longname: "RADIANT: Rapid Development and Distribution of Statistical Tools for High-Throughput Sequencing Data"
+
+start: "January 2012"
+end: "January 2015"
+
+personnel:
+- name: Zhenwen Dai
+  role: post-doctoral research assistant
+  url: Z.Dai
+- name: Teo de Campos
+  role: post-doctoral research assistant
+  url: T.deCampos
+- name: James Hensman
+  role: MRC Fellow
+  url: J.Hensman
+
+sponsors:
+- name: EU FP7-HEALTH Project Ref 305626 "Rapid development and distribution of statistical tools for high-throughput sequencing data"
+  ref: EU FP7-HEALTH Project Ref 305626 "Rapid development and distribution of statistical tools for high-throughput sequencing data"
+  title: EU FP7-HEALTH Project Ref 305626 "Rapid development and distribution of statistical tools for high-throughput sequencing data"
+  url: http://cordis.europa.eu/projects/rcn/105701_en.html
+
+collaborators:
+- name: Magnus Rattray
+  institute: University of Manchester
+  url: http://www.ls.manchester.ac.uk/people/profile/?personid=10584
+- name: Korbinian Grote
+  institute: Genomatix Software GmbH Germany
+  url: http://radiant-project.eu/Consortium/Partners/Genomatix.html
+- name: Alessandro Guffanti
+  institute: Genomia Italy
+  url: http://radiant-project.eu/Consortium/Partners/Genomnia.html
+- name: Wolfgang Huber
+  institute: EMBL Heidelberg
+  url: http://radiant-project.eu/Consortium/Partners/EMBL.html
+- name: Diego di Bernardo
+  institute: Fondazione Telethon
+  url: http://dibernardo.tigem.it/wiki/index.php/Main_Page
+- name: Mattia Pelizzola
+  institute: Istituto Italiano di Tecnologia
+  url: http://radiant-project.eu/Consortium/Partners/IIT.html
+- name: Jean-Philippe Vert
+  institute: ARMINES France
+  url: http://radiant-project.eu/Consortium/Partners/ARMINES.html
+- name: Klaus Mauch
+  institute: Insilico Biotechnology
+  url: http://www.insilico-biotechnology.com/people
+- name: Jean-Marie Mouillon
+  institute: Fluxome Sciences A/S
+  url: http://www.fluxome.com/company/organization/leadership-team.aspx
+- name: Mark Robinson
+  institute: University of Zurich Switzerland
+  url: http://radiant-project.eu/Consortium/Partners/Zurich.html
+- name: Simon Tavare
+  institute: University of Cambridge
+  url: http://radiant-project.eu/Consortium/Partners/CAM.html
+
+publications:
+  conference:"Hensman:tvb14","Andrade:hybrid14"
+  related:"Hensman:hierarchical13","Fusi:detecting13","Hensman:fast12","Hensman:bigdata13","Fusi:genomics12"
