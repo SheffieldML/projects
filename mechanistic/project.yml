@@ -22,10 +22,10 @@ collaborators:
   url: ""
 
 software:
-- url: "http://www.inverseprobability.com/gpsim"
+- url: "http://sheffieldml.github.io/gpsim"
   name: gpsim
   tagline: "GPSIM: Gaussian Process Modelling of Single Input Motif networks."
-- url: "http://www.inverseprobability.com/multigp"
+- url: "http://sheffieldml.github.io/multigp"
   name: multigp
   tagline: "MULTIGP: Modelling multiple outputs with Gaussian processes (will eventually supercede the gpsim toolbox)."
 
