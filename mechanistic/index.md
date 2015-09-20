@@ -109,7 +109,9 @@ The project is sponsored by [Google Faculty Research Award Project Ref Machine L
 
 ## Software
 
-The following software has been made available either wholly or partly as a result of work on this project:- [gpsim](http://sheffieldml.github.io/gpsim) GPSIM: Gaussian Process Modelling of Single Input Motif networks.
+The following software has been made available either wholly or partly as a result of work on this project:
+
+- [gpsim](http://sheffieldml.github.io/gpsim) GPSIM: Gaussian Process Modelling of Single Input Motif networks.
 
 - [multigp](http://sheffieldml.github.io/multigp) MULTIGP: Modelling multiple outputs with Gaussian processes (will eventually supercede the gpsim toolbox).
 

@@ -82,7 +82,7 @@ if len(project['personnel'])>0:
 # Give information about software.
 if len(project['software'])>1:
     outputString+= "<a name=\"software\"></a>\n\n## Software\n\n"
-    outputString+= "The following software has been made available either wholly or partly as a result of work on this project:"
+    outputString+= "The following software has been made available either wholly or partly as a result of work on this project:\n\n"
     for i, software in enumerate(project['software']):
         if software['url']=='local':
             outputString += "- [" + software['name'] + "](http://inverseprobability.com/" + software['name'] + ") " + software['tagline'] + "\n\n"
