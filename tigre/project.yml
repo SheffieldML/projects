@@ -1,0 +1,49 @@
+# Title of the project
+shortname: "TIGRE Project"
+longname: "TIGRE: Transcription factor Inference through Gaussian process Reconstruction of Expression"
+
+start: "October 2007"
+end: "April 2011"
+
+personnel:
+- name: Michalis Titsias
+  role: post-doctoral research assistant
+  url: mtitsias
+- name: Mauricio Alvarez
+  role: PhD student
+  url: alvarezm
+
+sponsors:
+- name: EPSRC Grant No EP/F005687/1 "Gaussian Processes for Systems Identification with Applications in Systems Biology"
+  ref: EPSRC Grant No EP/F005687/1 "Gaussian Processes for Systems Identification with Applications in Systems Biology"
+  title: EPSRC Grant No EP/F005687/1 "Gaussian Processes for Systems Identification with Applications in Systems Biology"
+  url: http://www.epsrc.ac.uk
+
+collaborators:
+- name: Dr Nick Monk
+  institute: University of Nottingham
+  url: http://www.maths.nottingham.ac.uk/personal/nm/
+- name: Dr Johannes Jaeger
+  institute: CRG
+  url: http://www.crg.es/johannes_jaeger
+- name: Dr Antti Honkela
+  institute: Helsinki University of Technology (visitor and collaborator)
+  url: http://www.cis.hut.fi/ahonkela/
+
+software:
+- url: "local"
+  name: gpsim
+  tagline: "GPSIM: Gaussian Process Modelling of single input module motif networks."
+- url: "local"
+  name: multigp
+  tagline: "MULTIGP: Modelling multiple outputs with Gaussian processes (will eventually supercede the gpsim toolbox)."
+- url: "local"
+  name: disimrank
+  tagline: "DISIMRANK: Ranking potential targets using a driven input single input model motif."
+
+publications:
+  journals:"Alvarez:computationally11","Honkela:modelbased10","Gao:latent08"
+  books:"Lawrence:licsb10"
+  chapters:"Lawrence:licsbintro10","Lawrence:licsbbayes10","Lawrence:licsbgp10","Titsias:mcmcgp11"
+  conference:"Alvarez:efficient10","Alvarez:lfm09","Titsias:variational09","Alvarez:convolved08","Titsias:efficient08","Lawrence:transcriptionalGP06"
+  related:"DellaGatta:direct08","Alon:systems06","Sanguinetti:chipdyno06","Sabatti:bayesian06","Sanguinetti:chipvar06","Nachman:inferring04"
