@@ -21,9 +21,9 @@ The project is sponsored by [EU FP7-KBBE Project Ref 289434 "From Data to Models
 
 
 
-<a name="software"></a><h2>Software</h2>
+<a name="software"></a>## Software
 
-<p>The following software has been made available either wholly or partly as a result of work on this project:- Github: [The GPy Gaussian process framework in Python (implements much of the MATLAB functionality in Python)](https://github.com/SheffieldML/GPy)
+The following software has been made available either wholly or partly as a result of work on this project:- Github: [The GPy Gaussian process framework in Python (implements much of the MATLAB functionality in Python)](https://github.com/SheffieldML/GPy)
 
 - Github: [R and MATLAB Implementations of the Bayesian GP-LVM](https://github.com/SheffieldML/vargplvm)
 
