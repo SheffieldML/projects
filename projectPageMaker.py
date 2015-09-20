@@ -53,21 +53,21 @@ sponsorDetails = ndlfile.extractFileDetails('sponsors.txt')
 publicationDetails = ndlfile.extractFileDetails('publications.txt')
 
 overview=''
-fileHandle = open('overview.txt', 'r');
+fileHandle = open('overview.md', 'r');
 fileLines = fileHandle.readlines()
 fileHandle.close()
 for line in fileLines:
     overview += line
 
-outputString="<h1>" + titleDetails[0][1] + "</h1>\n"
-outputString += "<h2>Overview</h2>"
-outputString+= "<p>" + overview
+outputString="# " + titleDetails[0][1] + "\n\n"
+outputString += "## Overview"
+outputString+= "\n\n" + overview
 
 
 if len(sponsorDetails)>0:
-    outputString += "<p>The project is sponsored by "
+    outputString += "The project is sponsored by "
     for i in range(len(sponsorDetails)):
-        outputString += "<a href=\"" + sponsorDetails[i][1] + "\">" + sponsorDetails[i][0] + "</a>"
+        outputString += "[" + sponsorDetails[i][0] + "](" + sponsorDetails[i][1] + ")"
         if len(sponsorDetails)>1:
             if i==len(sponsorDetails)-1:
                 outputString += ", "
@@ -76,15 +76,15 @@ if len(sponsorDetails)>0:
     if len(collaboratorDetails)>0:
         outputString += " and is a collaboration with "
     else:
-        outputString += ".\n" 
+        outputString += ".\n\n" 
        
 else:
     if len(collaboratorDetails)>0:
-        outputString += "<p>The project is a collaboration with "
+        outputString += "The project is a collaboration with "
 
 if len(collaboratorDetails)>0:
     for i in range(len(collaboratorDetails)):
-        outputString += "<a href=\"" + collaboratorDetails[i][2] + "\">" + collaboratorDetails[i][0] + "</a> of " + collaboratorDetails[i][1]
+        outputString += "[" + collaboratorDetails[i][0] + "](" + collaboratorDetails[i][2] + ") of " + collaboratorDetails[i][1]
         if len(collaboratorDetails)>1:
             if i==len(collaboratorDetails)-2:
                 outputString += " and "
@@ -93,13 +93,12 @@ if len(collaboratorDetails)>0:
             else:
                 outputString += ", "
         else:
-            outputString += ". \n"
+            outputString += ". \n\n"
 
 if len(personnelDetails)>0:
-    outputString+= "<a name=\"personnel\"></a><h2>Personnel at Sheffield</h2>\n\n"
-    outputString += "<table>\n"
+    outputString+= "<a name=\"personnel\"></a>## Personnel from ML@SITraN\n\n"
     for i in range(len(personnelDetails)):
-        outputString += "<tr><td><a href=\"" + sheffieldPersonBase + personnelDetails[i][2] + "\">" + personnelDetails[i][0] + "</a>, " + personnelDetails[i][1] + "</td></tr>\n"
+        outputString += "- [" + personnelDetails[i][0] + "](" + sheffieldPersonBase + personnelDetails[i][2] + "), " + personnelDetails[i][1] + "\n\n"
 
     outputString += "</table>\n\n"
 
@@ -107,26 +106,24 @@ if len(personnelDetails)>0:
 if len(softwareDetails)>1:
     outputString+= "<a name=\"software\"></a><h2>Software</h2>\n\n"
     outputString+= "<p>The following software has been made available either wholly or partly as a result of work on this project:"
-    outputString += "<p><table>\n"
     for i in range(len(softwareDetails)):
         if softwareDetails[i][0]=='local':
-            outputString += "<tr><td><a href=\"/people/N.Lawrence/" + softwareDetails[i][1] + "\">" + softwareDetails[i][2] + "</a></td></tr>\n"
+            outputString += "- [" + softwareDetails[i][2] + "](http://inverseprobability.com/" + softwareDetails[i][1] + ")\n\n"
         elif softwareDetails[i][0]=='SheffieldML':
-            outputString += "<tr><td>Github: <a href=\"https://github.com/SheffieldML/" + softwareDetails[i][1] + "\">" + softwareDetails[i][2] + "</a></td></tr>\n"
+            outputString += "- Github: [" + softwareDetails[i][2] + "](https://github.com/SheffieldML/" + softwareDetails[i][1] + ")\n\n"
         else:
-            outputString += "<tr><td><a href=\"" + softwareDetails[i][1] + "\">" + softwareDetails[i][2] + "</a></td></tr>\n"
+            outputString += "- [" + softwareDetails[i][2] + "](" + softwareDetails[i][1] + ")\n\n"
 
-    outputString += "</table>\n\n"
 
 
 # Give information about publications
 if len(publicationDetails)>0:
-    outputString+="<a name=\"publications\"></a><h2>Publications</h2>\n\n"
-    outputString+="<p>The following publications have provided background to our work in this project."
+    outputString+="<a name=\"publications\"></a>## Publications\n\n"
+    outputString+="The following publications have provided background to our work in this project."
     for i in range(len(publicationDetails)):
         for j in range(len(publicationDetails[i])):
             if j == 0:
-                outputString += "<h3>" + publicationDetails[i][0] + "</h3>\n\n"
+                outputString += "### " + publicationDetails[i][0] + "\n\n"
             else:            
                 outputString += ndlhtml.getReference(publicationDetails[i][j])
                 outputString += '\n\n'
@@ -139,6 +136,6 @@ if not os.path.exists(publishBase):
 
 
 
-ndlhtml.writeToFile('index.html', outputString, projectStyle, titleDetails[0][0], projectHeader, projectFooter, projectNavigation)
+ndlhtml.mdWriteToFile('index.md', outputString, projectStyle, titleDetails[0][0], projectHeader, projectFooter, projectNavigation)
 
-shutil.copyfile('index.html', os.path.join(publishBase, 'index.html'))
+shutil.copyfile('index.md', os.path.join(publishBase, 'index.md'))

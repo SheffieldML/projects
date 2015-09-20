@@ -1,2 +1,2 @@
 # Indicates whether project is current
-1, October 2011
+0, October 2011
