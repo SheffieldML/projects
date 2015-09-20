@@ -1,12 +1,10 @@
 ---
 layout: default
+title: "StyleIK"
 ---
+# StyleIK Project
 
-Dimensional Reduction and Style IK
-==================================
-
-Overview
---------
+## Overview
 
 This project was a pump priming project concerning large scale learning
 of human motion capture data sets using latent variable models, in
@@ -32,43 +30,41 @@ The achievements in the project were:
     this was an international collaboration with MIT, Toronto
     and \`Berkeley).
 
-The project is sponsored by [EU FP6 PASCAL Network of
-Excellence](http://www.pascal-network.org) and is a collaboration with
-[Prof. Philip Torr](http://cms.brookes.ac.uk/staff/PhilipTorr/) of
-Oxford Brookes.
+The project is sponsored by [EU FP6 Project Ref ](http://www.pascal-network.org) and is a collaboration with [Professor Philip Torr](http://cms.brookes.ac.uk/staff/PhilipTorr/) of Oxford Brookes.
 
-Personnel at Sheffield
-----------------------
 
--  [Carl Henrik Ek](http://www.dcs.sheffield.ac.uk/cgi-bin/makeperson?http://cms.brookes.ac.uk/staff/CarlEk/), PhD student and Manchester RA
--  [Huma Lodhi](http://www.dcs.sheffield.ac.uk/cgi-bin/makeperson?http://www.doc.ic.ac.uk/~hml/), Former Post-doctorate Researcher
 
-Software
---------
+<a name="personnel"></a>
 
-The following software has been made available either wholly or partly
-as a result of work on this project:
+## Personnel from ML@SITraN
 
-- [FGPLVM Toolbox for large scale learning of GP-LVMs.](http://inverseprobability.com/fgplvm)
-- [HGPLVM Toolbox for hierarchical learning of GP-LVMs.](http://inverseprobability.com/hgplvm)
-- [Simple MATLAB utility toolbox for loading motion capture data sets.](http://inverseprobability.com/mocap)
+- [Carl Henrik Ek](http://www.carlhenrik.com/) PhD student and Manchester RA
 
-Publications
-------------
+- [Huma Lodhi](http://www.doc.ic.ac.uk/~hml/) Former Post-doctorate Researcher
 
-The following publications have provided background to our work in this
-project.
 
-### Technical Reports
+
+<a name="software"></a>
+
+## Software
+
+The following software has been made available either wholly or partly as a result of work on this project:- [fgplvm](http://inverseprobability.com/fgplvm/) FGPLVM Toolbox for large scale learning of GP-LVMs.
+
+- [hgplvm](http://inverseprobability.com/hgplvm/) HGPLVM Toolbox for hierarchical learning of GP-LVMs.
+
+- [mocap](http://inverseprobability.com/mocap/) Simple MATLAB utility toolbox for loading motion capture data sets.
+
+<a name="publications"></a>
+
+## Publications
 
 <span class="author">N. D. Lawrence</span> (2006) <span
 class="papertitle">"The Gaussian process latent variable model"</span>
 Technical Report no CS-06-03, The University of Sheffield, Department of
 Computer Science.
 \[[PDF](ftp://ftp.dcs.shef.ac.uk/home/neil/gplvmTutorial.pdf)\]\[[Demos
-Software](http://inverseprobability.com/oxford/)\]\[[Main
-Software](http://inverseprobability.com/fgplvm/)\]\[[Google
-Scholar
+Software](http://staffwww.dcs.shef.ac.uk/people/N.Lawrence/oxford/)\]\[[Main
+Software](https://github.com/SheffieldML/GPmat/)\]\[[Google Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=The+Gaussian+Process+Latent+Variable+Model+&btnG=Search)\]
 
 #### Abstract
@@ -79,9 +75,56 @@ representation of a data set. In this tutorial we motivate and describe
 the GP-LVM, giving reviews of the model itself and some of the concepts
 behind it.
 
-------------------------------------------------------------------------
 
-### Conference Papers
+<span class="author">N. D. Lawrence</span> (2006) <span
+class="papertitle">"Computer vision reading group: the Gaussian process
+latent variable model"</span>. Presented at Computer Vision Reading
+Group, Visual Geometry Group, Department of Engineering Science,
+University of Oxford, U.K. on 27/1/2006. \[[PDF
+Slides](ftp://ftp.dcs.shef.ac.uk/home/neil/gplvmTutorialSlides.pdf)\]\[[PDF
+Notes](ftp://ftp.dcs.shef.ac.uk/home/neil/gplvmTutorial.pdf)\]\[[Demos
+Software](http://staffwww.dcs.shef.ac.uk/people/N.Lawrence/oxford/)\]\[[Main
+Software](https://github.com/SheffieldML/GPmat/)\]\[[Google Scholar
+Search](http://scholar.google.com/scholar?hl-en&lr=&q=Computer+Vision+Reading+Group:+The+Gaussian+Process+Latent+Variable+Model+&btnG=Search)\]
+
+#### Abstract
+
+The Gaussian process latent variable model (GP-LVM) is a recently
+proposed probabilistic approach to obtaining a reduced dimension
+representation of a data set. In this tutorial we motivate and describe
+the GP-LVM, giving a review of the model itself and some of the concepts
+behind it.
+
+
+<span class="author">N. D. Lawrence</span> (2007) <span
+class="papertitle">"Probabilistic dimensional reduction with the
+Gaussian process latent variable model"</span>. Presented at Google
+Research, New York, N.Y., U.S.A. on 12/2/2007.
+\[[PDF](ftp://ftp.dcs.shef.ac.uk/home/neil/gplvm_07_02.pdf)\]\[[YouTube](http://www.youtube.com/watch?v=DS853uA0u4I)\]\[[Demos
+Software](http://staffwww.dcs.shef.ac.uk/people/N.Lawrence/oxford/)\]\[[Main
+Software](https://github.com/SheffieldML/GPmat/)\]\[[Google Scholar
+Search](http://scholar.google.com/scholar?hl-en&lr=&q=Probabilistic+Dimensional+Reduction+with+the+Gaussian+Process+Latent+Variable+Model+&btnG=Search)\]\[[Video](http://video.google.com/videoplay?docid=-5127068978792458641)\]
+
+#### Youtube
+
+#### Abstract
+
+Density modelling in high dimensions is a very difficult problem.
+Traditional approaches, such as mixtures of Gaussians, typically fail to
+capture the structure of data sets in high dimensional spaces. In this
+talk we will argue that for many data sets of interest, the data can be
+represented as a lower dimensional manifold immersed in the higher
+dimensional space. We will then present the Gaussian Process Latent
+Variable Model (GP-LVM), a non-linear probabilistic variant of principal
+component analysis (PCA) which implicitly assumes that the data lies on
+a lower dimensional space. Having introduced the GP-LVM we will review
+extensions to the algorithm, including dynamics, learning of large data
+sets and back constraints. We will demonstrate the application of the
+model and its extensions to a range of data sets, including human motion
+data, a vowel data set and a robot mapping problem.
+
+
+The following conference publications were made associated with this project.
 
 <span class="author">N. D. Lawrence</span> (2007) <span
 class="papertitle">"Learning for larger datasets with the Gaussian
@@ -89,7 +132,7 @@ process latent variable model"</span> in M. Meila and X. Shen (eds)
 <span class="journal">Proceedings of the Eleventh International Workshop
 on Artificial Intelligence and Statistics</span>, Omnipress, San Juan,
 Puerto Rico, pp 243--250.
-\[[Software](http://inverseprobability.com/fgplvm/)\]\[[PDF](ftp://ftp.dcs.shef.ac.uk/home/neil/gplvmLarger.pdf)\]\[[Google
+\[[Software](https://github.com/SheffieldML/GPmat/%20)\]\[[PDF](ftp://ftp.dcs.shef.ac.uk/home/neil/gplvmLarger.pdf)\]\[[Google
 Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=Learning+for+Larger+Datasets+with+the+Gaussian+Process+Latent+Variable+Model+&btnG=Search)\]
 
@@ -102,14 +145,13 @@ the context of the GP-LVM. Each approach is then implemented on a well
 known benchmark data set and compared with earlier attempts to sparsify
 the model.
 
-------------------------------------------------------------------------
 
 <span class="author">N. D. Lawrence and A. J. Moore. </span> (2007)
 <span class="papertitle">"Hierarchical Gaussian process latent variable
 models"</span> in Z. Ghahramani (ed.) <span class="journal">Proceedings
 of the International Conference in Machine Learning</span>, Omnipress, ,
 pp 481--488.
-\[[Software](http://inverseprobability.com/hgplvm/)\]\[[PDF](ftp://ftp.dcs.shef.ac.uk/home/neil/hgplvm.pdf)\]\[[Google
+\[[Software](https://github.com/SheffieldML/hgplvm/%20)\]\[[PDF](ftp://ftp.dcs.shef.ac.uk/home/neil/hgplvm.pdf)\]\[[Google
 Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=Hierarchical+Gaussian+Process+Latent+Variable+Models+&btnG=Search)\]
 
@@ -125,7 +167,6 @@ simple dynamical model, we then extend the approach to a more complex
 hierarchy which is applied to the visualisation of human motion data
 sets.
 
-------------------------------------------------------------------------
 
 <span class="author">C. H. Ek, P. H. Torr and N. D. Lawrence. </span>
 (2008) <span class="papertitle">"Gaussian process latent variable models
@@ -133,7 +174,7 @@ for human pose estimation"</span> in A. Popescu-Belis, S. Renals and H.
 Bourlard (eds) <span class="journal">Machine Learning for Multimodal
 Interaction (MLMI 2007)</span>, Springer-Verlag, Brno, Czech Republic,
 pp 132--143.
-\[[Software](http://inverseprobability.com/sgplvm/)\]\[[PDF](ftp://ftp.dcs.shef.ac.uk/home/neil/mlmi.pdf)\]\[[DOI](http://dx.doi.org/10.1007/978-3-540-78155-4_12)\]\[[Google
+\[[Software](https://github.com/SheffieldML/SGPLVM/%20)\]\[[PDF](ftp://ftp.dcs.shef.ac.uk/home/neil/mlmi.pdf)\]\[[DOI](http://dx.doi.org/10.1007/978-3-540-78155-4_12)\]\[[Google
 Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=Gaussian+Process+Latent+Variable+Models+For+Human+Pose+Estimation+&btnG=Search)\]
 
@@ -151,14 +192,13 @@ regression approaches and other generative methods. In addition to the
 application shown in this paper the suggested model is easily extended
 to multiple observation spaces without constraints on type.
 
-------------------------------------------------------------------------
 
 <span class="author">C. H. Ek, J. Rihan, P. Torr, G. Rogez and N. D.
 Lawrence. </span> (2008) <span class="papertitle">"Ambiguity modeling in
 latent spaces"</span> in A. Popescu-Belis and R. Stiefelhagen (eds)
 <span class="journal">Machine Learning for Multimodal Interaction (MLMI
 2008)</span>, Springer-Verlag, , pp 62--73.
-\[[Software](http://inverseprobability.com/sgplvm/)\]\[[PDF](ftp://ftp.dcs.shef.ac.uk/home/neil/mlmi2008.pdf)\]\[[Google
+\[[Software](https://github.com/SheffieldML/SGPLVM/%20)\]\[[PDF](ftp://ftp.dcs.shef.ac.uk/home/neil/mlmi2008.pdf)\]\[[Google
 Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=Ambiguity+Modeling+in+Latent+Spaces+&btnG=Search)\]
 
@@ -183,7 +223,6 @@ Gaussian processes) for validation and inference. The proposed model has
 several potential application areas, we demonstrate its use for
 multi-modal regression on a benchmark human pose estimation data set.
 
-------------------------------------------------------------------------
 
 <span class="author">R. Urtasun, D. J. Fleet, A. Geiger, J. Popović, T.
 J. Darrell and N. D. Lawrence. </span> (2008) <span
@@ -209,57 +248,4 @@ directions enabling, for example, style/content separation, and (b)
 generalise beyond the data set enabling us to learn transitions between
 motion styles even though such transitions are not present in the data.
 
-------------------------------------------------------------------------
-
-### Talks
-
-<span class="author">N. D. Lawrence</span> (2006) <span
-class="papertitle">"Computer vision reading group: the Gaussian process
-latent variable model"</span>. Presented at Computer Vision Reading
-Group, Visual Geometry Group, Department of Engineering Science,
-University of Oxford, U.K. on 27/1/2006. \[[PDF
-Slides](ftp://ftp.dcs.shef.ac.uk/home/neil/gplvmTutorialSlides.pdf)\]\[[PDF
-Notes](ftp://ftp.dcs.shef.ac.uk/home/neil/gplvmTutorial.pdf)\]\[[Demos
-Software](http://inverseprobability.com/oxford/)\]\[[Main
-Software](http://inverseprobability.com/fgplvm/)\]\[[Google
-Scholar
-Search](http://scholar.google.com/scholar?hl-en&lr=&q=Computer+Vision+Reading+Group:+The+Gaussian+Process+Latent+Variable+Model+&btnG=Search)\]
-
-#### Abstract
-
-The Gaussian process latent variable model (GP-LVM) is a recently
-proposed probabilistic approach to obtaining a reduced dimension
-representation of a data set. In this tutorial we motivate and describe
-the GP-LVM, giving a review of the model itself and some of the concepts
-behind it.
-
-------------------------------------------------------------------------
-
-<span class="author">N. D. Lawrence</span> (2007) <span
-class="papertitle">"Probabilistic dimensional reduction with the
-Gaussian process latent variable model"</span>. Presented at Google
-Research, New York, N.Y., U.S.A. on 12/2/2007.
-\[[PDF](ftp://ftp.dcs.shef.ac.uk/home/neil/gplvm_07_02.pdf)\]\[[Demos
-Software](http://inverseprobability.com/oxford/)\]\[[Main
-Software](http://inverseprobability.com/fgplvm/)\]\[[Google
-Scholar
-Search](http://scholar.google.com/scholar?hl-en&lr=&q=Probabilistic+Dimensional+Reduction+with+the+Gaussian+Process+Latent+Variable+Model+&btnG=Search)\]\[[Video](http://video.google.com/videoplay?docid=-5127068978792458641)\]
-
-#### Abstract
-
-Density modelling in high dimensions is a very difficult problem.
-Traditional approaches, such as mixtures of Gaussians, typically fail to
-capture the structure of data sets in high dimensional spaces. In this
-talk we will argue that for many data sets of interest, the data can be
-represented as a lower dimensional manifold immersed in the higher
-dimensional space. We will then present the Gaussian Process Latent
-Variable Model (GP-LVM), a non-linear probabilistic variant of principal
-component analysis (PCA) which implicitly assumes that the data lies on
-a lower dimensional space. Having introduced the GP-LVM we will review
-extensions to the algorithm, including dynamics, learning of large data
-sets and back constraints. We will demonstrate the application of the
-model and its extensions to a range of data sets, including human motion
-data, a vowel data set and a robot mapping problem.
-
-------------------------------------------------------------------------
 

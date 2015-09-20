@@ -1,60 +1,101 @@
 ---
 layout: default
+title: "SYNERGY Project"
 ---
+# SYNERGY Project Project
 
-SYNERGY: Systems approach to gene regulation biology through nuclear receptors
-==============================================================================
+## Overview
 
-Overview
---------
+Nuclear receptors (NRs) are key factors regulating fundamental cell fate
+decisions during organogenesis, growth, homeostatic tissue maintenance
+and renewal. Through influencing the expression of genes within complex
+regulatory networks, NRs affect a diverse spectrum of physiological and
+pathological processes, including differentiation, cellular homeostasis,
+cancer and metabolic diseases. Prime examples are estrogen-dependent
+breast cancer and androgen-dependent prostate cancer.
 
-Nuclear receptors (NRs) are key factors regulating fundamental cell fate decisions during organogenesis, growth, homeostatic tissue maintenance and renewal. Through influencing the expression of genes within complex regulatory networks, NRs affect a diverse spectrum of physiological and pathological processes, including differentiation, cellular homeostasis, cancer and metabolic diseases. Prime examples are estrogen-dependent breast cancer and androgen-dependent prostate cancer.
+Transcription of NR-regulated genes is a complex, tightly regulated
+process where distinct NRs, in conjunction with other transcription
+factors (TFs), the basal transcription machinery and covalent
+modifications to chromatin, collectively act to regulate gene
+expression. The major objectives of SYNERGY (Systems approach to gene
+regulation biology through nuclear receptors) are to characterize the
+roles of four nuclear receptors (NRs), RNA polymerase II and four
+histone marks in tumor cells and in normal breast and prostate cells. We
+will determine NR binding through ChIP-seq; gene expression with RNA-seq
+and place these datasets in context with DNA methylation and histone
+marks at multiple time points. These measurements will provide unique
+temporal datasets that will be used to design and implement
+computational methods to (i) identify genes regulated by NRs, (ii) infer
+the mechanisms of NR-triggered gene regulation, and (iii) identify
+pathways, biological processes and gene regulatory networks that the
+NR-responsive genes are involved in.
 
-Transcription of NR-regulated genes is a complex, tightly regulated process where distinct NRs, in conjunction with other transcription factors (TFs), the basal transcription machinery and covalent modifications to chromatin, collectively act to regulate gene expression. The major objectives of SYNERGY (Systems approach to gene regulation biology through nuclear receptors) are to characterize the roles of four nuclear receptors (NRs), RNA polymerase II and four histone marks in tumor cells and in normal breast and prostate cells. We will determine NR binding through ChIP-seq; gene expression with RNA-seq and place these datasets in context with DNA methylation and histone marks at multiple time points. These measurements will provide unique temporal datasets that will be used to design and implement computational methods to (i) identify genes regulated by NRs, (ii) infer the mechanisms of NR-triggered gene regulation, and (iii) identify pathways, biological processes and gene regulatory networks that the NR-responsive genes are involved in.
+SYNERGY is built upon interactive cycles between experimental (Henk
+Stunnenberg, Olli A. Jänne, George Reid) and modeling oriented (Sampsa
+Hautaniemi, Magnus Rattray, Neil Lawrence, Antti Honkela, Genomatix
+Ltd.) groups. The models will be extensively validated during the
+project, and the predictions emerging from the models will be used to
+direct experiments that lead to more comprehensive understanding of gene
+regulation.
+The project is sponsored by [ERA-NET Project Ref ERASysBio](http://www.erasysbio.net/index.php?index=271) and is a collaboration with [Prof Magnus Rattray](http://www.ls.manchester.ac.uk/people/profile/?personid=10584) of University of Manchester, [Dr Antti Honkela](http://www.hiit.fi/u/ahonkela/) of University of Helsinki, [Dr Jaako Peltonen](http://users.ics.aalto.fi/jtpelto/) of Aalto University, [Prof Henk Stunnenberg](http://www.ncmls.eu/people/stunnenberg/) of Nijmegen Centre for Molecular Life Sciences, [Dr Sampsa Hautaniemi](http://www.helsinki.fi/~shautani/) of University of Helsinki, [Dr George Reid](http://www.embl.de/~reid/) of DKFZ Heidelberg, [Prof Olli A. Janne](http://www.helsinki.fi/science/arlab/) of University of Helsinki and [Dr Martin Seifert](http://www.genomatix.de/) of Genomatix Software.
 
-SYNERGY is built upon interactive cycles between experimental (Henk Stunnenberg, Olli A. Jänne, George Reid) and modeling oriented (Sampsa Hautaniemi, Magnus Rattray, Neil Lawrence, Antti Honkela, Genomatix Ltd.) groups. The models will be extensively validated during the project, and the predictions emerging from the models will be used to direct experiments that lead to more comprehensive understanding of gene regulation.
+<a name="personnel"></a>
 
-The project is sponsored by [Erasysbio "SYNERGY: Systems approach to gene regulation biology through nuclear receptors"](http://www.erasysbio.net/index.php?index=271) and is a collaboration with [Prof Magnus Rattray](http://www.ls.manchester.ac.uk/people/profile/?personid=10584) of University of Manchester, [Dr Antti Honkela](http://www.hiit.fi/u/ahonkela/) of University of Helsinki, [Dr Jaako Peltonen](http://users.ics.aalto.fi/jtpelto/) of Aalto University, [Prof Henk Stunnenberg](http://www.ncmls.eu/people/stunnenberg/) of Nijmegen Centre for Molecular Life Sciences, [Dr Sampsa Hautaniemi](http://www.helsinki.fi/~shautani/) of University of Helsinki, [Dr George Reid](http://www.embl.de/~reid/) of DKFZ Heidelberg, [Prof Olli A. Jänne](http://www.helsinki.fi/science/arlab/) of University of Helsinki and [Dr Martin Seifert](http://www.genomatix.de/) of Genomatix Software.
+## Personnel from ML@SITraN
 
-Personnel at Sheffield
-----------------------
+- [Ciira Maina](https://sites.google.com/site/cwamainadekut/) post-doctoral research assistant
 
-- [Ciira Maina](https://sites.google.com/site/cwamainadekut/), post-doctoral research assistant
 
-Software
---------
 
-The following software has been made available either wholly or partly
-as a result of work on this project:
+<a name="software"></a>
 
--  Github: [GPy: Gaussian process modelling framework in Python](/GPy)
--  [GPSIM: Gaussian Process Modelling of single input module motif networks.](http://inverseprobability.com/gpsim)
--  [MULTIGP: Modelling multiple outputs with Gaussian processes (will eventually supercede the gpsim toolbox).](/multigp)
--  [DISIMRANK: Ranking potential targets using a driven input single input model motif.](http://inverseprobability.com/disimrank)
-  ------------------------------------------------------------------------------------------------------------------------------------------
+## Software
 
-Publications
-------------
+The following software has been made available either wholly or partly as a result of work on this project:- [GPy](https://github.com/SheffieldML/GPy) GPy: Gaussian process modelling framework in Python
 
-The following publications have provided background to our work in this
-project.
+- [gpsim](http://inverseprobability.com/gpsim/) GPSIM: Gaussian Process Modelling of single input module motif networks.
 
-### Journal Papers
+- [multigp](http://github.com/SheffieldML/multigp/) MULTIGP: Modelling multiple outputs with Gaussian processes (will eventually supercede the gpsim toolbox).
 
-<span class="author">M. K. Titsias, A. Honkela, N. D. Lawrence and M.  Rattray. </span> (2012) <span class="papertitle">"Identifying targets of multiple co-regulated transcription factors from expression time-series by Bayesian model comparison"</span> in <span class="journal">BMC Systems Biology</span> 6 (53) \[[DOI](http://dx.doi.org/10.1186/1752-0509-6-53)\]\[[Google Scholar Search](http://scholar.google.com/scholar?hl-en&lr=&q=Identifying+Targets+of+Multiple+Co-regulated+Transcription+Factors+from+Expression+Time-series+by+Bayesian+Model+Comparison+&btnG=Search)\]
+- [disimrank](http://github.com/SheffieldML/disimrank/) DISIMRANK: Ranking potential targets using a driven input single input model motif.
+
+<a name="publications"></a>
+
+## Publications
+
+
+
+
+<span class="author">C. w. Maina, A. Honkela, F. Matarese, K. Grote, H.
+G. Stunnenberg, G. Reid, N. D. Lawrence and M. Rattray. </span> (2014)
+<span class="papertitle">"Inference of rna polymerase ii transcription
+dynamics from chromatin immunoprecipitation time course data"</span> in
+<span class="journal">PLoS Computat Biol</span> 10 (5), pp e1003598
+\[[DOI](http://dx.doi.org/10.1371/journal.pcbi.1003598)\]\[[Google
+Scholar
+Search](http://scholar.google.com/scholar?hl-en&lr=&q=Inference+of+RNA+Polymerase+II+Transcription+Dynamics+from+Chromatin+Immunoprecipitation+Time+Course+Data+&btnG=Search)\]
+
+
+<span class="author">M. K. Titsias, A. Honkela, N. D. Lawrence and M.
+Rattray. </span> (2012) <span class="papertitle">"Identifying targets of
+multiple co-regulated transcription factors from expression time-series
+by Bayesian model comparison"</span> in <span class="journal">BMC
+Systems Biology</span> 6 (53)
+\[[DOI](http://dx.doi.org/10.1186/1752-0509-6-53)\]\[[Google Scholar
+Search](http://scholar.google.com/scholar?hl-en&lr=&q=Identifying+Targets+of+Multiple+Co-regulated+Transcription+Factors+from+Expression+Time-series+by+Bayesian+Model+Comparison+&btnG=Search)\]
 
 #### Abstract
 
-**Background**
-
-Complete transcriptional regulatory network inference is a huge
+\\textbf{Background}\
+\
+ Complete transcriptional regulatory network inference is a huge
 challenge because of the complexity of the network and sparsity of
 available data. One approach to make it more manageable is to focus on
 the inference of context-speciﬁc networks involving a few interacting
 transcription factors (TFs) and all of their target genes.
-
-**Results**
-
+\\textbf{Results}\
+\
  We present a computational framework for Bayesian statistical inference
 of target genes of multiple interacting TFs from high-throughput gene
 expression time-series data. We use ordinary differential equation
@@ -69,24 +110,62 @@ TFs regulating Drosophila melanogaster mesoderm development. We ﬁnd that
 conﬁdent predicted links between TFs and targets are signiﬁcantly
 enriched for supporting ChIP-chip binding events and annotated TF-gene
 interations. Our method statistically signiﬁcantly outperforms existing
-alternatives.
-
-**Conclusions**
-
-Our results show that it is possible to infer regulatory links between
+alternatives. \\textbf{Conclusions}\
+\
+ Our results show that it is possible to infer regulatory links between
 multiple interacting TFs and their target genes even from a single
 relatively short time series and in presence of unmodelled confounders
 and unreliable prior knowledge on training network connectivity.
 Introducing data from several different experimental perturbations
 signiﬁcantly increases the accuracy.
 
-### Related References
+
+<span class="author">P. Glaus, A. Honkela and M. Rattray. </span> (2012)
+<span class="papertitle">"Identifying differentially expressed
+transcripts from rna-seq data with biological variation"</span> in <span
+class="journal">Bioinformatics</span> 28 (13), pp 1721--1728
+\[[PDF](http://bioinformatics.oxfordjournals.org/content/28/13/1721.full.pdf+html)\]\[[DOI](http://dx.doi.org/10.1093/bioinformatics/bts260)\]\[[Google
+Scholar
+Search](http://scholar.google.com/scholar?hl-en&lr=&q=Identifying+differentially+expressed+transcripts+from+RNA-seq+data+with+biological+variation+&btnG=Search)\]
+
+#### Abstract
+
+\\textbf{Motivation}: High-throughput sequencing enables expression
+analysis at the level of individual transcripts. The analysis of
+transcriptome expression levels and differential expression (DE)
+estimation requires a probabilistic approach to properly account for
+ambiguity caused by shared exons and finite read sampling as well as the
+intrinsic biological variance of transcript expression.\
+\
+\\textbf{Results:} We present Bayesian inference of transcripts from
+sequencing data (BitSeq), a Bayesian approach for estimation of
+transcript expression level from RNA-seq experiments. Inferred relative
+expression is represented by Markov chain Monte Carlo samples from the
+posterior probability distribution of a generative model of the read
+data. We propose a novel method for DE analysis across replicates which
+propagates uncertainty from the sample-level model while modelling
+biological variance using an expression-level-dependent prior. We
+demonstrate the advantages of our method using simulated data as well as
+an RNA-seq dataset with technical and biological replication for both
+studied conditions.\
+\
+\\textbf{Availability:} The implementation of the transcriptome
+expression estimation and differential expression analysis, BitSeq, has
+been written in C++ and Python. The software is available online from
+http://code.google.com/p/bitseq/, version 0.4 was used for generating
+results presented in this article.\
+\
+\\\\textbf{Contact:} glaus@cs.man.ac.uk, antti.honkela@hiit.fi or
+m.rattray@sheffield.ac.uk
+
+
+The following publications have provided background to our work in this project.
 
 <span class="author">M. A. Álvarez and N. D. Lawrence. </span> (2011)
 <span class="papertitle">"Computationally efficient convolved multiple
 output Gaussian processes"</span> in <span class="journal">Journal of
 Machine Learning Research</span> 12, pp 1425--1466
-\[[Software](http://staffwww.dcs.shef.ac.uk/people/N.Lawrence/multigp%20)\]\[[PDF](http://www.jmlr.org/papers/volume12/alvarez11a/alvarez11a.pdf)\]\[[Google
+\[[Software](https://github.com/SheffieldML/multigp%20)\]\[[PDF](http://www.jmlr.org/papers/volume12/alvarez11a/alvarez11a.pdf)\]\[[Google
 Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=Computationally+Efficient+Convolved+Multiple+Output+Gaussian+Processes+&btnG=Search)\]
 
@@ -111,6 +190,7 @@ the covariance similar in spirit to the so called PITC and FITC
 approximations for a single output. We show experimental results with
 synthetic and real data, in particular, we show results in school exams
 score prediction, pollution prediction and gene expression data
+
 
 <span class="author">A. Honkela, C. Girardot, E. H. Gustafson, Y.a.H.
 Liu, E. E. M. Furlong, N. D. Lawrence and M. Rattray. </span> (2010)
@@ -146,6 +226,7 @@ or superior to ranking based on mutant differential expression scores.
 Also, we show how integrating complementary wild-type spatial expression
 data can further improve target ranking performance.
 
+
 N. D. Lawrence, M. Girolami, M. Rattray and G. Sanguinetti (eds) (2010)
 <span class="papertitle">"Learning and inference in computational
 systems biology"</span>, MIT Press, Cambridge, MA.
@@ -171,6 +252,7 @@ together, the methods discussed by the experts in Learning and Inference
 in Computational Systems Biology provide a foundation upon which the
 next decade of research in systems biology can be built.
 
+
 <span class="author">P. Gao, A. Honkela, M. Rattray and N. D. Lawrence.
 </span> (2008) <span class="papertitle">"Gaussian process modelling of
 latent chemical species: applications to inferring transcription factor
@@ -187,9 +269,9 @@ interaction networks is a key problem in estimation of the structure and
 parameters of the genetic, metabolic and protein interaction networks
 that underpin all biological processes. We present a framework for
 Bayesian marginalisation of these latent chemical species through
-Gaussian process priors.
-
-**Results:** We demonstrate our general approach on three different
+Gaussian process priors.\
+\
+ **Results:** We demonstrate our general approach on three different
 biological examples of single input motifs, including both activation
 and repression of transcription. We focus in particular on the problem
 of inferring transcription factor activity when the concentration of
@@ -202,13 +284,14 @@ continuous-time functions, which would lead to a large number of
 additional parameters to be estimated. We develop efficient exact and
 approximate inference schemes, which are much more efficient than
 competing sampling-based schemes and therefore provide us with a
-practical toolkit for model-based inference.
-
-**Availability:** The software and data for recreating all the
+practical toolkit for model-based inference.\
+\
+ **Availability:** The software and data for recreating all the
 experiments in this paper is available in MATLAB from
-<http://staffwww.dcs.shef.ac.uk/people/N.Lawrence/gpsim>
+<http://staffwww.dcs.shef.ac.uk/people/N.Lawrence/gpsim>\
+\
+ **Contact:** Neil Lawrence
 
-**Contact:** Neil Lawrence
 
 <span class="author">N. D. Lawrence</span> (2010) <span
 class="papertitle">"Introduction to learning and inference in
@@ -241,6 +324,7 @@ together, the methods discussed by the experts in Learning and Inference
 in Computational Systems Biology provide a foundation upon which the
 next decade of research in systems biology can be built.
 
+
 <span class="author">N. D. Lawrence and M. Rattray. </span> (2010) <span
 class="papertitle">"A brief introduction to Bayesian inference"</span>
 in N. D. Lawrence, M. Girolami, M. Rattray and G. Sanguinetti (eds)
@@ -270,6 +354,7 @@ approach and an overview of current work on Bayesian inference. Taken
 together, the methods discussed by the experts in Learning and Inference
 in Computational Systems Biology provide a foundation upon which the
 next decade of research in systems biology can be built.
+
 
 <span class="author">N. D. Lawrence, M. Rattray, P. Gao and M. K.
 Titsias. </span> (2010) <span class="papertitle">"Gaussian processes for
@@ -304,6 +389,7 @@ together, the methods discussed by the experts in Learning and Inference
 in Computational Systems Biology provide a foundation upon which the
 next decade of research in systems biology can be built.
 
+
 <span class="author">M. K. Titsias, M. Rattray and N. D. Lawrence.
 </span> (2011) <span class="papertitle">"Markov chain Monte Carlo
 algorithms for Gaussian processes"</span> in D. Barber, A. T. Cemgil and
@@ -313,7 +399,7 @@ Search](http://scholar.google.com/scholar?hl-en&lr=&q=Markov+chain+Monte+Carlo+a
 
 #### Abstract
 
-'What's going to happen next?' Time series data hold the answers, and
+\`What's going to happen next?' Time series data hold the answers, and
 Bayesian methods represent the cutting edge in learning what they have
 to say. This ambitious book is the first unified treatment of the
 emerging knowledge-base in Bayesian time series techniques. Exploiting
@@ -329,4 +415,5 @@ established areas of machine learning and pattern recognition. Readers
 with a basic understanding of applied probability, but no experience
 with time series analysis, are guided from fundamental concepts to the
 state-of-the-art in research and practice.
+
 

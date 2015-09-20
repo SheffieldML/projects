@@ -57,6 +57,6 @@ software:
   tagline: "GPSIM: Gaussian Process Modelling of Single Input Motif networks."
 
 publications:
-  reviews: "Rattray:propagating06"
-  journals: "Pearson:puma09","Gao:latent08","Sanguinetti:chipvar06","Liu:variances06","Sanguinetti:chipdyno06","Liu:tractable04","Sanguinetti:accounting05","Milo:probabilistic03","Lawrence:variability03"
-  conference: "Sanguinetti:trento06","Lawrence:transcriptionalGP06"
+  reviews: ["Rattray:propagating06"]
+  journals: ["Pearson:puma09","Gao:latent08","Sanguinetti:chipvar06","Liu:variances06","Sanguinetti:chipdyno06","Liu:tractable04","Sanguinetti:accounting05","Milo:probabilistic03","Lawrence:variability03"]
+  conference: ["Sanguinetti:trento06","Lawrence:transcriptionalGP06"]

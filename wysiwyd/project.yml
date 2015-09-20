@@ -39,5 +39,7 @@ collaborators:
   institute: Imperial College
   url: "http://www.iis.ee.ic.ac.uk/yiannis/webcontent/HomePage.html"
 
+software: []
+
 publications:
-  related:"Hensman:bigdata13","Damianou:deepgp13","Lawrence:pnpca05","Lawrence:learning04","Lawrence:ivm02"
+  related: ["Hensman:bigdata13","Damianou:deepgp13","Lawrence:pnpca05","Lawrence:learning04","Lawrence:ivm02"]

@@ -72,5 +72,5 @@ software:
   tagline: "Tilted variational inference software"
 
 publications:
-  conference: "Hensman:tvb14","Andrade:hybrid14"
-  related: "Hensman:hierarchical13","Fusi:detecting13","Hensman:fast12","Hensman:bigdata13","Fusi:genomics12"
+  conference: ["Hensman:tvb14","Andrade:hybrid14"]
+  related: ["Hensman:hierarchical13","Fusi:detecting13","Hensman:fast12","Hensman:bigdata13","Fusi:genomics12"]

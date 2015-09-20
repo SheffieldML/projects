@@ -36,5 +36,5 @@ software:
   tagline: "Simple MATLAB utility toolbox for loading motion capture data sets."
 
 publications:
-  talks: "Lawrence:gplvmtut06","Lawrence:oxford06","Lawrence:google07"
-  conference: "Lawrence:larger07","Lawrence:hgplvm07","Ek:pose07","Ek:ambiguity08","Urtasun:topology08"
+  talks: ["Lawrence:gplvmtut06","Lawrence:oxford06","Lawrence:google07"]
+  conference: ["Lawrence:larger07","Lawrence:hgplvm07","Ek:pose07","Ek:ambiguity08","Urtasun:topology08"]

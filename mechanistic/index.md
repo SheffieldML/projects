@@ -1,20 +1,48 @@
 ---
 layout: default
+title: "Latent Force Models"
 ---
+# Latent Force Models Project
 
-Latent Force Models: Mechanistically Inspired Convolution Processes for Learning
-================================================================================
+## Overview
 
-Overview
---------
+Machine learning has had wide success in application over the last
+decade, with significant contributions in classification, probabilistic
+modelling and analysis of structured data. Over the next decade we
+expect significant progress in applying these machine learning models to
+very large data sets (on the order of millions or billions of examples,
+*e.g.* web based corpora). Improving the scalability of machine learning
+methods is a very active area of research (see, *e.g.*, this
+[book](#Bottou:lskm07)). We think of these methods as *large data
+learning*. These methods will prove to be very valuable, but in this
+work we will be focussing on the other end of the spectrum. In
+particular, we will be looking at *small data learning*, by which we
+mean data sets which are small *relative* to the complexity of the
+system from which they are derived. Examples of this type of data
+include:
 
-Machine learning has had wide success in application over the last decade, with significant contributions in classification, probabilistic modelling and analysis of structured data. Over the next decade we expect significant progress in applying these machine learning models to very large data sets (on the order of millions or billions of examples, *e.g.* web based corpora). Improving the scalability of machine learning methods is a very active area of research (see, *e.g.*, this [book](#Bottou:lskm07)). We think of these methods as *large data learning*. These methods will prove to be very valuable, but in this work we will be focussing on the other end of the spectrum. In particular, we will be looking at *small data learning*, by which we mean data sets which are small *relative* to the complexity of the system from which they are derived. Examples of this type of data include:
-
-- human motion data --- whilst a large amount of motion capture data is available (millions of frames), the total amount of data relative to the number of possible 'natural' human motions is small.
-
-- Systems biology measurements --- high throughput genetic technologies allow us to measure many thousands of chemical species simultaneously. A major task of systems biology can be characterised as "system identification" --- or from the machine learning perspective "model selection". However, the sample rate of the data is typically much smaller than is used in classical systems identification (a typical experiment would be one sample an hour for twelve hours, or one sample a day for two weeks). The situation is further complicated by the relative difficulty of making fine system disturbances to better characterise system behaviour.
-
-- Computational Health Informatics --- the increasing availability of high resolution single nucleotype polymorphism (SNP) arrays for assessing the genetic background of populations, in common with the availability of environmental information in a range of disease studies (in Manchester we have access to studies on asthma and diabetes) should allow resolution of the confounding genetic/environmental causes of disease. However, disease mechanisms can be highly complex and data sets typically might include over a thousand features for each subject for a total of only 500 subjects.
+-   human motion data --- whilst a large amount of motion capture data
+    is available (millions of frames), the total amount of data relative
+    to the number of possible \`natural' human motions is small.
+-   Systems biology measurements --- high throughput genetic
+    technologies allow us to measure many thousands of chemical
+    species simultaneously. A major task of systems biology can be
+    characterised as "system identification" --- or from the machine
+    learning perspective "model selection". However, the sample rate of
+    the data is typically much smaller than is used in classical systems
+    identification (a typical experiment would be one sample an hour for
+    twelve hours, or one sample a day for two weeks). The situation is
+    further complicated by the relative difficulty of making fine system
+    disturbances to better characterise system behaviour.
+-   Computational Health Informatics --- the increasing availability of
+    high resolution single nucleotype polymorphism (SNP) arrays for
+    assessing the genetic background of populations, in common with the
+    availability of environmental information in a range of disease
+    studies (in Manchester we have access to studies on asthma
+    and diabetes) should allow resolution of the confounding
+    genetic/environmental causes of disease. However, disease mechanisms
+    can be highly complex and data sets typically might include over a
+    thousand features for each subject for a total of only 500 subjects.
 
 These data are representative of a growing number of application areas
 where the number of features is large (high dimensional data) and the
@@ -65,33 +93,40 @@ Progress so far is:
     in computational biology, finance and geostatistics (see this
     [AISTATS Paper](#Alvarez:lfm09)).
 
-The project is sponsored by [Google Research
-Award](http://www.google.com) and is a collaboration with [Dr David
-Luengo](None) of Carlos III University in Madrid.
+The project is sponsored by [Google Faculty Research Award Project Ref Machine Learning 2008](http://research.google.com/university/relations/fra_recipients.html) and is a collaboration with [Dr David Luengo]() of Carlos III University in Madrid.
 
-Project Personnel
------------------
 
-- [Mauricio Alvarez](https://sites.google.com/site/maalvarezl/), PhD student
 
-Software
---------
+<a name="personnel"></a>
 
-The following software has been made available either wholly or partly
-as a result of work on this project:
+## Personnel from ML@SITraN
 
--  [GPSIM: Gaussian Process Modelling of Single Input Motif networks.](http://inverseprobability.com/gpsim)
--  [MULTIGP: Modelling multiple outputs with Gaussian processes (will eventually supercede the gpsim toolbox).](/multigp)
+- [Mauricio Alvarez](alvarezm) PhD student
 
-Publications
-------------
 
-The following publications have provided background to our work in this
-project.
 
-### Conference Papers
+<a name="software"></a>
 
-<span class="author">M. A. Álvarez, D. Luengo and N. D. Lawrence.  </span> (2009) <span class="papertitle">"Latent force models"</span> in D. van Dyk and M. Welling (eds) <span class="journal">Proceedings of the Twelfth International Workshop on Artificial Intelligence and Statistics</span>, JMLR W&CP 5, Clearwater Beach, FL, pp 9--16.  \[[Software](/multigp)\]\[[PDF](http://jmlr.csail.mit.edu/proceedings/papers/v5/alvarez09a/alvarez09a.pdf)\]\[[Google Scholar Search](http://scholar.google.com/scholar?hl-en&lr=&q=Latent+Force+Models+&btnG=Search)\]
+## Software
+
+The following software has been made available either wholly or partly as a result of work on this project:- [gpsim](http://www.inverseprobability.com/gpsim) GPSIM: Gaussian Process Modelling of Single Input Motif networks.
+
+- [multigp](http://www.inverseprobability.com/multigp) MULTIGP: Modelling multiple outputs with Gaussian processes (will eventually supercede the gpsim toolbox).
+
+<a name="publications"></a>
+
+## Publications
+
+The following conference publications were made associated with this project.
+
+<span class="author">M. A. Álvarez, D. Luengo and N. D. Lawrence.
+</span> (2009) <span class="papertitle">"Latent force models"</span> in
+D. van Dyk and M. Welling (eds) <span class="journal">Proceedings of the
+Twelfth International Workshop on Artificial Intelligence and
+Statistics</span>, JMLR W&CP 5, Clearwater Beach, FL, pp 9--16.
+\[[Software](https://github.com/SheffieldML/multigp%20)\]\[[PDF](http://jmlr.csail.mit.edu/proceedings/papers/v5/alvarez09a/alvarez09a.pdf)\]\[[Google
+Scholar
+Search](http://scholar.google.com/scholar?hl-en&lr=&q=Latent+Force+Models+&btnG=Search)\]
 
 #### Abstract
 
@@ -108,11 +143,32 @@ through sensible, simple, mechanistic assumptions about the underlying
 system. The versatility of our approach is illustrated with three case
 studies from computational biology, motion capture and geostatistics.
 
-------------------------------------------------------------------------
 
-<span class="author">M. A. Álvarez and N. D. Lawrence. </span> (2009) <span class="papertitle">"Sparse convolved Gaussian processes for multi-output regression"</span> in D. Koller, D. Schuurmans, Y. Bengio and L. Bottou (eds) <span class="journal">Advances in Neural Information Processing Systems</span>, MIT Press, Cambridge, MA, pp 57--64.  \[[Software](http://inverseprobability.com/multigp/)\]\[[PDF](ftp://ftp.dcs.shef.ac.uk/home/neil/spmulti.pdf)\]\[[Google Scholar Search](http://scholar.google.com/scholar?hl-en&lr=&q=Sparse+Convolved+Gaussian+Processes+for+Multi-output+Regression+&btnG=Search)\]
+<span class="author">M. A. Álvarez and N. D. Lawrence. </span> (2009)
+<span class="papertitle">"Sparse convolved Gaussian processes for
+multi-output regression"</span> in D. Koller, D. Schuurmans, Y. Bengio
+and L. Bottou (eds) <span class="journal">NIPS</span>, MIT Press,
+Cambridge, MA, pp 57--64.
+\[[Software](https://github.com/SheffieldML/multigp/%20)\]\[[PDF](ftp://ftp.dcs.shef.ac.uk/home/neil/spmulti.pdf)\]\[[Google
+Scholar
+Search](http://scholar.google.com/scholar?hl-en&lr=&q=Sparse+Convolved+Gaussian+Processes+for+Multi-output+Regression+&btnG=Search)\]
 
 #### Abstract
 
-We present a sparse approximation approach for dependent output Gaussian processes (GP). Employing a latent function framework, we apply the convolution process formalism to establish dependencies between output variables, where each latent function is represented as a GP. Based on these latent functions, we establish an approximation scheme using a conditional independence assumption between the output processes, leading to an approximation of the full covariance which is determined by the locations at which the latent functions are evaluated. We show results of the proposed methodology for synthetic data and real world applications on pollution prediction and a sensor network.
+We present a sparse approximation approach for dependent output Gaussian
+processes (GP). Employing a latent function framework, we apply the
+convolution process formalism to establish dependencies between output
+variables, where each latent function is represented as a GP. Based on
+these latent functions, we establish an approximation scheme using a
+conditional independence assumption between the output processes,
+leading to an approximation of the full covariance which is determined
+by the locations at which the latent functions are evaluated. We show
+results of the proposed methodology for synthetic data and real world
+applications on pollution prediction and a sensor network.
+
+
+The following publications have provided background to our work in this project.
+
+
+
 

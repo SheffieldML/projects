@@ -30,5 +30,11 @@ collaborators:
   institute: Chemical and Biological Engineering
   url: "http://www.shef.ac.uk/cbe/people/staffprofiles/noirel"
 
+software:
+- url: "http://sheffieldml.github.io/GPyOpt/"
+  name: GPyOpt
+  tagline: "Bayesian Optimization software."
+
+
 publications:
-  related: "Alvarez:llfm13","Alvarez:vector12","Alvarez:computationally11"
+  related: ["Alvarez:llfm13","Alvarez:vector12","Alvarez:computationally11"]

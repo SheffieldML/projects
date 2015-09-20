@@ -35,7 +35,7 @@ collaborators:
 - name: Dr George Reid
   institute: DKFZ Heidelberg
   url: "http://www.embl.de/~reid/"
-- name: Prof Olli A. Jänne
+- name: Prof Olli A. Janne
   institute: University of Helsinki
   url: "http://www.helsinki.fi/science/arlab/"
 - name: Dr Martin Seifert
@@ -57,5 +57,5 @@ software:
   tagline: "DISIMRANK: Ranking potential targets using a driven input single input model motif."
 
 publications:
-  journals: "Honkela:genome15","Maina:inference14","Titsias:identifying12","Glaus:bitseq12"
-  related: "Alvarez:computationally11","Honkela:modelbased10","Lawrence:licsb10","Gao:latent08","Lawrence:licsbintro10","Lawrence:licsbbayes10","Lawrence:licsbgp10","Titsias:mcmcgp11"
+  journals: ["Honkela:genome15","Maina:inference14","Titsias:identifying12","Glaus:bitseq12"]
+  related: ["Alvarez:computationally11","Honkela:modelbased10","Lawrence:licsb10","Gao:latent08","Lawrence:licsbintro10","Lawrence:licsbbayes10","Lawrence:licsbgp10","Titsias:mcmcgp11"]

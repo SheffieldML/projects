@@ -6,15 +6,17 @@ start: "October 2005"
 end: "October 2004"
 
 personnel:
-- name: Tonatiuh Peña-Centeno
+- name: Tonatiuh Pena-Centeno
   role: PhD Student
-  url: T.Centeno
+  url: ""
 
 sponsors:
 - name: EPSRC 
   ref: GR/R84801/01
-  title: EPSRC Grant no GR/R84801/01
+  title: "Learning Classifiers from Sloppily Labelled Data"
   url: http://gow.epsrc.ac.uk/NGBOViewGrant.aspx?GrantRef=GR/R84801/01
+
+collaborators: []
 
 software:
 - url: "http://inverseprobability.com/bfd"
@@ -28,7 +30,7 @@ software:
   tagline: "Sparse approximation for Gaussian process classifiers."
 
 publications:
-  journals: "Pena:fbd04"
-  conference: "Lawrence:ivm02","Lawrence:semisuper04","Lawrence:noisy01"
-  chapters:"Lawrence:extensions05","Lawrence:gpncnm05"
-  techreports: "Pena:fbd-tech04","Lawrence:ivmTech04"
+  journals: ["Pena:fbd04"]
+  conference: ["Lawrence:ivm02","Lawrence:semisuper04","Lawrence:noisy01"]
+  chapters: ["Lawrence:extensions05","Lawrence:gpncnm05"]
+  techreports: ["Pena:fbd-tech04","Lawrence:ivmTech04"]

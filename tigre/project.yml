@@ -42,8 +42,8 @@ software:
   tagline: "DISIMRANK: Ranking potential targets using a driven input single input model motif."
 
 publications:
-  journals: "Alvarez:computationally11","Honkela:modelbased10","Gao:latent08"
-  books: "Lawrence:licsb10"
-  chapters: "Lawrence:licsbintro10","Lawrence:licsbbayes10","Lawrence:licsbgp10","Titsias:mcmcgp11"
-  conference: "Alvarez:efficient10","Alvarez:lfm09","Titsias:variational09","Alvarez:convolved08","Titsias:efficient08","Lawrence:transcriptionalGP06"
-  related: "DellaGatta:direct08","Alon:systems06","Sanguinetti:chipdyno06","Sabatti:bayesian06","Sanguinetti:chipvar06","Nachman:inferring04"
+  journals: ["Alvarez:computationally11","Honkela:modelbased10","Gao:latent08"]
+  books: ["Lawrence:licsb10"]
+  chapters: ["Lawrence:licsbintro10","Lawrence:licsbbayes10","Lawrence:licsbgp10","Titsias:mcmcgp11"]
+  conference: ["Alvarez:efficient10","Alvarez:lfm09","Titsias:variational09","Alvarez:convolved08","Titsias:efficient08","Lawrence:transcriptionalGP06"]
+  related: ["DellaGatta:direct08","Alon:systems06","Sanguinetti:chipdyno06","Sabatti:bayesian06","Sanguinetti:chipvar06","Nachman:inferring04"]

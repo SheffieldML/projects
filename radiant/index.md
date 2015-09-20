@@ -1,12 +1,10 @@
 ---
 layout: default
+title: "RADIANT Project"
 ---
+# RADIANT Project Project
 
-RADIANT: Rapid Development and Distribution of Statistical Tools for High-Throughput Sequencing Data
-====================================================================================================
-
-Overview
---------
+## Overview
 
 RADIANT is a research project funded by the 7th Framework Programme of
 the European Commission.The project started in December 2012 and brings
@@ -22,23 +20,25 @@ and user-friendly, and provide tools to benchmark experimental protocols
 and statistical methods. The project will establish training materials
 and an extensive training programme for the rapid dissemination of these
 new tools to the biomedical community.
+The project is sponsored by [EU FP7-HEALTH Project Ref 305626](http://cordis.europa.eu/projects/rcn/105701_en.html) and is a collaboration with [Magnus Rattray](http://www.ls.manchester.ac.uk/people/profile/?personid=10584) of University of Manchester, [Korbinian Grote](http://radiant-project.eu/Consortium/Partners/Genomatix.html) of Genomatix Software GmbH Germany, [Alessandro Guffanti](http://radiant-project.eu/Consortium/Partners/Genomnia.html) of Genomia Italy, [Wolfgang Huber](http://radiant-project.eu/Consortium/Partners/EMBL.html) of EMBL Heidelberg, [Diego di Bernardo](http://dibernardo.tigem.it/wiki/index.php/Main_Page) of Fondazione Telethon, [Mattia Pelizzola](http://radiant-project.eu/Consortium/Partners/IIT.html) of Istituto Italiano di Tecnologia, [Jean-Philippe Vert](http://radiant-project.eu/Consortium/Partners/ARMINES.html) of ARMINES France, [Klaus Mauch](http://www.insilico-biotechnology.com/people) of Insilico Biotechnology, [Jean-Marie Mouillon](http://www.fluxome.com/company/organization/leadership-team.aspx) of Fluxome Sciences A/S, [Mark Robinson](http://radiant-project.eu/Consortium/Partners/Zurich.html) of University of Zurich Switzerland and [Simon Tavare](http://radiant-project.eu/Consortium/Partners/CAM.html) of University of Cambridge.
 
-The project is sponsored by [EU FP7-HEALTH Project Ref 305626 "Rapid development and distribution of statistical tools for high-throughput sequencing data"](http://cordis.europa.eu/projects/rcn/105701_en.html) and is a collaboration with [Magnus Rattray](http://www.ls.manchester.ac.uk/people/profile/?personid=10584) of University of Manchester, [Korbinian Grote](http://radiant-project.eu/Consortium/Partners/Genomatix.html) of Genomatix Software GmbH Germany, [Alessandro Guffanti](http://radiant-project.eu/Consortium/Partners/Genomnia.html) of Genomia Italy, [Wolfgang Huber](http://radiant-project.eu/Consortium/Partners/EMBL.html) of EMBL Heidelberg, [Diego di Bernardo](http://dibernardo.tigem.it/wiki/index.php/Main_Page) of Fondazione Telethon, [Mattia Pelizzola](http://radiant-project.eu/Consortium/Partners/IIT.html) of Istituto Italiano di Tecnologia, [Jean-Philippe Vert](http://radiant-project.eu/Consortium/Partners/ARMINES.html) of ARMINES France, [Klaus Mauch](http://www.insilico-biotechnology.com/people) of Insilico Biotechnology, [Jean-Marie Mouillon](http://www.fluxome.com/company/organization/leadership-team.aspx) of Fluxome Sciences A/S, [Mark Robinson](http://radiant-project.eu/Consortium/Partners/Zurich.html) of University of Zurich Switzerland and [Simon Tavare](http://radiant-project.eu/Consortium/Partners/CAM.html) of University of Cambridge.
+<a name="personnel"></a>
 
-Personnel at Sheffield
-----------------------
+## Personnel from ML@SITraN
 
-- [Zhenwen Dai](http://www.dcs.sheffield.ac.uk/cgi-bin/makeperson?Z.Dai), post-doctoral research assistant
-- [Teo de Campos](http://www.dcs.sheffield.ac.uk/cgi-bin/makeperson?T.deCampos), post-doctoral research assistant
-- [James Hensman](http://www.dcs.sheffield.ac.uk/cgi-bin/makeperson?J.Hensman), MRC Fellow
+- [Zhenwen Dai](http://staffwww.dcs.shef.ac.uk/people/Z.Dai/) Post-doctoral research assistant
 
-Publications
-------------
+- [Teo de Campos](http://personal.ee.surrey.ac.uk/Personal/T.Decampos/) Post-doctoral research assistant
 
-The following publications have provided background to our work in this
-project.
+- [James Hensman](http://chicas.lancaster-university.uk/people/hensman.html) MRC Fellow
 
-### Conference Papers
+
+
+<a name="publications"></a>
+
+## Publications
+
+The following conference publications were made associated with this project.
 
 <span class="author">J. Hensman, M. Zwiessele and N. D. Lawrence.
 </span> (2014) <span class="papertitle">"Tilted variational
@@ -59,10 +59,11 @@ provides a lower bound on the marginal likelihood. We apply the method
 to Gaussian process classification, a situation where the
 Kullback-Leibler divergence minimized in traditional VB can be infinite,
 and to robust Gaussian process regression, where the inference process
-is dramatically simplified in comparison to EP.
-
+is dramatically simplified in comparison to EP.\
+\
 Code to reproduce all the experiments can be found at
 [github.com/SheffieldML/TVB](github.com/SheffieldML/TVB).
+
 
 <span class="author">R. Andrade-Pacheco, J. Hensman and N. D. Lawrence.
 </span> (2014) <span class="papertitle">"Hybrid
@@ -83,7 +84,8 @@ continuous dimensionality reduction of hybrid discrete-continous data,
 discriminative classification with missing inputs and manifold learning
 informed by class labels.
 
-### Related References
+
+The following publications have provided background to our work in this project.
 
 <span class="author">J. Hensman, N. D. Lawrence and M. Rattray. </span>
 (2013) <span class="papertitle">"Hierarchical Bayesian modelling of gene
@@ -95,8 +97,8 @@ Search](http://scholar.google.com/scholar?hl-en&lr=&q=Hierarchical+Bayesian+mode
 
 #### Abstract
 
-**Background**
-
+\\textbf{Background}\
+\
 Time course data from microarrays and high-throughput sequencing
 experiments require simple, computationally efficient and powerful
 statistical models to extract meaningful biological signal, and for
@@ -104,10 +106,10 @@ tasks such as data fusion and clustering. Existing methodologies fail to
 capture either the temporal or replicated nature of the experiments, and
 often impose constraints on the data collection process, such as
 regularly spaced samples, or similar sampling schema across
-replications.
-
-**Results**
-
+replications.\
+\
+\\textbf{Results}\
+\
 We propose hierarchical Gaussian processes as a general model of gene
 expression time-series, with application to a variety of problems. In
 particular, we illustrate the method's capacity for missing data
@@ -117,10 +119,10 @@ data, performance is significantly better than commonly used imputation
 methods. The method's ability to model inter- and intra-cluster variance
 leads to more biologically meaningful clusters. The approach removes the
 necessity for evenly spaced samples, an advantage illustrated on a
-developmental Drosophila dataset with irregular replications.
-
-**Conclusion**
-
+developmental Drosophila dataset with irregular replications.\
+\
+\\textbf{Conclusion}\
+\
 The hierarchical Gaussian process model provides an excellent
 statistical basis for several gene-expression time-series tasks. It has
 only a few additional parameters over a regular GP, has negligible
@@ -129,17 +131,19 @@ several existing algorithms. Our experiments were implemented in python,
 and are available from the authors' website:
 <http://staffwww.dcs.shef.ac.uk/people/J.Hensman/>.
 
+
 <span class="author">N. Fusi, C. Lippert, K. Borgwardt, N. D. Lawrence
 and O. Stegle. </span> (2013) <span class="papertitle">"Detecting
 regulatory gene-environment interactions with unmeasured environmental
-factors"</span> in <span class="journal">Bioinformatics</span>
+factors"</span> in <span class="journal">Bioinformatics</span> 29 (11),
+pp 1382--1389
 \[[DOI](http://dx.doi.org/10.1093/bioinformatics/btt148)\]\[[Google
 Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=Detecting+Regulatory+Gene-Environment+Interactions+with+Unmeasured+Environmental+Factors+&btnG=Search)\]
 
 #### Abstract
 
-**Motivation**: Genomic studies have revealed a substantial
+\\textbf{Motivation}: Genomic studies have revealed a substantial
 heritable component of the transcriptional state of the cell. To fully
 understand the genetic regulation of gene expression variability, it is
 important to study the effect of genotype in the context of external
@@ -154,9 +158,9 @@ ruled out, and hence unknown environmental influences are frequent.
 Here, we propose a model-based approach to simultaneously infer
 unmeasured environmental factors from gene expression profiles and use
 them in genetic analyses, identifying environment-specific associations
-between polymorphic loci and individual gene expression traits.
-
-**Results**: In extensive simulation studies, we show that our
+between polymorphic loci and individual gene expression traits.\
+\
+ \\textbf{Results}: In extensive simulation studies, we show that our
 method is able to accurately reconstruct environmental factors and their
 interactions with genotype in a variety of settings. We further
 illustrate the use of our model in a real-world dataset in which one
@@ -167,23 +171,24 @@ detect genuine genotype-environment interactions. In addition to the
 known environmental factor, we find unmeasured factors involved in novel
 genotype-environment interactions. Our results suggest that interactions
 with both known and unknown environmental factors significantly
-contribute to gene expression variability.
-
-**Availability**: Software available at
-<http://ml.sheffield.ac.uk/qtl/limmi>
-
-**Contact**: [oliver.stegle@ebi.ac.uk](oliver.stegle@ebi.ac.uk),
+contribute to gene expression variability.\
+\
+ \\textbf{Availability}: Software available at
+<http://ml.sheffield.ac.uk/qtl/limmi>\
+\
+ \\textbf{Contact}: [oliver.stegle@ebi.ac.uk](oliver.stegle@ebi.ac.uk),
 [nicolo.fusi@sheffield.ac.uk](nicolo.fusi@sheffield.ac.uk)
+
 
 <span class="author">J. Hensman, M. Rattray and N. D. Lawrence. </span>
 (2012) <span class="papertitle">"Fast variational inference in the
 conjugate exponential family"</span> in P. L. Bartlett, F. C. N.
 Pereira, C. J. C. Burges, L éo. Bottou and K. Q. Weinberger (eds) <span
-class="journal">Advances in Neural Information Processing
-Systems</span>, .
+class="journal">NIPS</span>, .
 \[[PDF](http://books.nips.cc/papers/files/nips25/NIPS2012_1314.pdf)\]\[[Google
 Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=Fast+variational+inference+in+the+Conjugate+Exponential+family+&btnG=Search)\]
+
 
 <span class="author">J. Hensman, N. Fusi and N. D. Lawrence. </span>
 (2013) <span class="papertitle">"Gaussian processes for big data"</span>
@@ -192,6 +197,7 @@ Artificial Intelligence</span>, AUAI Press, .
 \[[PDF](http://auai.org/uai2013/prints/papers/244.pdf)\]\[[Google
 Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=Gaussian+Processes+for+Big+Data+&btnG=Search)\]
+
 
 <span class="author">N. Fusi, O. Stegle and N. D. Lawrence. </span>
 (2012) <span class="papertitle">"Joint modelling of confounding factors
@@ -224,4 +230,5 @@ approach not only identifies a greater number of associations, but also
 yields hits that are biologically more plausible and can be better
 reproduced between independent studies. A software implementation of
 PANAMA is freely available online at <http://ml.sheffield.ac.uk/qtl/>.
+
 

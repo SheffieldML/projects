@@ -1,12 +1,10 @@
 ---
 layout: default
+title: "TIGRE"
 ---
+# TIGRE Project
 
-TIGRE: Transcription factor Inference through Gaussian process Reconstruction of Expression
-===========================================================================================
-
-Overview
---------
+## Overview
 
 Our goal in this project was to develop and apply new methods for
 inferring the parameters of mechanistic models of biological systems and
@@ -136,43 +134,208 @@ biological noise.
     Methods and Tools for Data-Driven Predictive Dynamic Modelling in
     Biotechnological Applications".
 
-The project is sponsored by [EPSRC Grant No EP/F005687/1 "Gaussian
-Processes for Systems Identification with Applications in Systems
-Biology"](http://www.epsrc.ac.uk) and is a collaboration with [Dr Nick
-Monk](http://www.maths.nottingham.ac.uk/personal/nm/) of University of
-Nottingham, [Dr Johannes Jaeger](http://www.crg.es/johannes_jaeger) of
-CRG and [Dr Antti Honkela](http://www.cis.hut.fi/ahonkela/) of Helsinki
-University of Technology (visitor and collaborator).
+The project is sponsored by [EPSRC Project Ref EP/F005687/1](http://gow.epsrc.ac.uk/NGBOViewGrant.aspx?GrantRef=EP/F005687/1) and is a collaboration with [Dr Nick Monk](http://www.maths.nottingham.ac.uk/personal/nm/) of University of Nottingham, [Dr Johannes Jaeger](http://www.crg.es/johannes_jaeger) of CRG and [Dr Antti Honkela](http://www.cis.hut.fi/ahonkela/) of Helsinki University of Technology (visitor and collaborator).
 
-Personnel at Sheffield
-----------------------
+<a name="personnel"></a>
 
-- [Michalis Titsias](http://www.dcs.sheffield.ac.uk/cgi-bin/makeperson?mtitsias), post-doctoral research assistant
-- [Mauricio Alvarez](http://www.dcs.sheffield.ac.uk/cgi-bin/makeperson?alvarezm), PhD student
+## Personnel from ML@SITraN
 
-Software
---------
+- [Michalis Titsias](http://www.aueb.gr/users/mtitsias/) Post-doctoral research assistant
 
-The following software has been made available either wholly or partly
-as a result of work on this project:
+- [Mauricio Alvarez](https://sites.google.com/site/maalvarezl/) PhD student
 
-- [GPSIM: Gaussian Process Modelling of single input module motif networks.](http://inverseprobability.com/gpsim)
-- [MULTIGP: Modelling multiple outputs with Gaussian processes (will eventually supercede the gpsim toolbox).](http://inverseprobability.com/multigp)
-- [DISIMRANK: Ranking potential targets using a driven input single input model motif.](http://inverseprobability.com/disimrank)
 
-Publications
-------------
 
-The following publications have provided background to our work in this
-project.
+<a name="software"></a>
 
-### Journal Papers
+## Software
+
+The following software has been made available either wholly or partly as a result of work on this project:- [gpsim](http://inverseprobability.com/gpsim/) GPSIM: Gaussian Process Modelling of single input module motif networks.
+
+- [multigp](http://sheffieldml.github.io/multigp) MULTIGP: Modelling multiple outputs with Gaussian processes (will eventually supercede the gpsim toolbox).
+
+- [disimrank](http://sheffieldml.github.io/disimrank) DISIMRANK: Ranking potential targets using a driven input single input model motif.
+
+<a name="publications"></a>
+
+## Publications
+
+The following conference publications were made associated with this project.
+
+<span class="author">M. A. Álvarez, D. Luengo, M. K. Titsias and N. D.
+Lawrence. </span> (2010) <span class="papertitle">"Efficient multioutput
+Gaussian processes through variational inducing kernels"</span> in Y. W.
+Teh and D. M. Titterington (eds) <span class="journal">Proceedings of
+the Thirteenth International Workshop on Artificial Intelligence and
+Statistics</span>, JMLR W&CP 9, Chia Laguna Resort, Sardinia, Italy, pp
+25--32.
+\[[Software](https://github.com/SheffieldML/multigp%20)\]\[[PDF](http://jmlr.csail.mit.edu/proceedings/papers/v9/alvarez10a/alvarez10a.pdf)\]\[[Google
+Scholar
+Search](http://scholar.google.com/scholar?hl-en&lr=&q=Efficient+Multioutput+Gaussian+Processes+through+Variational+Inducing+Kernels+&btnG=Search)\]
+
+#### Abstract
+
+Interest in multioutput kernel methods is increasing, whether under the
+guise of multitask learning, multisensor networks or structured output
+data. From the Gaussian process perspective a multioutput Mercer kernel
+is a covariance function over correlated output functions. One way of
+constructing such kernels is based on convolution processes (CP). A key
+problem for this approach is efficient inference. Álvarez and Lawrence
+[\[Alvarez:convolved08\]](/~neil/cgi-bin/publications/bibpage.cgi?keyName=Alvarez:convolved08&printAbstract=1)
+recently presented a sparse approximation for CPs that enabled efficient
+inference. In this paper, we extend this work in two directions: we
+introduce the concept of variational inducing functions to handle
+potential non-smooth functions involved in the kernel CP construction
+and we consider an alternative approach to approximate inference based
+on variational methods, extending the work by Titsias
+[\[Titsias:variational09\]](/~neil/cgi-bin/publications/bibpage.cgi?keyName=Titsias:variational09&printAbstract=1)
+to the multiple output case. We demonstrate our approaches on prediction
+of school marks, compiler performance and financial time series.
+
+
+<span class="author">M. A. Álvarez, D. Luengo and N. D. Lawrence.
+</span> (2009) <span class="papertitle">"Latent force models"</span> in
+D. van Dyk and M. Welling (eds) <span class="journal">Proceedings of the
+Twelfth International Workshop on Artificial Intelligence and
+Statistics</span>, JMLR W&CP 5, Clearwater Beach, FL, pp 9--16.
+\[[Software](https://github.com/SheffieldML/multigp%20)\]\[[PDF](http://jmlr.csail.mit.edu/proceedings/papers/v5/alvarez09a/alvarez09a.pdf)\]\[[Google
+Scholar
+Search](http://scholar.google.com/scholar?hl-en&lr=&q=Latent+Force+Models+&btnG=Search)\]
+
+#### Abstract
+
+Purely data driven approaches for machine learning present difficulties
+when data is scarce relative to the complexity of the model or when the
+model is forced to extrapolate. On the other hand, purely mechanistic
+approaches need to identify and specify all the interactions in the
+problem at hand (which may not be feasible) and still leave the issue of
+how to parameterize the system. In this paper, we present a hybrid
+approach using Gaussian processes and differential equations to combine
+data driven modeling with a physical model of the system. We show how
+different, physically-inspired, kernel functions can be developed
+through sensible, simple, mechanistic assumptions about the underlying
+system. The versatility of our approach is illustrated with three case
+studies from computational biology, motion capture and geostatistics.
+
+
+<span class="author">M. K. Titsias</span> (2009) <span
+class="papertitle">"Variational learning of inducing variables in sparse
+Gaussian processes"</span> in D. van Dyk and M. Welling (eds) <span
+class="journal">Proceedings of the Twelfth International Workshop on
+Artificial Intelligence and Statistics</span>, JMLR W&CP 5, Clearwater
+Beach, FL, pp 567--574. \[[Google Scholar
+Search](http://scholar.google.com/scholar?hl-en&lr=&q=Variational+Learning+of+Inducing+Variables+in+Sparse+Gaussian+Processes+&btnG=Search)\]
+
+
+<span class="author">M. A. Álvarez and N. D. Lawrence. </span> (2009)
+<span class="papertitle">"Sparse convolved Gaussian processes for
+multi-output regression"</span> in D. Koller, D. Schuurmans, Y. Bengio
+and L. Bottou (eds) <span class="journal">NIPS</span>, MIT Press,
+Cambridge, MA, pp 57--64.
+\[[Software](https://github.com/SheffieldML/multigp/%20)\]\[[PDF](ftp://ftp.dcs.shef.ac.uk/home/neil/spmulti.pdf)\]\[[Google
+Scholar
+Search](http://scholar.google.com/scholar?hl-en&lr=&q=Sparse+Convolved+Gaussian+Processes+for+Multi-output+Regression+&btnG=Search)\]
+
+#### Abstract
+
+We present a sparse approximation approach for dependent output Gaussian
+processes (GP). Employing a latent function framework, we apply the
+convolution process formalism to establish dependencies between output
+variables, where each latent function is represented as a GP. Based on
+these latent functions, we establish an approximation scheme using a
+conditional independence assumption between the output processes,
+leading to an approximation of the full covariance which is determined
+by the locations at which the latent functions are evaluated. We show
+results of the proposed methodology for synthetic data and real world
+applications on pollution prediction and a sensor network.
+
+
+<span class="author">M. K. Titsias, N. D. Lawrence and M. Rattray.
+</span> (2009) <span class="papertitle">"Efficient sampling for Gaussian
+process inference using control variables"</span> in D. Koller, D.
+Schuurmans, Y. Bengio and L. Bottou (eds) <span
+class="journal">NIPS</span>, MIT Press, Cambridge, MA, pp 1681--1688.
+\[[PDF](ftp://ftp.dcs.shef.ac.uk/home/neil/nipsSamGP08.pdf},)\]\[[Google
+Scholar
+Search](http://scholar.google.com/scholar?hl-en&lr=&q=Efficient+Sampling+for+Gaussian+Process+Inference+using+Control+Variables+&btnG=Search)\]
+
+#### Abstract
+
+Sampling functions in Gaussian process (GP) models is challenging
+because of the highly correlated posterior distribution. We describe an
+efficient Markov chain Monte Carlo algorithm for sampling from the
+posterior process of the GP model. This algorithm uses control variables
+which are auxiliary function values that provide a low dimensional
+representation of the function. At each iteration, the algorithm
+proposes new values for the control variables and generates the function
+from the conditional GP prior. The control variable input locations are
+found by continuously minimizing an objective function. We demonstrate
+the algorithm on regression and classification problems and we use it to
+estimate the parameters of a differential equation model of gene
+regulation.
+
+
+<span class="author">N. D. Lawrence, G. Sanguinetti and M. Rattray.
+</span> (2007) <span class="papertitle">"Modelling transcriptional
+regulation using Gaussian processes"</span> in B. Schölkopf, J. C. Platt
+and T. Hofmann (eds) <span class="journal">NIPS</span>, MIT Press,
+Cambridge, MA, pp 785--792.
+\[[Errata](./bibpage.cgi?keyName=Lawrence:transcriptionalGP06&printErrata=1)\]\[[Software](http://staffwww.dcs.shef.ac.uk/people/N.Lawrence/gpsim/%20)\]\[[Gzipped
+Postscript](ftp://ftp.dcs.shef.ac.uk/home/neil/gpsim.ps.gz)\]\[[PDF](ftp://ftp.dcs.shef.ac.uk/home/neil/gpsim.pdf)\]\[[Google
+Scholar
+Search](http://scholar.google.com/scholar?hl-en&lr=&q=Modelling+transcriptional+regulation+using+Gaussian+Processes+&btnG=Search)\]
+
+#### Abstract
+
+Modelling the dynamics of transcriptional processes in the cell requires
+the knowledge of a number of key biological quantities. While some of
+them are relatively easy to measure, such as mRNA decay rates and mRNA
+abundance levels, it is still very hard to measure the active
+concentration levels of the transcription factor proteins that drive the
+process and the sensitivity of target genes to these concentrations. In
+this paper we show how these quantities for a given transcription factor
+can be inferred from gene expression levels of a set of known target
+genes. We treat the protein concentration as a latent function with a
+Gaussian Process prior, and include the sensitivities, mRNA decay rates
+and baseline expression levels as hyperparameters. We apply this
+procedure to a human leukemia dataset, focusing on the tumour repressor
+p53 and obtaining results in good accordance with recent biological
+studies.
+
+
+The following books were published as part of this project.
+
+N. D. Lawrence, M. Girolami, M. Rattray and G. Sanguinetti (eds) (2010)
+<span class="papertitle">"Learning and inference in computational
+systems biology"</span>, MIT Press, Cambridge, MA.
+
+#### Synopsis
+
+Computational systems biology aims to develop algorithms that uncover
+the structure and parameterization of the underlying mechanistic
+model—in other words, to answer specific questions about the underlying
+mechanisms of a biological system—in a process that can be thought of as
+learning or inference. This volume offers state-of-the-art perspectives
+from computational biology, statistics, modeling, and machine learning
+on new methodologies for learning and inference in biological networks.
+The chapters offer practical approaches to biological inference problems
+ranging from genome-wide inference of genetic regulation to
+pathway-specific studies. Both deterministic models (based on ordinary
+differential equations) and stochastic models (which anticipate the
+increasing availability of data from small populations of cells) are
+considered. Several chapters emphasize Bayesian inference, so the
+editors have included an introduction to the philosophy of the Bayesian
+approach and an overview of current work on Bayesian inference. Taken
+together, the methods discussed by the experts in Learning and Inference
+in Computational Systems Biology provide a foundation upon which the
+next decade of research in systems biology can be built.
+
 
 <span class="author">M. A. Álvarez and N. D. Lawrence. </span> (2011)
 <span class="papertitle">"Computationally efficient convolved multiple
 output Gaussian processes"</span> in <span class="journal">Journal of
 Machine Learning Research</span> 12, pp 1425--1466
-\[[Software](http://inverseprobability.com/multigp)\]\[[PDF](http://www.jmlr.org/papers/volume12/alvarez11a/alvarez11a.pdf)\]\[[Google
+\[[Software](https://github.com/SheffieldML/multigp%20)\]\[[PDF](http://www.jmlr.org/papers/volume12/alvarez11a/alvarez11a.pdf)\]\[[Google
 Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=Computationally+Efficient+Convolved+Multiple+Output+Gaussian+Processes+&btnG=Search)\]
 
@@ -198,7 +361,6 @@ approximations for a single output. We show experimental results with
 synthetic and real data, in particular, we show results in school exams
 score prediction, pollution prediction and gene expression data
 
-------------------------------------------------------------------------
 
 <span class="author">A. Honkela, C. Girardot, E. H. Gustafson, Y.a.H.
 Liu, E. E. M. Furlong, N. D. Lawrence and M. Rattray. </span> (2010)
@@ -206,7 +368,7 @@ Liu, E. E. M. Furlong, N. D. Lawrence and M. Rattray. </span> (2010)
 target identification with limited data"</span> in <span
 class="journal">Proc. Natl. Acad. Sci. USA</span> 107 (17), pp
 7793--7798
-\[[Software](http://inverseprobability.com/disimrank)\]\[[DOI](http://dx.doi.org/10.1073/pnas.0914285107)\]\[[Google
+\[[Software](http://staffwww.dcs.shef.ac.uk/people/N.Lawrence/disimrank%20)\]\[[DOI](http://dx.doi.org/10.1073/pnas.0914285107)\]\[[Google
 Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=Model-based+Method+for+Transcription+Factor+Target+Identification+with+Limited+Data+&btnG=Search)\]
 
@@ -234,14 +396,13 @@ or superior to ranking based on mutant differential expression scores.
 Also, we show how integrating complementary wild-type spatial expression
 data can further improve target ranking performance.
 
-------------------------------------------------------------------------
 
 <span class="author">P. Gao, A. Honkela, M. Rattray and N. D. Lawrence.
 </span> (2008) <span class="papertitle">"Gaussian process modelling of
 latent chemical species: applications to inferring transcription factor
 activities"</span> in <span class="journal">Bioinformatics</span> 24, pp
 i70--i75
-\[[Software](http://inverseprobability.com/gpsim/)\]\[[PDF](http://bioinformatics.oxfordjournals.org/cgi/reprint/24/16/i70.pdf?ijkey=FauSn114lAUC1Ey&keytype=ref)\]\[[DOI](http://dx.doi.org/10.1093/bioinformatics/btn278)\]\[[Google
+\[[Software](http://staffwww.dcs.shef.ac.uk/people/N.Lawrence/gpsim/%20)\]\[[PDF](http://bioinformatics.oxfordjournals.org/cgi/reprint/24/16/i70.pdf?ijkey=FauSn114lAUC1Ey&keytype=ref)\]\[[DOI](http://dx.doi.org/10.1093/bioinformatics/btn278)\]\[[Google
 Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=Gaussian+Process+Modelling+of+Latent+Chemical+Species:+Applications+to+Inferring+Transcription+Factor+Activities+&btnG=Search)\]
 
@@ -252,8 +413,8 @@ interaction networks is a key problem in estimation of the structure and
 parameters of the genetic, metabolic and protein interaction networks
 that underpin all biological processes. We present a framework for
 Bayesian marginalisation of these latent chemical species through
-Gaussian process priors.
-
+Gaussian process priors.\
+\
  **Results:** We demonstrate our general approach on three different
 biological examples of single input motifs, including both activation
 and repression of transcription. We focus in particular on the problem
@@ -267,45 +428,16 @@ continuous-time functions, which would lead to a large number of
 additional parameters to be estimated. We develop efficient exact and
 approximate inference schemes, which are much more efficient than
 competing sampling-based schemes and therefore provide us with a
-practical toolkit for model-based inference.
-
-**Availability:** The software and data for recreating all the
+practical toolkit for model-based inference.\
+\
+ **Availability:** The software and data for recreating all the
 experiments in this paper is available in MATLAB from
-<http://inverseprobability.com/gpsim>
-
+<http://staffwww.dcs.shef.ac.uk/people/N.Lawrence/gpsim>\
+\
  **Contact:** Neil Lawrence
 
-------------------------------------------------------------------------
 
-### Book
-
-N. D. Lawrence, M. Girolami, M. Rattray and G. Sanguinetti (eds) (2010)
-<span class="papertitle">"Learning and inference in computational
-systems biology"</span>, MIT Press, Cambridge, MA.
-#### Synopsis
-
-Computational systems biology aims to develop algorithms that uncover
-the structure and parameterization of the underlying mechanistic
-model—in other words, to answer specific questions about the underlying
-mechanisms of a biological system—in a process that can be thought of as
-learning or inference. This volume offers state-of-the-art perspectives
-from computational biology, statistics, modeling, and machine learning
-on new methodologies for learning and inference in biological networks.
-The chapters offer practical approaches to biological inference problems
-ranging from genome-wide inference of genetic regulation to
-pathway-specific studies. Both deterministic models (based on ordinary
-differential equations) and stochastic models (which anticipate the
-increasing availability of data from small populations of cells) are
-considered. Several chapters emphasize Bayesian inference, so the
-editors have included an introduction to the philosophy of the Bayesian
-approach and an overview of current work on Bayesian inference. Taken
-together, the methods discussed by the experts in Learning and Inference
-in Computational Systems Biology provide a foundation upon which the
-next decade of research in systems biology can be built.
-
-------------------------------------------------------------------------
-
-### Book Chapters
+The following edited chapters were published as part of this project.
 
 <span class="author">N. D. Lawrence</span> (2010) <span
 class="papertitle">"Introduction to learning and inference in
@@ -338,7 +470,6 @@ together, the methods discussed by the experts in Learning and Inference
 in Computational Systems Biology provide a foundation upon which the
 next decade of research in systems biology can be built.
 
-------------------------------------------------------------------------
 
 <span class="author">N. D. Lawrence and M. Rattray. </span> (2010) <span
 class="papertitle">"A brief introduction to Bayesian inference"</span>
@@ -370,7 +501,6 @@ together, the methods discussed by the experts in Learning and Inference
 in Computational Systems Biology provide a foundation upon which the
 next decade of research in systems biology can be built.
 
-------------------------------------------------------------------------
 
 <span class="author">N. D. Lawrence, M. Rattray, P. Gao and M. K.
 Titsias. </span> (2010) <span class="papertitle">"Gaussian processes for
@@ -405,7 +535,6 @@ together, the methods discussed by the experts in Learning and Inference
 in Computational Systems Biology provide a foundation upon which the
 next decade of research in systems biology can be built.
 
-------------------------------------------------------------------------
 
 <span class="author">M. K. Titsias, M. Rattray and N. D. Lawrence.
 </span> (2011) <span class="papertitle">"Markov chain Monte Carlo
@@ -416,7 +545,7 @@ Search](http://scholar.google.com/scholar?hl-en&lr=&q=Markov+chain+Monte+Carlo+a
 
 #### Abstract
 
-'What's going to happen next?' Time series data hold the answers, and
+\`What's going to happen next?' Time series data hold the answers, and
 Bayesian methods represent the cutting edge in learning what they have
 to say. This ambitious book is the first unified treatment of the
 emerging knowledge-base in Bayesian time series techniques. Exploiting
@@ -433,160 +562,8 @@ with a basic understanding of applied probability, but no experience
 with time series analysis, are guided from fundamental concepts to the
 state-of-the-art in research and practice.
 
-------------------------------------------------------------------------
 
-### Conference Papers
-
-<span class="author">M. A. Álvarez, D. Luengo, M. K. Titsias and N. D.
-Lawrence. </span> (2010) <span class="papertitle">"Efficient multioutput
-Gaussian processes through variational inducing kernels"</span> in Y. W.
-Teh and D. M. Titterington (eds) <span class="journal">Proceedings of
-the Thirteenth International Workshop on Artificial Intelligence and
-Statistics</span>, JMLR W&CP 9, Chia Laguna Resort, Sardinia, Italy, pp
-25--32.
-\[[Software](http://inverseprobability.com/multigp)\]\[[PDF](http://jmlr.csail.mit.edu/proceedings/papers/v9/alvarez10a/alvarez10a.pdf)\]\[[Google
-Scholar
-Search](http://scholar.google.com/scholar?hl-en&lr=&q=Efficient+Multioutput+Gaussian+Processes+through+Variational+Inducing+Kernels+&btnG=Search)\]
-
-#### Abstract
-
-Interest in multioutput kernel methods is increasing, whether under the
-guise of multitask learning, multisensor networks or structured output
-data. From the Gaussian process perspective a multioutput Mercer kernel
-is a covariance function over correlated output functions. One way of
-constructing such kernels is based on convolution processes (CP). A key
-problem for this approach is efficient inference. Álvarez and Lawrence
-[\[Alvarez:convolved08\]](http://ml.sheffield.ac.uk/~neil/cgi-bin/publications/bibpage.cgi?keyName=Alvarez:convolved08&printAbstract=1)
-recently presented a sparse approximation for CPs that enabled efficient
-inference. In this paper, we extend this work in two directions: we
-introduce the concept of variational inducing functions to handle
-potential non-smooth functions involved in the kernel CP construction
-and we consider an alternative approach to approximate inference based
-on variational methods, extending the work by Titsias
-[\[Titsias:variational09\]](http://ml.sheffield.ac.uk/~neil/cgi-bin/publications/bibpage.cgi?keyName=Titsias:variational09&printAbstract=1)
-to the multiple output case. We demonstrate our approaches on prediction
-of school marks, compiler performance and financial time series.
-
-------------------------------------------------------------------------
-
-<span class="author">M. A. Álvarez, D. Luengo and N. D. Lawrence.
-</span> (2009) <span class="papertitle">"Latent force models"</span> in
-D. van Dyk and M. Welling (eds) <span class="journal">Proceedings of the
-Twelfth International Workshop on Artificial Intelligence and
-Statistics</span>, JMLR W&CP 5, Clearwater Beach, FL, pp 9--16.
-\[[Software](http://inverseprobability.com/multigp)\]\[[PDF](http://jmlr.csail.mit.edu/proceedings/papers/v5/alvarez09a/alvarez09a.pdf)\]\[[Google
-Scholar
-Search](http://scholar.google.com/scholar?hl-en&lr=&q=Latent+Force+Models+&btnG=Search)\]
-
-#### Abstract
-
-Purely data driven approaches for machine learning present difficulties
-when data is scarce relative to the complexity of the model or when the
-model is forced to extrapolate. On the other hand, purely mechanistic
-approaches need to identify and specify all the interactions in the
-problem at hand (which may not be feasible) and still leave the issue of
-how to parameterize the system. In this paper, we present a hybrid
-approach using Gaussian processes and differential equations to combine
-data driven modeling with a physical model of the system. We show how
-different, physically-inspired, kernel functions can be developed
-through sensible, simple, mechanistic assumptions about the underlying
-system. The versatility of our approach is illustrated with three case
-studies from computational biology, motion capture and geostatistics.
-
-------------------------------------------------------------------------
-
-<span class="author">M. K. Titsias</span> (2009) <span
-class="papertitle">"Variational learning of inducing variables in sparse
-Gaussian processes"</span> in D. van Dyk and M. Welling (eds) <span
-class="journal">Proceedings of the Twelfth International Workshop on
-Artificial Intelligence and Statistics</span>, JMLR W&CP 5, Clearwater
-Beach, FL, pp 567--574. \[[Google Scholar
-Search](http://scholar.google.com/scholar?hl-en&lr=&q=Variational+Learning+of+Inducing+Variables+in+Sparse+Gaussian+Processes+&btnG=Search)\]
-
-------------------------------------------------------------------------
-
-<span class="author">M. A. Álvarez and N. D. Lawrence. </span> (2009)
-<span class="papertitle">"Sparse convolved Gaussian processes for
-multi-output regression"</span> in D. Koller, D. Schuurmans, Y. Bengio
-and L. Bottou (eds) <span class="journal">Advances in Neural Information
-Processing Systems</span>, MIT Press, Cambridge, MA, pp 57--64.
-\[[Software](http://inverseprobability.com/multigp/)\]\[[PDF](ftp://ftp.dcs.shef.ac.uk/home/neil/spmulti.pdf)\]\[[Google
-Scholar
-Search](http://scholar.google.com/scholar?hl-en&lr=&q=Sparse+Convolved+Gaussian+Processes+for+Multi-output+Regression+&btnG=Search)\]
-
-#### Abstract
-
-We present a sparse approximation approach for dependent output Gaussian
-processes (GP). Employing a latent function framework, we apply the
-convolution process formalism to establish dependencies between output
-variables, where each latent function is represented as a GP. Based on
-these latent functions, we establish an approximation scheme using a
-conditional independence assumption between the output processes,
-leading to an approximation of the full covariance which is determined
-by the locations at which the latent functions are evaluated. We show
-results of the proposed methodology for synthetic data and real world
-applications on pollution prediction and a sensor network.
-
-------------------------------------------------------------------------
-
-<span class="author">M. K. Titsias, N. D. Lawrence and M. Rattray.
-</span> (2009) <span class="papertitle">"Efficient sampling for Gaussian
-process inference using control variables"</span> in D. Koller, D.
-Schuurmans, Y. Bengio and L. Bottou (eds) <span class="journal">Advances
-in Neural Information Processing Systems</span>, MIT Press, Cambridge,
-MA, pp 1681--1688.
-\[[PDF](ftp://ftp.dcs.shef.ac.uk/home/neil/nipsSamGP08.pdf},)\]\[[Google
-Scholar
-Search](http://scholar.google.com/scholar?hl-en&lr=&q=Efficient+Sampling+for+Gaussian+Process+Inference+using+Control+Variables+&btnG=Search)\]
-
-#### Abstract
-
-Sampling functions in Gaussian process (GP) models is challenging
-because of the highly correlated posterior distribution. We describe an
-efficient Markov chain Monte Carlo algorithm for sampling from the
-posterior process of the GP model. This algorithm uses control variables
-which are auxiliary function values that provide a low dimensional
-representation of the function. At each iteration, the algorithm
-proposes new values for the control variables and generates the function
-from the conditional GP prior. The control variable input locations are
-found by continuously minimizing an objective function. We demonstrate
-the algorithm on regression and classification problems and we use it to
-estimate the parameters of a differential equation model of gene
-regulation.
-
-------------------------------------------------------------------------
-
-<span class="author">N. D. Lawrence, G. Sanguinetti and M. Rattray.
-</span> (2007) <span class="papertitle">"Modelling transcriptional
-regulation using Gaussian processes"</span> in B. Schölkopf, J. C. Platt
-and T. Hofmann (eds) <span class="journal">Advances in Neural
-Information Processing Systems</span>, MIT Press, Cambridge, MA, pp
-785--792.
-\[[Errata](./bibpage.cgi?keyName=Lawrence:transcriptionalGP06&printErrata=1)\]\[[Software](http://inverseprobability.com/gpsim/)\]\[[Gzipped
-Postscript](ftp://ftp.dcs.shef.ac.uk/home/neil/gpsim.ps.gz)\]\[[PDF](ftp://ftp.dcs.shef.ac.uk/home/neil/gpsim.pdf)\]\[[Google
-Scholar
-Search](http://scholar.google.com/scholar?hl-en&lr=&q=Modelling+transcriptional+regulation+using+Gaussian+Processes+&btnG=Search)\]
-
-#### Abstract
-
-Modelling the dynamics of transcriptional processes in the cell requires
-the knowledge of a number of key biological quantities. While some of
-them are relatively easy to measure, such as mRNA decay rates and mRNA
-abundance levels, it is still very hard to measure the active
-concentration levels of the transcription factor proteins that drive the
-process and the sensitivity of target genes to these concentrations. In
-this paper we show how these quantities for a given transcription factor
-can be inferred from gene expression levels of a set of known target
-genes. We treat the protein concentration as a latent function with a
-Gaussian Process prior, and include the sensitivities, mRNA decay rates
-and baseline expression levels as hyperparameters. We apply this
-procedure to a human leukemia dataset, focusing on the tumour repressor
-p53 and obtaining results in good accordance with recent biological
-studies.
-
-------------------------------------------------------------------------
-
-### Related References
+The following publications have provided background to our work in this project.
 
 <span class="author">G. Della Gatta, M. Bansal, A. A.i.Impiombato, D.
 Antonini, C. Missero and D. d. Bernardo. </span> (2008) <span
@@ -623,20 +600,18 @@ applicable to other transcription factors in mammalian systems and is
 complementary to genome-wide identification of transcription-factor
 binding sites.
 
-------------------------------------------------------------------------
 
 <span class="author">U. Alon</span> (2006) <span class="papertitle">"An
 introduction to systems biology: design principles of biological
 circuits"</span>, Chapman and Hall/CRC, London.
 
-------------------------------------------------------------------------
 
 <span class="author">G. Sanguinetti, M. Rattray and N. D. Lawrence.
 </span> (2006) <span class="papertitle">"A probabilistic dynamical model
 for quantitative inference of the regulatory mechanism of
 transcription"</span> in <span class="journal">Bioinformatics</span> 22
 (14), pp 1753--1759
-\[[Software](http://inverseprobability.com/chipdyno/)\]\[[PDF](http://bioinformatics.oxfordjournals.org/cgi/reprint/22/14/1753)\]\[[Pubmed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=16632490&dopt=Citation)\]\[[DOI](http://dx.doi.org/10.1093/bioinformatics/btl154)\]\[[Google
+\[[Software](https://github.com/SheffieldML/chipdyno/%20)\]\[[PDF](http://bioinformatics.oxfordjournals.org/cgi/reprint/22/14/1753)\]\[[Pubmed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=16632490&dopt=Citation)\]\[[DOI](http://dx.doi.org/10.1093/bioinformatics/btl154)\]\[[Google
 Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=A+probabilistic+dynamical+model+for+quantitative+inference+of+the+regulatory+mechanism+of+transcription+&btnG=Search)\]
 
@@ -649,9 +624,9 @@ is difficult for a number of reasons: transcription factors' expression
 levels are often low and noisy, and many transcription factors are
 post-transcriptionally regulated. It is therefore useful to infer the
 activity of the transcription factors from the expression levels of
-their target genes.
-
-**Results:** We introduce a novel probabilistic model to infer
+their target genes.\
+\
+ **Results:** We introduce a novel probabilistic model to infer
 transcription factor activities from microarray data when the structure
 of the regulatory network is known. The model is based on regression,
 retaining the computational efficiency to allow genome-wide
@@ -665,20 +640,20 @@ estimates of the activities. We demonstrate our model on two yeast data
 sets. In both cases the network structure was obtained using Chromatine
 Immunoprecipitation data. We show how predictions from our model are
 consistent with the underlying biology and offer novel quantitative
-insights into the regulatory structure of the yeast cell.
-
-**Availability:** MATLAB code is available from
+insights into the regulatory structure of the yeast cell.\
+\
+ **Availability:** MATLAB code is available from
 <http://umber.sbs.man.ac.uk/resources/puma>.
 
-------------------------------------------------------------------------
 
 <span class="author">C. Sabatti and G. M. James. </span> (2006) <span
 class="papertitle">"Bayesian sparse hidden components analysis for
 transcription regulation networks"</span> in <span
 class="journal">Bioinformatics</span> 22 (6), pp 739--746
-\[[Software](http://www.genetics.ucla.edu/labs/sabatti/software.html)\]\[[Google
+\[[Software](http://www.genetics.ucla.edu/labs/sabatti/software.html%20)\]\[[Google
 Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=Bayesian+Sparse+Hidden+Components+Analysis+for+Transcription+Regulation+Networks+&btnG=Search)\]
+
 #### Abstract
 
 **Motivation**: In systems like *Escherichia Coli*, the abundance of
@@ -686,9 +661,9 @@ sequence information, gene expression array studies and small scale
 experiments allows one to reconstruct the regulatory network and to
 quantify the effects of transcription factors on gene expression.
 However, this goal can only be achieved if all information sources are
-used in concert.
-
-**Results**: Our method integrates literature information, DNA
+used in concert.\
+\
+ **Results**: Our method integrates literature information, DNA
 sequences and expression arrays. A set of relevant transcription factors
 is defined on the basis of literature. Sequence data are used to
 identify potential target genes and the results are used to define a
@@ -698,24 +673,23 @@ identify which of the potential binding sites are actually used by the
 regulatory proteins in the studied cell conditions, the strength of
 their control, and their activation profile in a series of experiments.
 We apply our methodology to 35 expression studies in *E.Coli* with
-convincing results.
+convincing results.\
+\
+ **Availability**:
+[www.genetics.ucla.edu/labs/sabatti/software.html](www.genetics.ucla.edu/labs/sabatti/software.html)\
+\
+ **Supplementary information**: The supplementary material are available
+at Bioinformatics online.\
+\
+ **Contact**: csabatti@mednet.ucla.edu
 
-**Availability**:
-[www.genetics.ucla.edu/labs/sabatti/software.html](www.genetics.ucla.edu/labs/sabatti/software.html)
-
-**Supplementary information**: The supplementary material are available
-at Bioinformatics online.
-
-**Contact**: csabatti@mednet.ucla.edu
-
-------------------------------------------------------------------------
 
 <span class="author">G. Sanguinetti, N. D. Lawrence and M. Rattray.
 </span> (2006) <span class="papertitle">"Probabilistic inference of
 transcription factor concentrations and gene-specific regulatory
 activities"</span> in <span class="journal">Bioinformatics</span> 22
 (22), pp 2275--2281
-\[[Errata](./bibpage.cgi?keyName=Sanguinetti:chipvar06&printErrata=1)\]\[[Software](http://inverseprobability.com/chipvar/)\]\[[PDF](http://bioinformatics.oxfordjournals.org/cgi/reprint/btl473v1)\]\[[Pubmed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=16966362&dopt=Citation)\]\[[DOI](http://dx.doi.org/10.1093/bioinformatics/btl473)\]\[[Google
+\[[Errata](./bibpage.cgi?keyName=Sanguinetti:chipvar06&printErrata=1)\]\[[Software](http://staffwww.dcs.shef.ac.uk/people/N.Lawrence/chipvar/%20)\]\[[PDF](http://bioinformatics.oxfordjournals.org/cgi/reprint/btl473v1)\]\[[Pubmed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=16966362&dopt=Citation)\]\[[DOI](http://dx.doi.org/10.1093/bioinformatics/btl473)\]\[[Google
 Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=Probabilistic+inference+of+transcription+factor+concentrations+and+gene-specific+regulatory+activities+&btnG=Search)\]
 
@@ -730,9 +704,9 @@ networks in the cell. However, it is very difficult to measure the
 concentration levels of transcription factor proteins and determine
 their regulatory effect on gene transcription. It is therefore an
 important computational challenge to infer these quantities using gene
-expression data and network architecture data.
-
-**Results**: We develop a probabilistic state space model that allows
+expression data and network architecture data.\
+\
+ **Results**: We develop a probabilistic state space model that allows
 genome-wide inference of both transcription factor protein
 concentrations and their effect on the transcription rates of each
 target gene from microarray data. We use variational inference
@@ -745,12 +719,11 @@ on artificial data and on two yeast data sets in which the network
 structure has previously been obtained using Chromatine
 Immunoprecipitation data. Predictions from our model are consistent with
 the underlying biology and offer novel quantitative insights into the
-regulatory structure of the yeast cell.
-
-**Availability**: MATLAB code is available from
+regulatory structure of the yeast cell.\
+\
+ **Availability**: MATLAB code is available from
 <http://umber.sbs.man.ac.uk/resources/puma>.
 
-------------------------------------------------------------------------
 
 <span class="author">I. Nachman, A. Regev and N. Friedman. </span>
 (2004) <span class="papertitle">"Inferring quantitative models of
@@ -766,8 +739,8 @@ Various methods have been suggested to reconstruct network architecture
 from gene expression data. However, most approaches are based on
 qualitative models that provide only rough approximations of the
 underlying events, and lack the quantitative aspects that are critical
-for understanding the proper function of biomolecular systems.
-
+for understanding the proper function of biomolecular systems.\
+\
  **Results:** We present fine-grained dynamical models of gene
 transcription and develop methods for reconstructing them from gene
 expression data within the framework of a generative probabilistic
@@ -778,12 +751,11 @@ that control them. We apply our approach to expression data sets from
 yeast and show that we can learn the unknown regulator activity
 profiles, as well as the binding affinity parameters.We also introduce a
 novel structure learning algorithm, and demonstrate its power to
-accurately reconstruct the regulatory network from those data sets.
-
-**Keywords:** transcription regulation, parameter learning, structure
-learning, regulatory networks
-
+accurately reconstruct the regulatory network from those data sets.\
+\
+ **Keywords:** transcription regulation, parameter learning, structure
+learning, regulatory networks\
+\
  **Contact:** nir@cs.huji.ac.il
 
-------------------------------------------------------------------------
 

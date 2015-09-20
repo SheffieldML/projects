@@ -19,7 +19,7 @@ sponsors:
 collaborators:
 - name: Dr David Luengo
   institute: Carlos III University in Madrid
-  url: None
+  url: ""
 
 software:
 - url: "http://www.inverseprobability.com/gpsim"
@@ -30,5 +30,5 @@ software:
   tagline: "MULTIGP: Modelling multiple outputs with Gaussian processes (will eventually supercede the gpsim toolbox)."
 
 publications:
-  conference: "Alvarez:lfm09","Alvarez:convolved08"
-  related: "Bouttou:lskm07"
+  conference: ["Alvarez:lfm09","Alvarez:convolved08"]
+  related: ["Bouttou:lskm07"]
