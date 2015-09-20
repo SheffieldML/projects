@@ -50,16 +50,7 @@ The following was achieved under this project:
     arrays (see VIS software package below and this [Bioinformatics
     paper](#Lawrence:variability03)).
 
-The project is sponsored by [BBSRC Grant No
-BBS/B/0076X](http://www.bbsrc.ac.uk) and is a collaboration with [Dr
-Marta Milo](http://www.shef.ac.uk/bms/research/milo/) of Wellcome Trust
-Fellow at University of Sheffield, [Dr Xuejun
-Liu](http://parnec.nuaa.edu.cn/liux/) of Nanjing University of
-Aeronautics & Astronautics (former PhD student), [Dr Guido
-Sanguinetti](http://www.dcs.shef.ac.uk/~guido) of University of
-Sheffield (former post-doc) and [Dr Antti
-Honkela](http://www.cis.hut.fi/ahonkela/) of Helsinki University of
-Technology (visitor and collaborator).
+The project is sponsored by [BBSRC Grant No BBS/B/0076X](http://www.bbsrc.ac.uk) and is a collaboration with [Dr Marta Milo](http://www.shef.ac.uk/bms/research/milo/) of Wellcome Trust Fellow at University of Sheffield, [Dr Xuejun Liu](http://parnec.nuaa.edu.cn/liux/) of Nanjing University of Aeronautics & Astronautics (former PhD student), [Dr Guido Sanguinetti](http://www.dcs.shef.ac.uk/~guido) of University of Sheffield (former post-doc) and [Dr Antti Honkela](http://www.cis.hut.fi/ahonkela/) of Helsinki University of Technology (visitor and collaborator).
 
 Personnel in the Project
 ------------------------
@@ -117,15 +108,7 @@ analysis.
 
 ### Journal Papers
 
-<span class="author">R. D. Pearson, X. Liu, G. Sanguinetti, M. Milo, N.
-D. Lawrence and M. Rattray. </span> (2009) <span
-class="papertitle">"Puma: a Bioconductor package for propagating
-uncertainty in microarray analysis"</span> in <span class="journal">BMC
-Bioinformatics</span> 10 (211)
-\[[Pubmed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=19589155&dopt=Citation)\]\[[DOI](http://dx.doi.org/10.1186/1471-2105-10-211)\]\[[Google
-Scholar
-Search](http://scholar.google.com/scholar?hl-en&lr=&q=puma:+a+Bioconductor+package+for+Propagating+Uncertainty+in+Microarray+Analysis+&btnG=Search)\]
-#### Abstract
+<span class="author">R. D. Pearson, X. Liu, G. Sanguinetti, M. Milo, N.  D. Lawrence and M. Rattray. </span> (2009) <span class="papertitle">"Puma: a Bioconductor package for propagating uncertainty in microarray analysis"</span> in <span class="journal">BMC Bioinformatics</span> 10 (211) \[[Pubmed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=19589155&dopt=Citation)\]\[[DOI](http://dx.doi.org/10.1186/1471-2105-10-211)\]\[[Google Scholar Search](http://scholar.google.com/scholar?hl-en&lr=&q=puma:+a+Bioconductor+package+for+Propagating+Uncertainty+in+Microarray+Analysis+&btnG=Search)\] #### Abstract
 
 **Background**\
 \
