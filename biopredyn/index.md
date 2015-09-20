@@ -1,6 +1,8 @@
 ---
 layout: default
 title: "BioPreDyn Project"
+---
+
 # From Data to Models: New Bioinformatics Methods and Tools for Data-Driven Predictive Dynamic Modelling in Biotechnological Applications
 
 ## Overview
