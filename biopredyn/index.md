@@ -2,7 +2,6 @@
 layout: default
 title: "BioPreDyn Project"
 ---
-
 # From Data to Models: New Bioinformatics Methods and Tools for Data-Driven Predictive Dynamic Modelling in Biotechnological Applications
 
 ## Overview
@@ -20,7 +19,7 @@ The project is sponsored by [EU FP7-KBBE Project Ref 289434 "From Data to Models
 
 - [Jie Gao](http://www.dcs.sheffield.ac.uk/cgi-bin/makeperson?J.Gao), post-doctoral research assistant
 
-</table>
+
 
 <a name="software"></a><h2>Software</h2>
 
