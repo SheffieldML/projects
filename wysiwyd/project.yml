@@ -1,5 +1,5 @@
 # Title of the project
-shortname: "WYSIWYD Project"
+shortname: "WYSIWYD"
 longname: "WYSIWYD: What You Say Is What You Did"
 
 start: "2014-01-01"
@@ -7,37 +7,37 @@ end: "2016-12-31"
 
 personnel:
 - name: Andreas Damianou
-  role: post-doctoral research assistant
+  role: Post-doctoral research assistant
   url: A.Damianou
 
 sponsors:
-- name: EU FP7-ICT Project Ref 612139 "WYSIWYD: What You Say is What You Did"
-  ref: EU FP7-ICT Project Ref 612139 "WYSIWYD: What You Say is What You Did"
-  title: EU FP7-ICT Project Ref 612139 "WYSIWYD: What You Say is What You Did"
+- name: EU FP7-ICT
+  ref: 612139
+  title: "WYSIWYD: What You Say is What You Did"
   url: http://cordis.europa.eu/projects/rcn/110658_en.html
 
 collaborators:
 - name: Tony Prescott
   institute: University of Sheffield
-  url: http://www.abrg.group.shef.ac.uk/people/tony/
+  url: "http://www.abrg.group.shef.ac.uk/people/tony/"
 - name: Mat Evans
   institute: University of Sheffield
-  url: http://www.abrg.group.shef.ac.uk/people/mat/
+  url: "http://www.abrg.group.shef.ac.uk/people/mat/"
 - name: Paul Verschure
   institute: Universitat Pompeu Fabra
-  url: http://specs.upf.edu/people/331
+  url: "http://specs.upf.edu/people/331"
 - name: Peter Ford Dominey
   institute: Institute National de la Sante et de la Recherche Medicale (INSERM)
-  url: http://pfdominey.perso.sfr.fr/RobotDemos.htm
+  url: "http://pfdominey.perso.sfr.fr/RobotDemos.htm"
 - name: Giorgio Metta
   institute: Fondazione Istituto Italiano di Tecnologia
-  url: http://pasa.liralab.it/
+  url: "http://pasa.liralab.it/"
 - name: Peter Gardenfors
   institute: Lunds University
-  url: http://www.fil.lu.se/en/department/staff/PeterGardenfors/
+  url: "http://www.fil.lu.se/en/department/staff/PeterGardenfors/"
 - name: Yiannis Demiris
   institute: Imperial College
-  url: http://www.iis.ee.ic.ac.uk/yiannis/webcontent/HomePage.html
+  url: "http://www.iis.ee.ic.ac.uk/yiannis/webcontent/HomePage.html"
 
 publications:
   related:"Hensman:bigdata13","Damianou:deepgp13","Lawrence:pnpca05","Lawrence:learning04","Lawrence:ivm02"

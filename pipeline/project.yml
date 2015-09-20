@@ -1,23 +1,23 @@
 # Title of the project
-shortname: "PUMA: Improved processing of microarray data with probabilistic models"
-longname: "PUMA: Improved processing of microarray data with probabilistic models"
+shortname: "PUMA"
+longname: "Improved processing of microarray data with probabilistic models"
 
-start: "October 2007"
-end: "April 2007"
+start: "September 2004"
+end: "September 2007"
 
 personnel:
 - name: Pei Gao
   role: Post-doctorate Researcher
-  url: gaop
+  url: "https://uk.linkedin.com/pub/pei-gao/36/842/3b5"
 - name: Richard Pearson
   role: PhD Student
-  url: pearsonr
+  url: "http://www.cs.man.ac.uk/~pearsonr/"
 
 sponsors:
-- name: BBSRC Grant No BBS/B/0076X
-  ref: BBSRC Grant No BBS/B/0076X
-  title: BBSRC Grant No BBS/B/0076X
-  url: http://www.bbsrc.ac.uk
+- name: BBSRC 
+  ref: "BBS/B/0076X"
+  title: "Improved processing of microarray data with probabilistic models"
+  url: "http://www.bbsrc.ac.uk/research/grants-search/AwardDetails/?FundingReference=BBS/B/0076X"
 
 collaborators:
 - name: Dr Marta Milo
@@ -25,38 +25,38 @@ collaborators:
   url: http://www.shef.ac.uk/bms/research/milo/
 - name: Dr Xuejun Liu
   institute: Nanjing University of Aeronautics & Astronautics (former PhD student)
-  url: http://parnec.nuaa.edu.cn/liux/
+  url: "http://parnec.nuaa.edu.cn/liux/"
 - name: Dr Guido Sanguinetti
   institute: University of Sheffield (former post-doc)
-  url: http://www.dcs.shef.ac.uk/~guido
+  url: "http://homepages.inf.ed.ac.uk/gsanguin/"
 - name: Dr Antti Honkela
   institute: Helsinki University of Technology (visitor and collaborator)
-  url: http://www.cis.hut.fi/ahonkela/
+  url: "http://www.cis.hut.fi/ahonkela/"
 
 software:
-- url: "local"
+- url: "http://inverseprobability.com/nppca/"
   name: nppca
   tagline: "NPPCA: Probabilistic PCA that deals with different variances associated with each element of the data."
-- url: "local"
+- url: "http://inverseprobability.com/chipdyno/"
   name: chipdyno
   tagline: "CHIPDYNO: Inference of transcription factor activities from microarray data and network connectivity data."
-- url: "local"
+- url: "http://inverseprobability.com/chipvar/"
   name: chipvar
   tagline: "CHIPVAR: Variational inference of transcription factor concentrations and actions on target genes from microarray data and network connectivity data."
-- url: "manchester"
-  name: http://www.bioinf.manchester.ac.uk/resources/puma/mmgmos/mmgmos.html
+- url: "http://www.bioinf.manchester.ac.uk/resources/puma/mmgmos/mmgmos.html"
+  name: "mmgMOS"
   tagline: "mmgMOS: Modified multi-array gMOS algorithm for extracting uncertainties from Affymetrix slides."
-- url: "manchester"
-  name: http://www.bioinf.manchester.ac.uk/resources/puma/pplr/pplr.html
+- url: "http://www.bioinf.manchester.ac.uk/resources/puma/pplr/pplr.html"
+  name: "pplr"
   tagline: "PPLR: Detecting up regulated genes by using variances and looking at the probability of a positive log ratio."
-- url: "manchester"
-  name: http://www.bioinf.manchester.ac.uk/resources/puma/puma/puma.html
+- url: "http://www.bioinf.manchester.ac.uk/resources/puma/puma/puma.html"
+  name: "puma"
   tagline: "PUMA: A Bioconductor package that inmplements mmgMOS"
-- url: "local"
+- url: "http://inverseprobability.com/gpsim/"
   name: gpsim
   tagline: "GPSIM: Gaussian Process Modelling of Single Input Motif networks."
 
 publications:
-"Rattray:propagating06"
-  journals:"Pearson:puma09","Gao:latent08","Sanguinetti:chipvar06","Liu:variances06","Sanguinetti:chipdyno06","Liu:tractable04","Sanguinetti:accounting05","Milo:probabilistic03","Lawrence:variability03"
-  conference:"Sanguinetti:trento06","Lawrence:transcriptionalGP06"
+  reviews: "Rattray:propagating06"
+  journals: "Pearson:puma09","Gao:latent08","Sanguinetti:chipvar06","Liu:variances06","Sanguinetti:chipdyno06","Liu:tractable04","Sanguinetti:accounting05","Milo:probabilistic03","Lawrence:variability03"
+  conference: "Sanguinetti:trento06","Lawrence:transcriptionalGP06"

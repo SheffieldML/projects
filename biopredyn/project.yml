@@ -78,6 +78,7 @@ software:
 
 publications:
   chapters: ["Lawrence:licsbintro10", "Lawrence:licsbbayes10", "Lawrence:licsbgp10","Titsias:mcmcgp11"]
+  journals: ["Gambardella:reverse15"]
   conference: ["Hensman:tvb14", "Andrade:hybrid14"]
   related: ["Alvarez:computationally11", "Honkela:modelbased10", "Lawrence:licsb10", "Gao:latent08", "Lawrence:licsbintro10", "Lawrence:licsbbayes10", "Lawrence:licsbgp10","Titsias:mcmcgp11"]
 

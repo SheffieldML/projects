@@ -8,54 +8,54 @@ end: "August 2013"
 personnel:
 - name: Ciira Maina
   role: post-doctoral research assistant
-  url: C.Maina
+  url: "https://sites.google.com/site/cwamainadekut/"
 
 sponsors:
-- name: Erasysbio "SYNERGY: Systems approach to gene regulation biology through nuclear receptors"
-  ref: Erasysbio "SYNERGY: Systems approach to gene regulation biology through nuclear receptors"
-  title: Erasysbio "SYNERGY: Systems approach to gene regulation biology through nuclear receptors"
-  url: http://www.erasysbio.net/index.php?index=271
+- name: "ERA-NET" 
+  ref: "ERASysBio"
+  title: "SYNERGY: Systems approach to gene regulation biology through nuclear receptors"
+  url: "http://www.erasysbio.net/index.php?index=271"
 
 collaborators:
 - name: Prof Magnus Rattray
   institute: University of Manchester
-  url: http://www.ls.manchester.ac.uk/people/profile/?personid=10584
+  url: "http://www.ls.manchester.ac.uk/people/profile/?personid=10584"
 - name: Dr Antti Honkela
   institute: University of Helsinki
-  url: http://www.hiit.fi/u/ahonkela/
+  url: "http://www.hiit.fi/u/ahonkela/"
 - name: Dr Jaako Peltonen
   institute: Aalto University
-  url: http://users.ics.aalto.fi/jtpelto/
+  url: "http://users.ics.aalto.fi/jtpelto/"
 - name: Prof Henk Stunnenberg
   institute: Nijmegen Centre for Molecular Life Sciences
-  url: http://www.ncmls.eu/people/stunnenberg/
+  url: "http://www.ncmls.eu/people/stunnenberg/"
 - name: Dr Sampsa Hautaniemi
   institute: University of Helsinki
-  url: http://www.helsinki.fi/~shautani/
+  url: "http://www.helsinki.fi/~shautani/"
 - name: Dr George Reid
   institute: DKFZ Heidelberg
-  url: http://www.embl.de/~reid/
+  url: "http://www.embl.de/~reid/"
 - name: Prof Olli A. Jänne
   institute: University of Helsinki
-  url: http://www.helsinki.fi/science/arlab/
+  url: "http://www.helsinki.fi/science/arlab/"
 - name: Dr Martin Seifert
   institute: Genomatix Software
-  url: http://www.genomatix.de/
+  url: "http://www.genomatix.de/"
 
 software:
-- url: "SheffieldML"
+- url: "https://github.com/SheffieldML/GPy"
   name: GPy
   tagline: "GPy: Gaussian process modelling framework in Python"
-- url: "local"
+- url: "http://inverseprobability.com/gpsim/"
   name: gpsim
   tagline: "GPSIM: Gaussian Process Modelling of single input module motif networks."
-- url: "local"
+- url: "http://github.com/SheffieldML/multigp/"
   name: multigp
   tagline: "MULTIGP: Modelling multiple outputs with Gaussian processes (will eventually supercede the gpsim toolbox)."
-- url: "local"
+- url: "http://github.com/SheffieldML/disimrank/"
   name: disimrank
   tagline: "DISIMRANK: Ranking potential targets using a driven input single input model motif."
 
 publications:
-  journals:"Titsias:identifying12","Glaus:bitseq12"
-  related:"Alvarez:computationally11","Honkela:modelbased10","Lawrence:licsb10","Gao:latent08","Lawrence:licsbintro10","Lawrence:licsbbayes10","Lawrence:licsbgp10","Titsias:mcmcgp11"
+  journals: "Honkela:genome15","Maina:inference14","Titsias:identifying12","Glaus:bitseq12"
+  related: "Alvarez:computationally11","Honkela:modelbased10","Lawrence:licsb10","Gao:latent08","Lawrence:licsbintro10","Lawrence:licsbbayes10","Lawrence:licsbgp10","Titsias:mcmcgp11"
