@@ -1,0 +1,48 @@
+# Title of the project
+shortname: "Deep"
+longname: "Deep Probabilistic Models for Making Sense of Unstructured Data"
+
+start: "January 2016"
+end: "June 2019"
+
+personnel:
+- name: Michael T. Smith
+  role: Named Post-doctoral Researcher
+  url: "http://www.michaeltsmith.org.uk/"
+- name: Michael Croucher
+  role: Co-investigator
+  url: "http://www.walkingrandomly.com/"
+
+sponsors:
+- name: EPSRC
+  ref: "EP/N014162/1"
+  title: "Deep Probabilistic Models for Making Sense of Unstructured Data"
+  url: ""
+- name: Facebook Faculty Award
+  ref: ""
+  title: ""
+  url: "Deep Probabilistic Models for Making Sense of Unstructured Data"
+- name: AWS in Education Grant award
+  ref: ""
+  title: ""
+  url: "Deep Probabilistic Models for Making Sense of Unstructured Data"
+
+collaborators:
+- name: Zoubin Ghahramani
+  institute: The University of Cambridge
+  url: "http://mlg.eng.cam.ac.uk/zoubin/"
+- name: John Quinn
+  institute: Makerere University and Pulse Lab Kampala
+  url: "http://air.ug/~jquinn/"
+- name: StJohn Deakins
+  institute: CitizenMe
+  url: "http://www.citizenme.com/"
+- name: NewMind Network
+  institute: ""
+  url: "http://www.informatics.manchester.ac.uk/NewMind/Pages/default.aspx"
+
+software: []
+
+
+publications: []
+
