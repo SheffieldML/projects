@@ -8,43 +8,13 @@ Latent Force Models: Mechanistically Inspired Convolution Processes for Learning
 Overview
 --------
 
-Machine learning has had wide success in application over the last
-decade, with significant contributions in classification, probabilistic
-modelling and analysis of structured data. Over the next decade we
-expect significant progress in applying these machine learning models to
-very large data sets (on the order of millions or billions of examples,
-*e.g.* web based corpora). Improving the scalability of machine learning
-methods is a very active area of research (see, *e.g.*, this
-[book](#Bottou:lskm07)). We think of these methods as *large data
-learning*. These methods will prove to be very valuable, but in this
-work we will be focussing on the other end of the spectrum. In
-particular, we will be looking at *small data learning*, by which we
-mean data sets which are small *relative* to the complexity of the
-system from which they are derived. Examples of this type of data
-include:
+Machine learning has had wide success in application over the last decade, with significant contributions in classification, probabilistic modelling and analysis of structured data. Over the next decade we expect significant progress in applying these machine learning models to very large data sets (on the order of millions or billions of examples, *e.g.* web based corpora). Improving the scalability of machine learning methods is a very active area of research (see, *e.g.*, this [book](#Bottou:lskm07)). We think of these methods as *large data learning*. These methods will prove to be very valuable, but in this work we will be focussing on the other end of the spectrum. In particular, we will be looking at *small data learning*, by which we mean data sets which are small *relative* to the complexity of the system from which they are derived. Examples of this type of data include:
 
--   human motion data --- whilst a large amount of motion capture data
-    is available (millions of frames), the total amount of data relative
-    to the number of possible 'natural' human motions is small.
--   Systems biology measurements --- high throughput genetic
-    technologies allow us to measure many thousands of chemical
-    species simultaneously. A major task of systems biology can be
-    characterised as "system identification" --- or from the machine
-    learning perspective "model selection". However, the sample rate of
-    the data is typically much smaller than is used in classical systems
-    identification (a typical experiment would be one sample an hour for
-    twelve hours, or one sample a day for two weeks). The situation is
-    further complicated by the relative difficulty of making fine system
-    disturbances to better characterise system behaviour.
--   Computational Health Informatics --- the increasing availability of
-    high resolution single nucleotype polymorphism (SNP) arrays for
-    assessing the genetic background of populations, in common with the
-    availability of environmental information in a range of disease
-    studies (in Manchester we have access to studies on asthma
-    and diabetes) should allow resolution of the confounding
-    genetic/environmental causes of disease. However, disease mechanisms
-    can be highly complex and data sets typically might include over a
-    thousand features for each subject for a total of only 500 subjects.
+- human motion data --- whilst a large amount of motion capture data is available (millions of frames), the total amount of data relative to the number of possible 'natural' human motions is small.
+
+- Systems biology measurements --- high throughput genetic technologies allow us to measure many thousands of chemical species simultaneously. A major task of systems biology can be characterised as "system identification" --- or from the machine learning perspective "model selection". However, the sample rate of the data is typically much smaller than is used in classical systems identification (a typical experiment would be one sample an hour for twelve hours, or one sample a day for two weeks). The situation is further complicated by the relative difficulty of making fine system disturbances to better characterise system behaviour.
+
+- Computational Health Informatics --- the increasing availability of high resolution single nucleotype polymorphism (SNP) arrays for assessing the genetic background of populations, in common with the availability of environmental information in a range of disease studies (in Manchester we have access to studies on asthma and diabetes) should allow resolution of the confounding genetic/environmental causes of disease. However, disease mechanisms can be highly complex and data sets typically might include over a thousand features for each subject for a total of only 500 subjects.
 
 These data are representative of a growing number of application areas
 where the number of features is large (high dimensional data) and the
