@@ -1,8 +1,0 @@
-# Software related to the project available goes here.
-# local/external, LOCATION, DESCRIPTION
-SheffieldML, GPy, The GPy Gaussian process framework in Python (implements much of the MATLAB functionality in Python)
-SheffieldML, vargplvm, R and MATLAB Implementations of the Bayesian GP-LVM
-local, gpsim, GPSIM: Gaussian Process Modelling of single input module motif networks.
-local, multigp, MULTIGP: Modelling multiple outputs with Gaussian processes.
-local, disimrank, DISIMRANK: Ranking potential targets using a driven input single input model motif.
-local, vargplvm, VARGPLVM: Bayesian GPLVM Software.
