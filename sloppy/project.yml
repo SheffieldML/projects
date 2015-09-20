@@ -1,0 +1,35 @@
+# Title of the project
+shortname: "Learning Classifiers from Sloppily Labelled Data"
+longname: "Learning Classifiers from Sloppily Labelled Data"
+
+start: "October 2005"
+end: "October 2004"
+
+personnel:
+- name: Tonatiuh  Peña-Centeno
+  role: PhD Student
+  url: T.Centeno
+
+sponsors:
+- name: EPSRC Grant no GR/R84801/01
+  ref: EPSRC Grant no GR/R84801/01
+  title: EPSRC Grant no GR/R84801/01
+  url: http://www.epsrc.ac.uk
+
+software:
+- url: "local"
+  name: bfd
+  tagline: "Bayesian interpretation of kernel Fisher's discriminants."
+- url: "local"
+  name: ncnm
+  tagline: "Semi-supervised learning for Gaussian process classifiers."
+- url: "local"
+  name: ivm
+  tagline: "Sparse approximation for Gaussian process classifiers."
+
+publications:
+  journals:"Pena:fbd04"
+"Lawrence:ivm02","Lawrence:semisuper04"
+"Lawrence:noisy01"
+  chapters:"Lawrence:extensions05","Lawrence:gpncnm05"
+"Pena:fbd-tech04","Lawrence:ivmTech04"
