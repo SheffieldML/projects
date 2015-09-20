@@ -94,7 +94,8 @@ if len(project['software'])>1:
 
 
 # Give information about publications
-outputString+="<a name=\"publications\"></a>\n\n## Publications\n\n"
+if len(project['publications'])>0:
+    outputString+="<a name=\"publications\"></a>\n\n## Publications\n\n"
 for key in project['publications']:
     if key == 'conference':
         outputString+="The following conference publications were made associated with this project.\n\n"

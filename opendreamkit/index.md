@@ -20,7 +20,3 @@ The project is sponsored by [H2020-EU.1.4.1.3. Project Ref 676541](http://cordis
 
 
 
-<a name="publications"></a>
-
-## Publications
-
