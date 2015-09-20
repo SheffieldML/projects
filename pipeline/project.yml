@@ -1,0 +1,62 @@
+# Title of the project
+shortname: "PUMA: Improved processing of microarray data with probabilistic models"
+longname: "PUMA: Improved processing of microarray data with probabilistic models"
+
+start: "October 2007"
+end: "April 2007"
+
+personnel:
+- name: Pei Gao
+  role: Post-doctorate Researcher
+  url: gaop
+- name: Richard Pearson
+  role: PhD Student
+  url: pearsonr
+
+sponsors:
+- name: BBSRC Grant No BBS/B/0076X
+  ref: BBSRC Grant No BBS/B/0076X
+  title: BBSRC Grant No BBS/B/0076X
+  url: http://www.bbsrc.ac.uk
+
+collaborators:
+- name: Dr Marta Milo
+  institute: Wellcome Trust Fellow at University of Sheffield
+  url: http://www.shef.ac.uk/bms/research/milo/
+- name: Dr Xuejun Liu
+  institute: Nanjing University of Aeronautics & Astronautics (former PhD student)
+  url: http://parnec.nuaa.edu.cn/liux/
+- name: Dr Guido Sanguinetti
+  institute: University of Sheffield (former post-doc)
+  url: http://www.dcs.shef.ac.uk/~guido
+- name: Dr Antti Honkela
+  institute: Helsinki University of Technology (visitor and collaborator)
+  url: http://www.cis.hut.fi/ahonkela/
+
+software:
+- url: "local"
+  name: nppca
+  tagline: "NPPCA: Probabilistic PCA that deals with different variances associated with each element of the data."
+- url: "local"
+  name: chipdyno
+  tagline: "CHIPDYNO: Inference of transcription factor activities from microarray data and network connectivity data."
+- url: "local"
+  name: chipvar
+  tagline: "CHIPVAR: Variational inference of transcription factor concentrations and actions on target genes from microarray data and network connectivity data."
+- url: "manchester"
+  name: http://www.bioinf.manchester.ac.uk/resources/puma/mmgmos/mmgmos.html
+  tagline: "mmgMOS: Modified multi-array gMOS algorithm for extracting uncertainties from Affymetrix slides."
+- url: "manchester"
+  name: http://www.bioinf.manchester.ac.uk/resources/puma/pplr/pplr.html
+  tagline: "PPLR: Detecting up regulated genes by using variances and looking at the probability of a positive log ratio."
+- url: "manchester"
+  name: http://www.bioinf.manchester.ac.uk/resources/puma/puma/puma.html
+  tagline: "PUMA: A Bioconductor package that inmplements mmgMOS"
+- url: "local"
+  name: gpsim
+  tagline: "GPSIM: Gaussian Process Modelling of Single Input Motif networks."
+
+publications:
+"Rattray:propagating06"
+  journals:"Pearson:puma09","Gao:latent08","Sanguinetti:chipvar06","Liu:variances06","Sanguinetti:chipdyno06","Liu:tractable04","Sanguinetti:accounting05","Milo:probabilistic03","Lawrence:variability03"
+  conference:"Sanguinetti:trento06","Lawrence:transcriptionalGP06"
