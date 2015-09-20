@@ -89,7 +89,7 @@ process latent variable model"</span> in M. Meila and X. Shen (eds)
 <span class="journal">Proceedings of the Eleventh International Workshop
 on Artificial Intelligence and Statistics</span>, Omnipress, San Juan,
 Puerto Rico, pp 243--250.
-\[[Software](http://inverseprobability.com/fgplvm/%20)\]\[[PDF](ftp://ftp.dcs.shef.ac.uk/home/neil/gplvmLarger.pdf)\]\[[Google
+\[[Software](http://inverseprobability.com/fgplvm/)\]\[[PDF](ftp://ftp.dcs.shef.ac.uk/home/neil/gplvmLarger.pdf)\]\[[Google
 Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=Learning+for+Larger+Datasets+with+the+Gaussian+Process+Latent+Variable+Model+&btnG=Search)\]
 
@@ -109,7 +109,7 @@ the model.
 models"</span> in Z. Ghahramani (ed.) <span class="journal">Proceedings
 of the International Conference in Machine Learning</span>, Omnipress, ,
 pp 481--488.
-\[[Software](http://inverseprobability.com/hgplvm/%20)\]\[[PDF](ftp://ftp.dcs.shef.ac.uk/home/neil/hgplvm.pdf)\]\[[Google
+\[[Software](http://inverseprobability.com/hgplvm/)\]\[[PDF](ftp://ftp.dcs.shef.ac.uk/home/neil/hgplvm.pdf)\]\[[Google
 Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=Hierarchical+Gaussian+Process+Latent+Variable+Models+&btnG=Search)\]
 
@@ -133,7 +133,7 @@ for human pose estimation"</span> in A. Popescu-Belis, S. Renals and H.
 Bourlard (eds) <span class="journal">Machine Learning for Multimodal
 Interaction (MLMI 2007)</span>, Springer-Verlag, Brno, Czech Republic,
 pp 132--143.
-\[[Software](http://inverseprobability.com/sgplvm/%20)\]\[[PDF](ftp://ftp.dcs.shef.ac.uk/home/neil/mlmi.pdf)\]\[[DOI](http://dx.doi.org/10.1007/978-3-540-78155-4_12)\]\[[Google
+\[[Software](http://inverseprobability.com/sgplvm/)\]\[[PDF](ftp://ftp.dcs.shef.ac.uk/home/neil/mlmi.pdf)\]\[[DOI](http://dx.doi.org/10.1007/978-3-540-78155-4_12)\]\[[Google
 Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=Gaussian+Process+Latent+Variable+Models+For+Human+Pose+Estimation+&btnG=Search)\]
 
@@ -158,7 +158,7 @@ Lawrence. </span> (2008) <span class="papertitle">"Ambiguity modeling in
 latent spaces"</span> in A. Popescu-Belis and R. Stiefelhagen (eds)
 <span class="journal">Machine Learning for Multimodal Interaction (MLMI
 2008)</span>, Springer-Verlag, , pp 62--73.
-\[[Software](http://inverseprobability.com/sgplvm/%20)\]\[[PDF](ftp://ftp.dcs.shef.ac.uk/home/neil/mlmi2008.pdf)\]\[[Google
+\[[Software](http://inverseprobability.com/sgplvm/)\]\[[PDF](ftp://ftp.dcs.shef.ac.uk/home/neil/mlmi2008.pdf)\]\[[Google
 Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=Ambiguity+Modeling+in+Latent+Spaces+&btnG=Search)\]
 
