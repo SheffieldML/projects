@@ -1,0 +1,37 @@
+# Title of the project
+shortname: "Recombinant Project"
+longname: "Linking recombinant gene sequence to protein product manufacturability using CHO cell genomic resources"
+
+start: "October 2010"
+end: "February 2014"
+
+personnel:
+- name: Javier Gonzalez Hernandez
+  role: Post doctoral research assistant
+  url: J.Gonzalez
+- name: James Hensman
+  role: MRC Fellow
+  url: J.Hensman
+
+sponsors:
+- name: BBSRC Project No BB/K011197/1 "Linking recombinant gene sequence to protein product manufacturability using CHO cell genomic resources"
+  ref: BBSRC Project No BB/K011197/1 "Linking recombinant gene sequence to protein product manufacturability using CHO cell genomic resources"
+  title: BBSRC Project No BB/K011197/1 "Linking recombinant gene sequence to protein product manufacturability using CHO cell genomic resources"
+  url: http://www.bbsrc.ac.uk/pa/grants/AwardDetails.aspx?FundingReference=BB/K011197/1
+
+collaborators:
+- name: David James
+  institute: Chemical and Biological Engineering
+  url: http://www.shef.ac.uk/cbe/people/staffprofiles/djames
+- name: Mark Dickman
+  institute: Chemical and Biological Engineering
+  url: https://www.shef.ac.uk/cbe/people/staffprofiles/mdickman
+- name: Paul Dobson
+  institute: Chemical and Biological Engineering
+  url: https://www.shef.ac.uk/cbe/people/staffprofiles/pdobson
+- name: Josselin Noirel
+  institute: Chemical and Biological Engineering
+  url: http://www.shef.ac.uk/cbe/people/staffprofiles/noirel
+
+publications:
+  related:"Alvarez:llfm13","Alvarez:vector12","Alvarez:computationally11"
