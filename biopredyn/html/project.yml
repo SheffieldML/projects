@@ -1,0 +1,81 @@
+# Title of the projects
+shortname: BioPreDyn
+longname: "From Data to Models: New Bioinformatics Methods and Tools for Data-Driven Predictive Dynamic Modelling in Biotechnological Applications"
+
+personnel:
+- name: Mu Niu
+  role: Post-doctoral research assistant
+  url: "http://www.gla.ac.uk/schools/mathematicsstatistics/staff/muniu/"
+- name: Nicolas Durrande
+  role: Post-doctoral research assistant
+  url: "https://sites.google.com/site/nicolasdurrandehomepage/"
+- name: Jie Gao
+  role: Post-doctoral research assistant
+  url: ""
+
+sponsors:
+- name:  EU FP7-KBBE
+  ref: 289434
+  title: "From Data to Models: New Bioinformatics Methods and Tools for Data-Driven Predictive Dynamic Modelling in Biotechnological Applications"
+  url: "http://cordis.europa.eu/search/index.cfm?fuseaction=proj.document&PJ_RCN=12267363"
+
+collaborators:
+- name: Johannes Jaeger
+  institute: Fundacio Privada Centre De Regulacio Genomica
+  url: "http://pasteur.crg.es/portal/page/portal/Internet/02_Research/01_Programmes/06_Systems_Biology/06_CompAnalysisDevSystems"
+- name: Magnus Rattray
+  institute: University of Manchester
+  url: "http://www.ls.manchester.ac.uk/people/profile/?personid=10584"
+- name: Julio Banga
+  institute: Agencia Estatal Consejo Superior De Investigaciones Cientificas
+  url: "http://www.iim.csic.es/~julio/"
+- name: Julio Saez Rodriguez
+  institute: European Molecular Biology Laboratory (European Bioinformatics Institute)
+  url: "http://www.ebi.ac.uk/research/saez-rodriguez"
+- name: Jaap Kaandorp
+  institute: Universiteit Van Amsterdam
+  url: "http://staff.science.uva.nl/~jaapk/"
+- name: Joke Blom
+  institute: Stichting Centrum Voor Wiskunde
+  url: "http://www.cwi.nl/people/601"
+- name: Diego di Bernardo
+  institute: Fondazione Telethon
+  url: "http://dibernardo.tigem.it/wiki/index.php/Main_Page"
+- name: Pedro Mendes
+  institute: The University of Manchester
+  url: "http://www.manchester.ac.uk/research/Pedro.mendes/"
+- name: Eric Boix
+  institute: The Cosmo Company
+  url: "http://www.thecosmocompany.com/"
+- name: Klaus Mauch
+  institute: Insilico Biotechnology
+  url: "http://www.insilico-biotechnology.com/people"
+- name: Jean-Marie Mouillon
+  institute: Fluxome Sciences A/S
+  url: "http://www.fluxome.com/company/organization/leadership-team.aspx"
+
+software:
+  - url: "http://sheffieldml.github.io/GPy/"
+    name: GPy
+    tagline: The GPy Gaussian process framework in Python (implements much of the MATLAB functionality in Python)
+  - url: "http://sheffieldml.github.io/vargplvm/"
+    name: vargplvm
+    tagline: R and MATLAB Implementations of the Bayesian GP-LVM
+  - url: "http://sheffieldml.github.io/gpsim/"
+    name: gpsim
+    tagline: "GPSIM: Gaussian Process Modelling of single input module motif networks."
+  - url: "http://sheffieldml.github.io/multigp/"
+    name: multigp
+    tagline: "MULTIGP: Modelling multiple outputs with Gaussian processes."
+  - url: "http://sheffieldml.github.io/disimrank/"
+    name: disimrank
+    tagline: "DISIMRANK: Ranking potential targets using a driven input single input model motif."
+  - url: "http://sheffieldml.github.io/vargplvm/"
+    name: vargplvm
+    tagline: "VARGPLVM: Bayesian GPLVM Software."
+
+publications:
+  chapters: ["Lawrence:licsbintro10", "Lawrence:licsbbayes10", "Lawrence:licsbgp10","Titsias:mcmcgp11"]
+  conference: ["Hensman:tvb14", "Andrade:hybrid14"]
+  related: ["Alvarez:computationally11", "Honkela:modelbased10", "Lawrence:licsb10", "Gao:latent08", "Lawrence:licsbintro10", "Lawrence:licsbbayes10", "Lawrence:licsbgp10","Titsias:mcmcgp11"]
+

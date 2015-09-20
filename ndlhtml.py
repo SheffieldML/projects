@@ -33,7 +33,10 @@ def getReference(keyName):
     return lines
 
 def getMdReference(keyName):
-    return pypandoc.convert(getReference(keyName, 'md', format='html')
+    f = open('tmp.html', 'w')
+    f.write("<!--# Citation: " + keyName + "-->\n" + getReference(keyName))
+    f.close()
+    return pypandoc.convert('tmp.html', 'md')
 
 def writeToFile(file, string, style = '', title='', header='', footer='', navigation=''):
     header = '<html>\n' + header

@@ -10,6 +10,7 @@ import time
 import string
 import httplib
 import posix
+import yaml
 
 sys.path.append(os.path.join(posix.environ['HOME'], 'public_html', 'cgi-bin'))
 import ndltext
@@ -38,17 +39,12 @@ year = time.strftime('%Y')
 timeStamp = time.strftime('%A %d %b %Y at %H:%M')
 projectName = sys.argv[1];
 lowerProject = projectName.lower();
+f = open('project.yml', 'r')
+project = yaml.load(f)
 
 # personnel.txt contains staff/students information
 personnelDetails = ndlfile.extractFileDetails('personnel.txt')
-# collaborator.txt contains collaborator information
-collaboratorDetails = ndlfile.extractFileDetails('collaborators.txt')
-# software.txt contains software information.
-softwareDetails = ndlfile.extractFileDetails('software.txt')
-# title.txt contains the title of the project.
-titleDetails = ndlfile.extractFileDetails('title.txt')
-# sponsor.txt contains details of the sponsor.
-sponsorDetails = ndlfile.extractFileDetails('sponsors.txt')
+
 # publication.txt contains details of the publications.
 publicationDetails = ndlfile.extractFileDetails('publications.txt')
 
@@ -59,74 +55,84 @@ fileHandle.close()
 for line in fileLines:
     overview += line
 
-outputString="# " + titleDetails[0][1] + "\n\n"
+outputString="# " + project['shortname'] + " Project\n\n"
 outputString += "## Overview"
 outputString+= "\n\n" + overview
 
 
-if len(sponsorDetails)>0:
+if len(project['sponsors'])>0:
     outputString += "The project is sponsored by "
-    for i in range(len(sponsorDetails)):
-        outputString += "[" + sponsorDetails[i][0] + "](" + sponsorDetails[i][1] + ")"
-        if len(sponsorDetails)>1:
-            if i==len(sponsorDetails)-1:
+    for sponsor in project['sponsors']:
+        outputString += "[" + sponsor['name'] + " Project Ref " + str(sponsor['ref']) + "](" + sponsor['url'] + ")"
+        if len(project['sponsors'])>1:
+            if i==len(project['sponsors'])-1:
                 outputString += ", "
             else:
                 outputString += " and "
-    if len(collaboratorDetails)>0:
+    if len(project['collaborators'])>0:
         outputString += " and is a collaboration with "
     else:
         outputString += ".\n\n" 
        
 else:
-    if len(collaboratorDetails)>0:
+    if len(project['collaborators'])>0:
         outputString += "The project is a collaboration with "
 
-if len(collaboratorDetails)>0:
-    for i in range(len(collaboratorDetails)):
-        outputString += "[" + collaboratorDetails[i][0] + "](" + collaboratorDetails[i][2] + ") of " + collaboratorDetails[i][1]
-        if len(collaboratorDetails)>1:
-            if i==len(collaboratorDetails)-2:
+if len(project['collaborators'])>0:
+    for i, collaborator in enumerate(project['collaborators']):
+        outputString += "[" + collaborator['name'] + "](" + collaborator['url'] + ") of " + collaborator['institute']
+        if len(project['collaborators'])>1:
+            if i==len(project['collaborators'])-2:
                 outputString += " and "
-            elif i==len(collaboratorDetails)-1:
+            elif i==len(project['collaborators'])-1:
                 outputString += "."
             else:
                 outputString += ", "
         else:
-            outputString += ". \n\n"
+            outputString += ".\n\n"
 
-if len(personnelDetails)>0:
-    outputString+= "<a name=\"personnel\"></a>## Personnel from ML@SITraN\n\n"
-    for i in range(len(personnelDetails)):
-        outputString += "- [" + personnelDetails[i][0] + "](" + sheffieldPersonBase + personnelDetails[i][2] + "), " + personnelDetails[i][1] + "\n\n"
+if len(project['personnel'])>0:
+    outputString+= "\n\n<a name=\"personnel\"></a>## Personnel from ML@SITraN\n\n"
+    for person in project['personnel']:
+        outputString += "- [" + person['name'] + "](" + person['url'] + ") " + person['role'] + "\n\n"
 
     outputString += "\n\n"
 
 # Give information about software.
-if len(softwareDetails)>1:
-    outputString+= "<a name=\"software\"></a><h2>Software</h2>\n\n"
-    outputString+= "<p>The following software has been made available either wholly or partly as a result of work on this project:"
-    for i in range(len(softwareDetails)):
-        if softwareDetails[i][0]=='local':
-            outputString += "- [" + softwareDetails[i][2] + "](http://inverseprobability.com/" + softwareDetails[i][1] + ")\n\n"
-        elif softwareDetails[i][0]=='SheffieldML':
-            outputString += "- Github: [" + softwareDetails[i][2] + "](https://github.com/SheffieldML/" + softwareDetails[i][1] + ")\n\n"
+if len(project['software'])>1:
+    outputString+= "<a name=\"software\"></a>## Software\n\n"
+    outputString+= "The following software has been made available either wholly or partly as a result of work on this project:"
+    for i, software in enumerate(project['software']):
+        if software['url']=='local':
+            outputString += "- [" + software['name'] + "](http://inverseprobability.com/" + software['name'] + ") " + software['tagline'] + "\n\n"
+        elif software['url']=='SheffieldML':
+            outputString += "- Github: [" + software['name'] + "](https://github.com/SheffieldML/" + software['name'] + ") " + software['tagline'] + "\n\n"
         else:
-            outputString += "- [" + softwareDetails[i][2] + "](" + softwareDetails[i][1] + ")\n\n"
+            outputString += "- [" + software['name'] + "](" + software['url'] + ") " + software['tagline'] + "\n\n"
 
 
 
 # Give information about publications
-if len(publicationDetails)>0:
-    outputString+="<a name=\"publications\"></a>## Publications\n\n"
-    outputString+="The following publications have provided background to our work in this project."
-    for i in range(len(publicationDetails)):
-        for j in range(len(publicationDetails[i])):
-            if j == 0:
-                outputString += "### " + publicationDetails[i][0] + "\n\n"
-            else:            
-                outputString += ndlhtml.getReference(publicationDetails[i][j])
-                outputString += '\n\n'
+outputString+="<a name=\"publications\"></a>## Publications\n\n"
+for key in project['publications']:
+    print key
+    if key == 'conference':
+        outputString+="The following conference publications were made associated with this project.\n\n"
+    elif key == 'chapters':
+        outputString+="The following edited chapters were published as part of this project.\n\n"
+    elif key == 'journal':
+        outputString+="The journal papers were published as part of this project.\n\n"
+    elif key == 'books':
+        outputString+="The following books were published as part of this project.\n\n"
+    elif key == 'patents':
+        outputString+="The patents were applied for as part of this project.\n\n"
+
+    elif key == 'related':
+        outputString+="The following publications have provided background to our work in this project.\n\n"
+
+    for publicationkey in project['publications'][key]:
+        outputString += ndlhtml.getMdReference(publicationkey)
+        outputString += '\n\n'
 
 # Now create a web page
 publishBase=os.path.expanduser(os.path.join("~", "public_html", "projects", lowerProject));
@@ -136,6 +142,6 @@ if not os.path.exists(publishBase):
 
 
 
-ndlhtml.mdWriteToFile('index.md', outputString, projectStyle, titleDetails[0][0], projectHeader, projectFooter, projectNavigation)
+ndlhtml.mdWriteToFile('index.md', outputString, projectStyle, project['shortname'], projectHeader, projectFooter, projectNavigation)
 
 shutil.copyfile('index.md', os.path.join(publishBase, 'index.md'))
