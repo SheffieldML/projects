@@ -1,4 +1,6 @@
-<div id="inner">
+---
+layout: default
+---
 
 PUMA: Improved processing of microarray data with probabilistic models
 ======================================================================
@@ -511,6 +513,3 @@ studies.
 
 ------------------------------------------------------------------------
 
-This document last modified
-
-</div>
