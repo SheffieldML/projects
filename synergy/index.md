@@ -52,7 +52,9 @@ The project is sponsored by [ERA-NET Project Ref ERASysBio](http://www.erasysbio
 
 ## Software
 
-The following software has been made available either wholly or partly as a result of work on this project:- [GPy](https://github.com/SheffieldML/GPy) GPy: Gaussian process modelling framework in Python
+The following software has been made available either wholly or partly as a result of work on this project:
+
+- [GPy](https://github.com/SheffieldML/GPy) GPy: Gaussian process modelling framework in Python
 
 - [gpsim](http://inverseprobability.com/gpsim/) GPSIM: Gaussian Process Modelling of single input module motif networks.
 
@@ -64,7 +66,39 @@ The following software has been made available either wholly or partly as a resu
 
 ## Publications
 
+<span class="author">A. Honkela, J. Peltonen, H. Topa, I. Charapitsa, F.
+Matarese, K. Grote, H. G. Stunnenberg, G. Reid, N. D. Lawrence and M.
+Rattray. </span> (2015) <span class="papertitle">"Genome-wide modeling
+of transcription kinetics reveals patterns of rna production
+delays"</span> in <span class="journal">Proc. Natl. Acad. Sci.
+USA</span> In press \[[Google Scholar
+Search](http://scholar.google.com/scholar?hl-en&lr=&q=Genome-wide+modeling+of+transcription+kinetics+reveals+patterns+of+RNA+production+delays+&btnG=Search)\]
 
+#### Abstract
+
+Genes with similar transcriptional activation kinetics can display very
+different temporal mRNA profiles because of differences in transcrip
+tion time, degradation rate, and RNA-processing kinetics. Recent studies
+have shown that a splicing-associated RNA production delay can be
+significant. To investigate this issue more generally, it is useful to
+develop methods applicable to genome-wide datasets. We introduce a joint
+model of transcriptional activation and mRNA accumulation that can be
+used for inference of transcription rate, RNA production delay, and
+degradation rate given data from high-throughput sequencing time course
+experiments. We combine a mechanistic differential equation model with a
+nonparametric statistical modeling approach allowing us to capture a
+broad range of activation kinetics, and we use Bayesian parameter
+estimation to quantify the uncertainty in estimates of the kinetic
+parameters. We apply the model to data from estrogen receptor α
+activation in the MCF-7 breast cancer cell line. We use RNA polymerase
+II ChIP-Seq time course data to characterize transcriptional activation
+and mRNA-Seq time course data to quantify mature transcripts. We find
+that 11% of genes with a good signal in the data display a delay of more
+than 20 min between completing transcription and mature mRNA production.
+The genes displaying these long delays are significantly more likely to
+be short. We also find a statistical association between high delay and
+late intron retention in pre-mRNA data, indicating significant
+splicing-associated production delays in many genes.
 
 
 <span class="author">C. w. Maina, A. Honkela, F. Matarese, K. Grote, H.
