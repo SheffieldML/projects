@@ -44,8 +44,7 @@ This is a list of research projects for the research group.
     biological systems.
 -   [SYNERGY: Systems approach to gene regulation biology through
     nuclear receptors](./synergy/)
--   An iterative pipeline of computational modelling and experimental
-    design for uncovering gene regulatory networks in vertebrates
+-   [ITERATIVE: An iterative pipeline of computational modelling and experimental design for uncovering gene regulatory networks in vertebrates](./iterative/)
 -   [Latent Force Models: Mechanistically Inspired Convolution Processes
     for Learning](./mechanistic/)
 -   [TIGRE: Gaussian Process Models for Systems Identification with
