@@ -13,7 +13,8 @@ Such methods are currently being developed by a number of academic research grou
 This project aims at resolving this issue, by bringing together academic labs that manage large databases and develop cutting-edge model-building, analysis, and optimisation algorithms with small- and medium-sized enterprises that can implement these tools in a consistent, well-supported software framework and apply them to relevant biotechnological applications. Such collaboration between algorithm developers and biotechnology companies will facilitate the transfer of information and code from an academic setting to commercial applications, and will thereby strengthen European competitiveness in the fields of systems biology and biotechnological production processes based on engineered biological systems.
 The project is sponsored by [EU FP7-KBBE Project Ref 289434](http://cordis.europa.eu/search/index.cfm?fuseaction=proj.document&PJ_RCN=12267363) and is a collaboration with [Johannes Jaeger](http://pasteur.crg.es/portal/page/portal/Internet/02_Research/01_Programmes/06_Systems_Biology/06_CompAnalysisDevSystems) of Fundacio Privada Centre De Regulacio Genomica, [Magnus Rattray](http://www.ls.manchester.ac.uk/people/profile/?personid=10584) of University of Manchester, [Julio Banga](http://www.iim.csic.es/~julio/) of Agencia Estatal Consejo Superior De Investigaciones Cientificas, [Julio Saez Rodriguez](http://www.ebi.ac.uk/research/saez-rodriguez) of European Molecular Biology Laboratory (European Bioinformatics Institute), [Jaap Kaandorp](http://staff.science.uva.nl/~jaapk/) of Universiteit Van Amsterdam, [Joke Blom](http://www.cwi.nl/people/601) of Stichting Centrum Voor Wiskunde, [Diego di Bernardo](http://dibernardo.tigem.it/wiki/index.php/Main_Page) of Fondazione Telethon, [Pedro Mendes](http://www.manchester.ac.uk/research/Pedro.mendes/) of The University of Manchester, [Eric Boix](http://www.thecosmocompany.com/) of The Cosmo Company, [Klaus Mauch](http://www.insilico-biotechnology.com/people) of Insilico Biotechnology and [Jean-Marie Mouillon](http://www.fluxome.com/company/organization/leadership-team.aspx) of Fluxome Sciences A/S.
 
-<a name="personnel"></a>## Personnel from ML@SITraN
+<a name="personnel"></a>
+## Personnel from ML@SITraN
 
 - [Mu Niu](http://www.gla.ac.uk/schools/mathematicsstatistics/staff/muniu/) Post-doctoral research assistant
 
@@ -23,7 +24,8 @@ The project is sponsored by [EU FP7-KBBE Project Ref 289434](http://cordis.europ
 
 
 
-<a name="software"></a>## Software
+<a name="software"></a>
+## Software
 
 The following software has been made available either wholly or partly as a result of work on this project:- [GPy](http://sheffieldml.github.io/GPy/) The GPy Gaussian process framework in Python (implements much of the MATLAB functionality in Python)
 
@@ -37,7 +39,8 @@ The following software has been made available either wholly or partly as a resu
 
 - [vargplvm](http://sheffieldml.github.io/vargplvm/) VARGPLVM: Bayesian GPLVM Software.
 
-<a name="publications"></a>## Publications
+<a name="publications"></a>
+## Publications
 
 The following conference publications were made associated with this project.
 
