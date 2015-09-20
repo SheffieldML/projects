@@ -23,7 +23,3 @@ The project is sponsored by [Innovate UK (TSB) Project Ref Machine Learning 2008
 
 
 
-<a name="publications"></a>
-
-## Publications
-
