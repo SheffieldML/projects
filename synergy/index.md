@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "SYNERGY Project"
+title: "SYNERGY"
 ---
-# SYNERGY Project Project
+# SYNERGY Project
 
 ## Overview
 

@@ -1,5 +1,5 @@
 # Title of the project
-shortname: "MLPM Project"
+shortname: "MLPM"
 longname: "MLPM: Machine Learning for Personalized Medicine"
 
 start: "January 2012"
@@ -8,57 +8,51 @@ end: "January 2015"
 personnel:
 - name: Max Zwiessele
   role: PhD Student
-  url: M.Zwiessele
-- name: James McMurray
-  role: PhD Student
-  url: J.McMurray
-- name: James Hensman
-  role: MRC Fellow
-  url: J.Hensman
+  url: "http://staffwww.dcs.sheffield.ac.uk/people/M.Zwiessele/"
 
 sponsors:
 - name: EU FP7-PEOPLE
   ref: 316861
   title: "MLPM2012: Machine Learning for Personalized Medicine"
-  url: http://cordis.europa.eu/projects/rcn/105442_en.html
+  url: "http://cordis.europa.eu/projects/rcn/105442_en.html"
 
 collaborators:
 - name: Magnus Rattray
   institute: University of Manchester
-  url: http://www.ls.manchester.ac.uk/people/profile/?personid=10584
+  url: "http://www.ls.manchester.ac.uk/people/profile/?personid=10584"
 - name: Karsten Borgwardt
   institute: MPI for Intelligent Systems
-  url: http://webdav.tuebingen.mpg.de/u/karsten/group/index.html
+  url: "http://webdav.tuebingen.mpg.de/u/karsten/group/index.html"
 - name: Bernhard Schoelkopf
   institute: MPI for Intelligent Systems
-  url: http://www.is.tuebingen.mpg.de/research/departments/bs.html
+  url: "http://www.is.tuebingen.mpg.de/research/departments/bs.html"
 - name: Bertram Mueller-Myhsok
   institute: MPI for Psychiatry
-  url: http://www.mpipsykl.mpg.de/en/research/groups/muellermyhsok/index.html
+  url: "http://www.mpipsykl.mpg.de/en/research/groups/muellermyhsok/index.html"
 - name: Volker Tresp
   institute: Siemens AG
-  url: http://www.siemens.com/
+  url: "http://www.siemens.com/"
 - name: Felix Agakov
   institute: Pharmatics LTD
-  url: http://www.pharmaticsltd.com/
+  url: "http://www.pharmaticsltd.com/"
 - name: Kristel Van Steen
   institute: Universit\'e de Li\`ege
-  url: http://www.montefiore.ulg.ac.be/~kvansteen/
+  url: "http://www.montefiore.ulg.ac.be/~kvansteen/"
 - name: Jean Philippe Vert
   institute: Mines ParisTech (Armines)
-  url: http://cbio.ensmp.fr/~jvert/
+  url: "http://cbio.ensmp.fr/~jvert/"
 - name: Florence Demenais
   institute: INSERM
-  url: http://www.univ-paris-diderot.fr/IUH/pgeng.php?np=97
+  url: "http://www.univ-paris-diderot.fr/IUH/pgeng.php?np=97"
 - name: Fernando Perez Cruz
   institute: Universidad Carlos III de Madrid
-  url: http://www.tsc.uc3m.es/~fernando/
+  url: "http://www.tsc.uc3m.es/~fernando/"
 - name: Joaquin Dopazo
   institute: Principe Felipe Centro de Investigacion
-  url: http://bioinfo.cipf.es/
+  url: "http://bioinfo.cipf.es/"
 - name: Gunnar Raetsch
   institute: Memorial Sloan-Kettering Cancer Center
-  url: http://cbio.mskcc.org/research/ratsch-research-group/
+  url: "http://cbio.mskcc.org/research/ratsch-research-group/"
 
 software:
 - url: "https://github.com/SheffieldML/GPy/"

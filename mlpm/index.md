@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "MLPM Project"
+title: "MLPM"
 ---
-# MLPM Project Project
+# MLPM Project
 
 ## Overview
 
@@ -45,11 +45,7 @@ The project is sponsored by [EU FP7-PEOPLE Project Ref 316861](http://cordis.eur
 
 ## Personnel from ML@SITraN
 
-- [Max Zwiessele](M.Zwiessele) PhD Student
-
-- [James McMurray](J.McMurray) PhD Student
-
-- [James Hensman](J.Hensman) MRC Fellow
+- [Max Zwiessele](http://staffwww.dcs.sheffield.ac.uk/people/M.Zwiessele/) PhD Student
 
 
 

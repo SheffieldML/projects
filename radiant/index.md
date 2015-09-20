@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "RADIANT Project"
+title: "RADIANT"
 ---
-# RADIANT Project Project
+# RADIANT Project
 
 ## Overview
 
