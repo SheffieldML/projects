@@ -81,7 +81,7 @@ The following software has been made available either wholly or partly
 as a result of work on this project:
 
 -  [GPSIM: Gaussian Process Modelling of Single Input Motif networks.](http://inverseprobability.com/gpsim)
--  [MULTIGP: Modelling multiple outputs with Gaussian processes (will eventually supercede the gpsim toolbox).](http://inverseprobability.com/multigp)
+-  [MULTIGP: Modelling multiple outputs with Gaussian processes (will eventually supercede the gpsim toolbox).](/multigp)
 
 Publications
 ------------
@@ -91,7 +91,7 @@ project.
 
 ### Conference Papers
 
-<span class="author">M. A. Álvarez, D. Luengo and N. D. Lawrence.  </span> (2009) <span class="papertitle">"Latent force models"</span> in D. van Dyk and M. Welling (eds) <span class="journal">Proceedings of the Twelfth International Workshop on Artificial Intelligence and Statistics</span>, JMLR W&CP 5, Clearwater Beach, FL, pp 9--16.  \[[Software](http://inverseprobability.com/multigp)\]\[[PDF](http://jmlr.csail.mit.edu/proceedings/papers/v5/alvarez09a/alvarez09a.pdf)\]\[[Google Scholar Search](http://scholar.google.com/scholar?hl-en&lr=&q=Latent+Force+Models+&btnG=Search)\]
+<span class="author">M. A. Álvarez, D. Luengo and N. D. Lawrence.  </span> (2009) <span class="papertitle">"Latent force models"</span> in D. van Dyk and M. Welling (eds) <span class="journal">Proceedings of the Twelfth International Workshop on Artificial Intelligence and Statistics</span>, JMLR W&CP 5, Clearwater Beach, FL, pp 9--16.  \[[Software](/multigp)\]\[[PDF](http://jmlr.csail.mit.edu/proceedings/papers/v5/alvarez09a/alvarez09a.pdf)\]\[[Google Scholar Search](http://scholar.google.com/scholar?hl-en&lr=&q=Latent+Force+Models+&btnG=Search)\]
 
 #### Abstract
 
@@ -114,14 +114,5 @@ studies from computational biology, motion capture and geostatistics.
 
 #### Abstract
 
-We present a sparse approximation approach for dependent output Gaussian
-processes (GP). Employing a latent function framework, we apply the
-convolution process formalism to establish dependencies between output
-variables, where each latent function is represented as a GP. Based on
-these latent functions, we establish an approximation scheme using a
-conditional independence assumption between the output processes,
-leading to an approximation of the full covariance which is determined
-by the locations at which the latent functions are evaluated. We show
-results of the proposed methodology for synthetic data and real world
-applications on pollution prediction and a sensor network.
+We present a sparse approximation approach for dependent output Gaussian processes (GP). Employing a latent function framework, we apply the convolution process formalism to establish dependencies between output variables, where each latent function is represented as a GP. Based on these latent functions, we establish an approximation scheme using a conditional independence assumption between the output processes, leading to an approximation of the full covariance which is determined by the locations at which the latent functions are evaluated. We show results of the proposed methodology for synthetic data and real world applications on pollution prediction and a sensor network.
 
