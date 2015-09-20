@@ -1,5 +1,7 @@
 ---
-layout: default
+layout: page
+title: Projects
+tagline: projects at ML@SITraN
 ---
 
 Research Projects
