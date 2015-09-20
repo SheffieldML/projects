@@ -89,6 +89,7 @@ class="journal">Briefings in Bioinformatics</span> 7 (1), pp 37--47
 \[[Errata](http://ml.sheffield.ac.uk/~neil/cgi-bin/bibpage.cgi?keyName=Rattray:propagating06&printErrata=1)\]\[[PDF](http://bib.oxfordjournals.org/cgi/reprint/7/1/37)\]\[[Pubmed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=16761363&dopt=Citation)\]\[[Google
 Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=Propagating+Uncertainty+in+Microarray+Data+Analysis+&btnG=Search)\]
+
 #### Abstract
 
 Microarray technology is associated with many sources of experimental
@@ -110,10 +111,12 @@ analysis.
 
 ### Journal Papers
 
-<span class="author">R. D. Pearson, X. Liu, G. Sanguinetti, M. Milo, N.  D. Lawrence and M. Rattray. </span> (2009) <span class="papertitle">"Puma: a Bioconductor package for propagating uncertainty in microarray analysis"</span> in <span class="journal">BMC Bioinformatics</span> 10 (211) \[[Pubmed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=19589155&dopt=Citation)\]\[[DOI](http://dx.doi.org/10.1186/1471-2105-10-211)\]\[[Google Scholar Search](http://scholar.google.com/scholar?hl-en&lr=&q=puma:+a+Bioconductor+package+for+Propagating+Uncertainty+in+Microarray+Analysis+&btnG=Search)\] #### Abstract
+<span class="author">R. D. Pearson, X. Liu, G. Sanguinetti, M. Milo, N.  D. Lawrence and M. Rattray. </span> (2009) <span class="papertitle">"Puma: a Bioconductor package for propagating uncertainty in microarray analysis"</span> in <span class="journal">BMC Bioinformatics</span> 10 (211) \[[Pubmed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=19589155&dopt=Citation)\]\[[DOI](http://dx.doi.org/10.1186/1471-2105-10-211)\]\[[Google Scholar Search](http://scholar.google.com/scholar?hl-en&lr=&q=puma:+a+Bioconductor+package+for+Propagating+Uncertainty+in+Microarray+Analysis+&btnG=Search)\]
 
-**Background**\
-\
+#### Abstract
+
+**Background**
+
  Most analyses of microarray data are based on point estimates of
 expression levels and ignore the uncertainty of such estimates. By
 determining uncertainties from Affymetrix GeneChip data and propagating
@@ -124,11 +127,11 @@ uncertainty propagation methods have only been available as separate
 packages, written in different languages. Previous implementations have
 also suffered from being very costly to compute, and in the case of
 differential expression detection, have been limited in the experimental
-designs to which they can be applied.\
-\
- **Results**\
-\
- puma is a Bioconductor package incorporating a suite of analysis
+designs to which they can be applied.
+
+**Results**
+
+puma is a Bioconductor package incorporating a suite of analysis
 methods for use on Affymetrix GeneChip data. puma extends the
 differential expression detection methods of previous work from the
 2-class case to the multi-factorial case. puma can be used to
@@ -141,11 +144,11 @@ architectures. puma incorporates the first R implementation of an
 uncertainty propagation version of principal component analysis, and an
 implementation of a clustering method based on uncertainty propagation.
 All of these techniques are brought together in a single, easy-to-use
-package with clear, task-based documentation.\
-\
- **Conclusions**\
-\
- For the first time, the puma package makes a suite of uncertainty
+package with clear, task-based documentation.
+
+**Conclusions**
+
+For the first time, the puma package makes a suite of uncertainty
 propagation methods available to a general audience. These methods can
 be used to improve results from more traditional analyses of microarray
 data. puma also offers improvements in terms of scope and speed of
@@ -163,6 +166,7 @@ i70--i75
 \[[Software](http://inverseprobability.com/gpsim/)\]\[[PDF](http://bioinformatics.oxfordjournals.org/cgi/reprint/24/16/i70.pdf?ijkey=FauSn114lAUC1Ey&keytype=ref)\]\[[DOI](http://dx.doi.org/10.1093/bioinformatics/btn278)\]\[[Google
 Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=Gaussian+Process+Modelling+of+Latent+Chemical+Species:+Applications+to+Inferring+Transcription+Factor+Activities+&btnG=Search)\]
+
 #### Abstract
 
 **Motivation:** Inference of *latent chemical species* in biochemical
@@ -170,9 +174,9 @@ interaction networks is a key problem in estimation of the structure and
 parameters of the genetic, metabolic and protein interaction networks
 that underpin all biological processes. We present a framework for
 Bayesian marginalisation of these latent chemical species through
-Gaussian process priors.\
-\
- **Results:** We demonstrate our general approach on three different
+Gaussian process priors.
+
+**Results:** We demonstrate our general approach on three different
 biological examples of single input motifs, including both activation
 and repression of transcription. We focus in particular on the problem
 of inferring transcription factor activity when the concentration of
@@ -185,13 +189,13 @@ continuous-time functions, which would lead to a large number of
 additional parameters to be estimated. We develop efficient exact and
 approximate inference schemes, which are much more efficient than
 competing sampling-based schemes and therefore provide us with a
-practical toolkit for model-based inference.\
-\
- **Availability:** The software and data for recreating all the
+practical toolkit for model-based inference.
+
+**Availability:** The software and data for recreating all the
 experiments in this paper is available in MATLAB from
-<http://inverseprobability.com/gpsim>\
-\
- **Contact:** Neil Lawrence
+<http://inverseprobability.com/gpsim>
+
+**Contact:** Neil Lawrence
 
 ------------------------------------------------------------------------
 
@@ -203,6 +207,7 @@ activities"</span> in <span class="journal">Bioinformatics</span> 22
 \[[Errata](http://ml.sheffield.ac.uk/~neil/cgi-bin/bibpage.cgi?keyName=Sanguinetti:chipvar06&printErrata=1)\]\[[Software](http://inverseprobability.com/chipvar/)\]\[[PDF](http://bioinformatics.oxfordjournals.org/cgi/reprint/btl473v1)\]\[[Pubmed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=16966362&dopt=Citation)\]\[[DOI](http://dx.doi.org/10.1093/bioinformatics/btl473)\]\[[Google
 Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=Probabilistic+inference+of+transcription+factor+concentrations+and+gene-specific+regulatory+activities+&btnG=Search)\]
+
 #### Abstract
 
 **Motivation**: Quantitative estimation of the regulatory relationship
@@ -214,9 +219,9 @@ networks in the cell. However, it is very difficult to measure the
 concentration levels of transcription factor proteins and determine
 their regulatory effect on gene transcription. It is therefore an
 important computational challenge to infer these quantities using gene
-expression data and network architecture data.\
-\
- **Results**: We develop a probabilistic state space model that allows
+expression data and network architecture data.
+
+**Results**: We develop a probabilistic state space model that allows
 genome-wide inference of both transcription factor protein
 concentrations and their effect on the transcription rates of each
 target gene from microarray data. We use variational inference
@@ -229,9 +234,9 @@ on artificial data and on two yeast data sets in which the network
 structure has previously been obtained using Chromatine
 Immunoprecipitation data. Predictions from our model are consistent with
 the underlying biology and offer novel quantitative insights into the
-regulatory structure of the yeast cell.\
-\
- **Availability**: MATLAB code is available from
+regulatory structure of the yeast cell.
+
+**Availability**: MATLAB code is available from
 <http://umber.sbs.man.ac.uk/resources/puma>.
 
 ------------------------------------------------------------------------
@@ -243,6 +248,7 @@ improves accuracy in detecting differential gene expression"</span> in
 \[[Errata](http://ml.sheffield.ac.uk/~neil/cgi-bin/bibpage.cgi?keyName=Liu:variances06&printErrata=1)\]\[[PDF](http://bioinformatics.oxfordjournals.org/cgi/reprint/btl361v1.pdf)\]\[[Pubmed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=16820429&dopt=Citation)\]\[[DOI](http://dx.doi.org/10.1093/bioinformatics/btl361)\]\[[Google
 Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=Probe-level+Measurement+Error+Improves+Accuracy+in+Detecting+Differential+Gene+Expression+&btnG=Search)\]
+
 #### Abstract
 
 **Motivation:** Finding differentially expressed genes is a fundamental
@@ -254,9 +260,9 @@ measurement error that can be obtained from an appropriate probe-level
 analysis. Probabilistic probe-level models can be used to measure gene
 expression and also provide a level of uncertainty in this measurement.
 This probe-level variance provides useful information which can help in
-the identification of differentially expressed genes.\
-\
- **Results:** We propose a Bayesian method to include probe-level
+the identification of differentially expressed genes.
+
+**Results:** We propose a Bayesian method to include probe-level
 variances into the detection of differentially expressed genes from
 replicated experiments. A variational approximation is used for effcient
 parameter estimation. We compare this approximation with MAP and MCMC
@@ -266,13 +272,13 @@ The method is used to calculate the probability of positive log-ratio
 from a recently developed Affymetrix probe-level model, multi-mgMOS, we
 test PPLR on a spike-in data set and a mouse time-course data set.
 Results show that the inclusion of probelevel measurement error improves
-accuracy in detecting differential gene expression.\
-\
- **Availability:** The methods described in this paper have been
+accuracy in detecting differential gene expression.
+
+**Availability:** The methods described in this paper have been
 implemented in an R package *pplr* that is currently available from
-<http://umber.sbs.man.ac.uk/resources/puma>.\
-\
- **Contact:** Magnus Rattray
+<http://umber.sbs.man.ac.uk/resources/puma>.
+
+**Contact:** Magnus Rattray
 
 ------------------------------------------------------------------------
 
@@ -284,6 +290,7 @@ transcription"</span> in <span class="journal">Bioinformatics</span> 22
 \[[Software](http://inverseprobability.com/chipdyno/)\]\[[PDF](http://bioinformatics.oxfordjournals.org/cgi/reprint/22/14/1753)\]\[[Pubmed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=16632490&dopt=Citation)\]\[[DOI](http://dx.doi.org/10.1093/bioinformatics/btl154)\]\[[Google
 Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=A+probabilistic+dynamical+model+for+quantitative+inference+of+the+regulatory+mechanism+of+transcription+&btnG=Search)\]
+
 #### Abstract
 
 **Motivation:** Quantitative estimation of the regulatory relationship
@@ -293,9 +300,9 @@ is difficult for a number of reasons: transcription factors' expression
 levels are often low and noisy, and many transcription factors are
 post-transcriptionally regulated. It is therefore useful to infer the
 activity of the transcription factors from the expression levels of
-their target genes.\
-\
- **Results:** We introduce a novel probabilistic model to infer
+their target genes.
+
+**Results:** We introduce a novel probabilistic model to infer
 transcription factor activities from microarray data when the structure
 of the regulatory network is known. The model is based on regression,
 retaining the computational efficiency to allow genome-wide
@@ -309,9 +316,9 @@ estimates of the activities. We demonstrate our model on two yeast data
 sets. In both cases the network structure was obtained using Chromatine
 Immunoprecipitation data. We show how predictions from our model are
 consistent with the underlying biology and offer novel quantitative
-insights into the regulatory structure of the yeast cell.\
-\
- **Availability:** MATLAB code is available from
+insights into the regulatory structure of the yeast cell.
+
+**Availability:** MATLAB code is available from
 <http://umber.sbs.man.ac.uk/resources/puma>.
 
 ------------------------------------------------------------------------
@@ -325,6 +332,7 @@ Access](http://bioinformatics.oxfordjournals.org/cgi/content/abstract/bti583?ijk
 PDF](ftp://ftp.dcs.shef.ac.uk/home/neil/multigmos.pdf)\]\[[Google
 Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=A+Tractable+Probabilistic+Model+for+Affymetrix+Probe-level+Analysis+across+Multiple+Chips+&btnG=Search)\]
+
 #### Abstract
 
 **Motivation:** Affymetrix GeneChip arrays are currently the most widely
@@ -340,9 +348,9 @@ distributions to model specific and non-specific binding with a latent
 variable to capture variations in probe affinity. Although promising,
 the main limitations of this model are that it does not use information
 from multiple chips and that it does not account for specific binding to
-the mismatch (MM) probes.\
-\
- **Results:** We extend mgMOS to model the binding affinity of
+the mismatch (MM) probes.
+
+**Results:** We extend mgMOS to model the binding affinity of
 probe-pairs across multiple chips and to capture the effect of specific
 binding to MM probes. The new model, multi-mgMOS, provides improved
 accuracy, as demonstrated on some bench-mark data sets and a real
@@ -350,9 +358,9 @@ time-course data set, and is much more computationally efficient than a
 competing hierarchical Bayesian approach that requires MCMC sampling. We
 demonstrate how the probabilistic model can be used to estimate
 credibility intervals for expression levels and their log-ratios between
-conditions.\
-\
- **Availability:** Both mgMOS and the new model multi-mgMOS have been
+conditions.
+
+**Availability:** Both mgMOS and the new model multi-mgMOS have been
 implemented in an R package that is currently available from
 <http://umber.sbs.man.ac.uk/resources/puma>.
 
@@ -369,6 +377,7 @@ PDF](ftp://ftp.dcs.shef.ac.uk/home/neil/nppca.pdf)\]\[[Bioinformatics
 Abstract](http://bioinformatics.oxfordjournals.org/cgi/content/abstract/21/19/3748)\]\[[Google
 Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=Accounting+for+Probe-level+Noise+in+Principal+Component+Analysis+of+Microarray+Data+&btnG=Search)\]
+
 #### Abstract
 
 **Motivation:** Principal Component Analysis (PCA) is one of the most
@@ -382,9 +391,9 @@ microarrays. Methods now exist for extracting credibility intervals from
 the probe-level analysis of cDNA and oligonucleotide microarray
 experiments. These credibility intervals are gene and experiment
 specific, and can be propagated through an appropriate probabilistic
-downstream analysis.\
-\
- **Results:** We propose a new model-based approach to PCA that takes
+downstream analysis.
+
+**Results:** We propose a new model-based approach to PCA that takes
 into account the variances associated with each gene in each experiment.
 We develop an efficient EM-algorithm to estimate the parameters of our
 new model. The model provides significantly better results than standard
@@ -392,9 +401,9 @@ PCA, while remaining computationally reasonable. We show how the model
 can be used to 'denoise' a microarray dataset leading to improved
 expression profiles and tighter clustering across profiles. The
 probabilistic nature of the model means that the correct number of
-principal components is automatically obtained.\
-\
- **Availability:** The software used in the paper is available from
+principal components is automatically obtained.
+
+**Availability:** The software used in the paper is available from
 <http://www.bioinf.manchester.ac.uk/resources/puma>. The microarray data
 are deposited in the NCBI database.
 
@@ -408,6 +417,7 @@ extraction of expression levels from oligonucleotide arrays"</span> in
 \[[PDF](ftp://ftp.dcs.shef.ac.uk/home/neil/probabilisticOligo.pdf)\]\[[Google
 Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=A+Probabilistic+Model+for+the+Extraction+of+Expression+Levels+from+Oligonucleotide+Arrays+&btnG=Search)\]
+
 #### Abstract
 
 In this work we present a probabilistic model to estimate summaries of
@@ -428,6 +438,7 @@ Postscript](ftp://ftp.dcs.shef.ac.uk/home/neil/microarrayImage.ps.gz)\]\[[Pubmed
 PDF](ftp://ftp.dcs.shef.ac.uk/home/neil/microarrayImage.pdf)\]\[[Google
 Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=Reducing+the+Variability+in+cDNA+Microarray+Image+Processing+by+Bayesian+Inference+&btnG=Search)\]
+
 #### Abstract
 
 **Motivation:** Gene expression levels are obtained from microarray
@@ -436,17 +447,17 @@ image of the slide. It is widely acknowledged that variabilities can
 occur in expression levels extracted from the same images by different
 users with the same software packages. These inconsistencies arise due
 to differences in the refinement of the placement of the microarray
-\`grids'. We introduce a novel automated approach to the refinement of
+'grids'. We introduce a novel automated approach to the refinement of
 grid placements that is based upon the use of Bayesian inference for
-determining the size, shape and positioning of the microarray \`spots',
-capturing uncertainty that can be passed to downstream analysis.\
-\
- **Results:** Our experiments demonstrate that variability between users
+determining the size, shape and positioning of the microarray 'spots',
+capturing uncertainty that can be passed to downstream analysis.
+
+**Results:** Our experiments demonstrate that variability between users
 can be significantly reduced using the approach. The automated nature of
 the approach also saves hours of researchers' time normally spent in
-refining the grid placement.\
-\
- **Availability:** A MATLAB implementation of the algorithm and an image
+refining the grid placement.
+
+**Availability:** A MATLAB implementation of the algorithm and an image
 of the slide used in our experiments, as well as the code necessary to
 recreate them are available for non-commercial use from
 <http://www.dcs.shef.ac.uk/~neil/vis>.
@@ -462,6 +473,7 @@ class="journal">International Conference on Computational Methods in
 Systems Biology</span>, Springer-Verlag, .
 \[[DOI](http://dx.doi.org/10.1007/11885191_11)\]\[[Google Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=Identifying+submodules+of+cellular+regulatory+networks+&btnG=Search)\]
+
 #### Abstract
 
 Recent high throughput techniques in molecular biology have brought
@@ -494,6 +506,7 @@ Information Processing Systems</span>, MIT Press, Cambridge, MA, pp
 Postscript](ftp://ftp.dcs.shef.ac.uk/home/neil/gpsim.ps.gz)\]\[[PDF](ftp://ftp.dcs.shef.ac.uk/home/neil/gpsim.pdf)\]\[[Google
 Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=Modelling+transcriptional+regulation+using+Gaussian+Processes+&btnG=Search)\]
+
 #### Abstract
 
 Modelling the dynamics of transcriptional processes in the cell requires
