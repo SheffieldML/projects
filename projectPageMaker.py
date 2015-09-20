@@ -26,10 +26,8 @@ sheffieldPersonBase = 'http://www.dcs.sheffield.ac.uk/cgi-bin/makeperson?'
 sheffieldBase = 'http://ml.sheffield.ac.uk/'
 year = time.strftime('%Y')
 timeStamp = time.strftime('%A %d %b %Y at %H:%M')
-print("Loading yaml")
 f = open('project.yml', 'r')
 project = yaml.load(f)
-print(project)
 
 overview=''
 fileHandle = open('overview.md', 'r');
@@ -98,7 +96,6 @@ if len(project['software'])>1:
 # Give information about publications
 outputString+="<a name=\"publications\"></a>## Publications\n\n"
 for key in project['publications']:
-    print(key)
     if key == 'conference':
         outputString+="The following conference publications were made associated with this project.\n\n"
     elif key == 'chapters':
@@ -117,11 +114,6 @@ for key in project['publications']:
         outputString += ndlhtml.getMdReference(publicationkey)
         outputString += '\n\n'
 
-# Now create a web page
-publishBase=os.path.expanduser(os.path.join("~", "public_html", "projects", lowerProject));
-
-if not os.path.exists(publishBase):
-    os.mkdir(publishBase)
 
 
 
