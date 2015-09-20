@@ -1,0 +1,38 @@
+# Title of the projects
+shortname: ITERATIVE
+longname: "An iterative pipeline of computational modelling and experimental design for uncovering gene regulatory networks in vertebrates"
+start: "October 2010"
+end: "February 2014"
+
+personnel:
+- name: James Hensman
+  role: Post-doctoral research assistant
+  url: "http://chicas.lancaster-university.uk/people/hensman.html"
+
+sponsors:
+- name: BBSRC
+  ref: "BB/H018123/2"
+  title: "An iterative pipeline of computational modelling and experimental design for uncovering gene regulatory networks in vertebrates"
+  url: "http://www.bbsrc.ac.uk/PA/grants/AwardDetails.aspx?FundingReference=BB%2fH018123%2f2"
+
+collaborators:
+- name: Magnus Rattray
+  institution: University of Manchester
+  url: "http://www.ls.manchester.ac.uk/people/profile/?personid=10584"
+- name: Nicoletta Bobola
+  institution: University of Manchester
+  url: "http://www.dentistry.manchester.ac.uk/staff/150829"
+
+software:
+- url: "http://sheffieldml.github.io/gpsim"
+  name: gpsim
+  tagline: "Gaussian Process Modelling of single input module motif networks."
+- url: "http://sheffieldml.github.io/multigp"
+  name: multigp
+  tagline: "Modelling multiple outputs with Gaussian processes (will eventually supercede the gpsim toolbox)."
+
+publications:
+  journals: ["Hensman:fast14", "Hensman:hierarchical13", "Donaldson:genome12"]
+  conference: ["Hensman:fast12","Hensman:bigdata13"]
+  related: ["Alvarez:computationally11", "Honkela:modelbased10", "Lawrence:licsb10", "Gao:latent08", "Lawrence:licsbintro10", "Lawrence:licsbbayes10", "Lawrence:licsbgp10", "Titsias:mcmcgp11"]
+
