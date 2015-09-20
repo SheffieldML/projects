@@ -30,7 +30,7 @@ def getReference(keyName):
     f = h.getfile()
     lines = f.read()
     f.close()
-    return lines
+    return lines.encode('utf8')
 
 def getMdReference(keyName):
     f = open('tmp.html', 'w')
@@ -58,14 +58,14 @@ def writeToFile(file, string, style = '', title='', header='', footer='', naviga
 
     
 def mdWriteToFile(file, string, style = '', title='', header='', footer='', navigation=''):
-    header = """---
+    header = u"""---
 layout: default
 """
     if len(title)>0:
         header += "title: \"" + title + "\"\n"
     header += "---\n"
     header += navigation
-    string = header + string 
+    string = header + string.encode('utf8')
     if len(footer)>0:
         string += footer
     fileHandle = open(file, 'w')
