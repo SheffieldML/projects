@@ -8,7 +8,7 @@ end: "January 2012"
 personnel:
 - name: Mauricio Alvarez
   role: PhD student
-  url: alvarezm
+  url: "https://sites.google.com/site/maalvarezl/"
 
 sponsors:
 - name: Google Faculty Research Award
