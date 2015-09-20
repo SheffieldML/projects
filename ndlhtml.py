@@ -69,5 +69,5 @@ layout: default
     if len(footer)>0:
         string += footer
     fileHandle = open(file, 'w')
-    fileHandle.write(string)
+    fileHandle.write(string.encode('utf8'))
     fileHandle.close()
