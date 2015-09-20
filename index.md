@@ -5,19 +5,15 @@ layout: default
 Research Projects
 -----------------
 
-This is a list of research projects for which I'm an investigator.
+This is a list of research projects for the research group.
 
 ### Active Projects
 
+-   [Deep Probabilistic](./deepprobabilistic) This is an EPSRC grant that is a collaboration with [Zoubin Ghaharamani](http://mlg.eng.cam.ac.uk/zoubin/), [John Quinn](http://air.ug/~jquinn/) and [CitizenMe](http://www.citizenme.com) with additional support from Amazon and Facebook. 
+-   [OpenDreamKit](./opendreamkit/) This is an EU FP7 Grant with a cross Europe Collaboration.
 -   [PIMS: Personal Information Management Systems.](./pims/) This is a
     Innovate UK grant in collaboration with
     [CitizenMe](http://www.citizenme.com).
--   [BIOPREDYN: New Bioinformatics Methods and Tools for Data-Driven,
-    Predictive Dynamic Modelling in Biotechnological
-    Applications](./biopredyn/) One post-doctoral research assistant. In
-    this grant we are focused on introducing mechanistic aspects to
-    machine learning models in application to dynamical
-    biological systems.
 -   [RADIANT: Rapid Development and Distribution of Statistical Tools
     for High-Throughput Sequencing Data](./radiant/) In this grant we
     are developing Gaussian process approaches for handling high
@@ -40,6 +36,12 @@ This is a list of research projects for which I'm an investigator.
 
 ### Past Projects
 
+-   [BIOPREDYN: New Bioinformatics Methods and Tools for Data-Driven,
+    Predictive Dynamic Modelling in Biotechnological
+    Applications](./biopredyn/) One post-doctoral research assistant. In
+    this grant we are focused on introducing mechanistic aspects to
+    machine learning models in application to dynamical
+    biological systems.
 -   [SYNERGY: Systems approach to gene regulation biology through
     nuclear receptors](./synergy/)
 -   An iterative pipeline of computational modelling and experimental
