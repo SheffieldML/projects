@@ -34,7 +34,7 @@ fileHandle = open('overview.md', 'r');
 fileLines = fileHandle.readlines()
 fileHandle.close()
 for line in fileLines:
-    overview += line
+    overview += line.encode('utf8')
 
 outputString="# " + project['shortname'] + " Project\n\n"
 outputString += "## Overview"
@@ -112,7 +112,7 @@ for key in project['publications']:
         outputString+="The following publications have provided background to our work in this project.\n\n"
 
     for publicationkey in project['publications'][key]:
-        outputString += ndlhtml.getMdReference(publicationkey)
+        outputString += ndlhtml.getMdReference(publicationkey).encode('utf8')
         outputString += '\n\n'
 
 
