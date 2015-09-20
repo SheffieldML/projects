@@ -36,9 +36,9 @@ GR/R84801/01](http://www.epsrc.ac.uk).
 Personnel at Sheffield
 ----------------------
 
-  ---------------------------------------------------------------------------------------------------
+ ---------------------------------------------------------------------------------------------------
   [Tonatiuh Peña-Centeno](http://www.dcs.sheffield.ac.uk/cgi-bin/makeperson?T.Centeno), PhD Student
-  ---------------------------------------------------------------------------------------------------
+ ---------------------------------------------------------------------------------------------------
 
 Software
 --------
@@ -47,9 +47,9 @@ The following software has been made available either wholly or partly
 as a result of work on this project:
 
   -----------------------------------------------------------------------------------------------------
-  [Bayesian interpretation of kernel Fisher's discriminants.](http://ml.sheffield.ac.uk//~neil/bfd)
-  [Semi-supervised learning for Gaussian process classifiers.](http://ml.sheffield.ac.uk//~neil/ncnm)
-  [Sparse approximation for Gaussian process classifiers.](http://ml.sheffield.ac.uk//~neil/ivm)
+-  [Bayesian interpretation of kernel Fisher's discriminants.](http://ml.sheffield.ac.uk//~neil/bfd)
+-  [Semi-supervised learning for Gaussian process classifiers.](http://ml.sheffield.ac.uk//~neil/ncnm)
+-  [Sparse approximation for Gaussian process classifiers.](http://ml.sheffield.ac.uk//~neil/ivm)
   -----------------------------------------------------------------------------------------------------
 
 Publications
@@ -70,6 +70,7 @@ CS-04-13, see
 Abstract](http://www.jmlr.org/papers/v7/centeno06a.html)\]\[[Google
 Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=Optimising+Kernel+Parameters+and+Regularisation+Coefficients+for+Non-linear+Discriminant+Analysis+&btnG=Search)\]
+
 #### Abstract
 
 In this paper we consider a novel Bayesian interpretation of Fisher's
@@ -101,6 +102,7 @@ Processing Systems</span>, MIT Press, Cambridge, MA, pp 625--632.
 Postscript](ftp://ftp.dcs.shef.ac.uk/home/neil/ivm.ps.gz)\]\[[Google
 Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=Fast+Sparse+Gaussian+Process+Methods:+The+Informative+Vector+Machine+&btnG=Search)\]
+
 #### Abstract
 
 We present a framework for sparse Gaussian process (GP) methods which
@@ -129,6 +131,7 @@ Systems</span>, MIT Press, Cambridge, MA, pp 753--760.
 Postscript](ftp://ftp.dcs.shef.ac.uk/home/neil/ncnm.ps.gz)\]\[[Google
 Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=Semi-supervised+Learning+via+Gaussian+Processes+&btnG=Search)\]
+
 #### Abstract
 
 We present a probabilistic approach to learning a Gaussian Process
@@ -152,6 +155,7 @@ Machine Learning</span>, Morgan Kauffman, San Francisco, CA.
 Postscript](ftp://ftp.dcs.shef.ac.uk/home/neil/noisyfisher.ps.gz)\]\[[Google
 Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=Estimating+a+Kernel+Fisher+Discriminant+in+the+Presence+of+Label+Noise+&btnG=Search)\]
+
 #### Abstract
 
 Data noise is present in many machine learning problems domains, some of
@@ -179,6 +183,7 @@ Machine Learning</span>, Springer-Verlag, Berlin, pp 56--87.
 Postscript](ftp://ftp.dcs.shef.ac.uk/home/neil/ivmdev.ps.gz)\]\[[Springer
 Site](http://www.springeronline.com/3-540-29073-7)\]\[[Google Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=Extensions+of+the+Informative+Vector+Machine+&btnG=Search)\]
+
 #### Abstract
 
 The informative vector machine (IVM) is a practical method for Gaussian
@@ -205,6 +210,7 @@ Software](http://staffwww.dcs.shef.ac.uk/people/N.Lawrence/ncnm/)\]\[[C++
 Software](http://staffwww.dcs.shef.ac.uk/people/N.Lawrence/ivmcpp/)\]\[[Google
 Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=Gaussian+Processes+and+the+Null-Category+Noise+Model+&btnG=Search)\]
+
 #### Abstract
 
 With Gaussian process classifiers (GPC) we aim to predict the posterior
@@ -236,6 +242,7 @@ Computer Science.
 Postscript](ftp://ftp.dcs.shef.ac.uk/home/neil/bfdPaper.ps.gz)\]\[[Google
 Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=Optimising+Kernel+Parameters+and+Regularisation+Coefficients+for+Non-linear+Discriminant+Analysis+&btnG=Search)\]
+
 #### Abstract
 
 In this paper we consider a Bayesian interpretation of Fisher's
@@ -260,6 +267,7 @@ Software](http://staffwww.dcs.shef.ac.uk/people/N.Lawrence/ivm/)\]\[[C++
 Software](http://staffwww.dcs.shef.ac.uk/people/N.Lawrence/ivmcpp/)\]\[[Google
 Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=The+Informative+Vector+Machine:+A+Practical+Probabilistic+Alternative+to+the+Support+Vector+Machine+&btnG=Search)\]
+
 #### Abstract
 
 We present a practical probabilistic alternative to the popular support
