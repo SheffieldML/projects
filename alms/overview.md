@@ -20,3 +20,5 @@ prevent loss of independence.
 This project brings together robust clinical research on the triggers
 for older people needing more care with the latest research on machine
 learning to produce a means of detecting these key triggers.
+
+Project was handed over to Guido Sanguinetti when Neil Lawrence moved to Manchester.

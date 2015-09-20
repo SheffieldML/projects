@@ -11,10 +11,10 @@ personnel:
   url: alvarezm
 
 sponsors:
-- name: Google Research Award
-  ref: Google Research Award
-  title: Google Research Award
-  url: http://www.google.com
+- name: Google Faculty Research Award
+  ref: "Machine Learning 2008"
+  title: "Latent Force Models: Mechanistically Inspired Convolution Processes for Learning"
+  url: "http://research.google.com/university/relations/fra_recipients.html"
 
 collaborators:
 - name: Dr David Luengo
@@ -22,13 +22,13 @@ collaborators:
   url: None
 
 software:
-- url: "local"
+- url: "http://www.inverseprobability.com/gpsim"
   name: gpsim
   tagline: "GPSIM: Gaussian Process Modelling of Single Input Motif networks."
-- url: "local"
+- url: "http://www.inverseprobability.com/multigp"
   name: multigp
   tagline: "MULTIGP: Modelling multiple outputs with Gaussian processes (will eventually supercede the gpsim toolbox)."
 
 publications:
-  conference:"Alvarez:lfm09","Alvarez:convolved08"
-  related:"Bouttou:lskm07"
+  conference: "Alvarez:lfm09","Alvarez:convolved08"
+  related: "Bouttou:lskm07"

@@ -17,9 +17,9 @@ personnel:
   url: J.Hensman
 
 sponsors:
-- name: EU FP7-PEOPLE Project Ref 316861 "MLPM2012: Machine Learning for Personalized Medicine"
-  ref: EU FP7-PEOPLE Project Ref 316861 "MLPM2012: Machine Learning for Personalized Medicine"
-  title: EU FP7-PEOPLE Project Ref 316861 "MLPM2012: Machine Learning for Personalized Medicine"
+- name: EU FP7-PEOPLE
+  ref: 316861
+  title: "MLPM2012: Machine Learning for Personalized Medicine"
   url: http://cordis.europa.eu/projects/rcn/105442_en.html
 
 collaborators:
@@ -61,16 +61,16 @@ collaborators:
   url: http://cbio.mskcc.org/research/ratsch-research-group/
 
 software:
-- url: "SheffieldML"
+- url: "https://github.com/SheffieldML/GPy/"
   name: GPy
   tagline: "GPy: Gaussian process modelling framework in Python"
-- url: "SheffieldML"
+- url: "https://github.com/SheffieldML/colvb/"
   name: colvb
   tagline: "Collapsed Variational Bayes Software"
-- url: "SheffieldML"
+- url: "https://github.com/SheffieldML/TVB/"
   name: TVB
   tagline: "Tilted variational inference software"
 
 publications:
-  conference:"Hensman:tvb14","Andrade:hybrid14"
-  related:"Hensman:hierarchical13","Fusi:detecting13","Hensman:fast12","Hensman:bigdata13","Fusi:genomics12"
+  conference: "Hensman:tvb14","Andrade:hybrid14"
+  related: "Hensman:hierarchical13","Fusi:detecting13","Hensman:fast12","Hensman:bigdata13","Fusi:genomics12"

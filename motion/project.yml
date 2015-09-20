@@ -1,6 +1,6 @@
 # Title of the project
-shortname: "Dimensional Reduction and Style Based Inverse Kinematics"
-longname: "Dimensional Reduction and Style IK"
+shortname: "StyleIK"
+longname: "Dimensional Reduction and Style Based Inverse Kinematics"
 
 start: "October 2006"
 end: "October 2007"
@@ -8,34 +8,33 @@ end: "October 2007"
 personnel:
 - name: Carl Henrik Ek
   role: PhD student and Manchester RA
-  url: http://cms.brookes.ac.uk/staff/CarlEk/
+  url: "http://www.carlhenrik.com/"
 - name: Huma Lodhi
   role: Former Post-doctorate Researcher
-  url: http://www.doc.ic.ac.uk/~hml/
+  url: "http://www.doc.ic.ac.uk/~hml/"
 
 sponsors:
-- name: EU FP6 PASCAL Network of Excellence
-  ref: EU FP6 PASCAL Network of Excellence
-  title: EU FP6 PASCAL Network of Excellence
+- name: EU FP6 
+  ref: ""
+  title: "PASCAL Network of Excellence: Pump Priming Award"
   url: http://www.pascal-network.org
 
 collaborators:
-- name: Prof. Philip Torr
+- name: Professor Philip Torr
   institute: Oxford Brookes
   url: http://cms.brookes.ac.uk/staff/PhilipTorr/
 
 software:
-- url: "local"
+- url: "http://inverseprobability.com/fgplvm/"
   name: fgplvm
   tagline: "FGPLVM Toolbox for large scale learning of GP-LVMs."
-- url: "local"
+- url: "http://inverseprobability.com/hgplvm/"
   name: hgplvm
   tagline: "HGPLVM Toolbox for hierarchical learning of GP-LVMs."
-- url: "local"
+- url: "http://inverseprobability.com/mocap/"
   name: mocap
   tagline: "Simple MATLAB utility toolbox for loading motion capture data sets."
 
 publications:
-"Lawrence:gplvmtut06"
-  conference:"Lawrence:larger07","Lawrence:hgplvm07","Ek:pose07","Ek:ambiguity08","Urtasun:topology08"
-"Lawrence:oxford06","Lawrence:google07"
+  talks: "Lawrence:gplvmtut06","Lawrence:oxford06","Lawrence:google07"
+  conference: "Lawrence:larger07","Lawrence:hgplvm07","Ek:pose07","Ek:ambiguity08","Urtasun:topology08"

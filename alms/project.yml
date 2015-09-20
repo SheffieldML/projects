@@ -1,21 +1,21 @@
 # Title of the project
-shortname: "Advanced Lifestyle Monitoring Systems"
+shortname: ALMS
 longname: "Advanced Lifestyle Monitoring Systems"
 
 start: "June 2006"
 end: "June 2009"
 
 sponsors:
-- name: Department of Health
-  ref: Department of Health
-  title: Department of Health
-  url: http://www.doh.gov.uk/
+- name: NIHR Health Technology Assesment
+  ref: "4933"
+  title: "ALMS: Advanced Lifestyle Monitoring Systems"
+  url: "http://public.ukcrn.org.uk/search/StudyDetail.aspx?StudyID=4933"
 
 collaborators:
-- name: Prof. Mark Hawley
+- name: Professor Mark Hawley
   institute: Barnsley Hospital NHS Foundation Trust
   url: http://www.shef.ac.uk/cast/people/hawley.html
-- name: Dr. Simon Brownsell
+- name: Dr Simon Brownsell
   institute: Barnsley Hospital NHS Foundation Trust
   url: http://www.tis.bl.uk/jsp/search/person.jsp;jsessionid=F4D22FCE883FA0DCE31F3D05A30D7E8F?person=561
 - name: Steve Sadler
