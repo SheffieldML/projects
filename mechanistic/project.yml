@@ -1,0 +1,34 @@
+# Title of the project
+shortname: "Latent Force Models"
+longname: "Latent Force Models: Mechanistically Inspired Convolution Processes for Learning"
+
+start: "October 2007"
+end: "January 2012"
+
+personnel:
+- name: Mauricio Alvarez
+  role: PhD student
+  url: alvarezm
+
+sponsors:
+- name: Google Research Award
+  ref: Google Research Award
+  title: Google Research Award
+  url: http://www.google.com
+
+collaborators:
+- name: Dr David Luengo
+  institute: Carlos III University in Madrid
+  url: None
+
+software:
+- url: "local"
+  name: gpsim
+  tagline: "GPSIM: Gaussian Process Modelling of Single Input Motif networks."
+- url: "local"
+  name: multigp
+  tagline: "MULTIGP: Modelling multiple outputs with Gaussian processes (will eventually supercede the gpsim toolbox)."
+
+publications:
+  conference:"Alvarez:lfm09","Alvarez:convolved08"
+  related:"Bouttou:lskm07"
