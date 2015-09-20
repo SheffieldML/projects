@@ -73,7 +73,7 @@ if len(project['collaborators'])>0:
             outputString += ".\n\n"
 
 if len(project['personnel'])>0:
-    outputString+= "\n\n<a name=\"personnel\"></a>\n## Personnel from ML@SITraN\n\n"
+    outputString+= "\n\n<a name=\"personnel\"></a>\n\n## Personnel from ML@SITraN\n\n"
     for person in project['personnel']:
         outputString += "- [" + person['name'] + "](" + person['url'] + ") " + person['role'] + "\n\n"
 
@@ -81,7 +81,7 @@ if len(project['personnel'])>0:
 
 # Give information about software.
 if len(project['software'])>1:
-    outputString+= "<a name=\"software\"></a>\n## Software\n\n"
+    outputString+= "<a name=\"software\"></a>\n\n## Software\n\n"
     outputString+= "The following software has been made available either wholly or partly as a result of work on this project:"
     for i, software in enumerate(project['software']):
         if software['url']=='local':
@@ -94,7 +94,7 @@ if len(project['software'])>1:
 
 
 # Give information about publications
-outputString+="<a name=\"publications\"></a>\n## Publications\n\n"
+outputString+="<a name=\"publications\"></a>\n\n## Publications\n\n"
 for key in project['publications']:
     if key == 'conference':
         outputString+="The following conference publications were made associated with this project.\n\n"

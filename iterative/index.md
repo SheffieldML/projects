@@ -12,6 +12,7 @@ The behaviour of biological systems is the result of multiple regulatory interac
 The project is sponsored by [BBSRC Project Ref BB/H018123/2](http://www.bbsrc.ac.uk/PA/grants/AwardDetails.aspx?FundingReference=BB%2fH018123%2f2) and is a collaboration with [Magnus Rattray](http://www.ls.manchester.ac.uk/people/profile/?personid=10584) of University of Manchester and [Nicoletta Bobola](http://www.dentistry.manchester.ac.uk/staff/150829) of University of Manchester.
 
 <a name="personnel"></a>
+
 ## Personnel from ML@SITraN
 
 - [James Hensman](http://chicas.lancaster-university.uk/people/hensman.html) Post-doctoral research assistant
@@ -19,6 +20,7 @@ The project is sponsored by [BBSRC Project Ref BB/H018123/2](http://www.bbsrc.ac
 
 
 <a name="software"></a>
+
 ## Software
 
 The following software has been made available either wholly or partly as a result of work on this project:- [gpsim](http://sheffieldml.github.io/gpsim) Gaussian Process Modelling of single input module motif networks.
@@ -26,6 +28,7 @@ The following software has been made available either wholly or partly as a resu
 - [multigp](http://sheffieldml.github.io/multigp) Modelling multiple outputs with Gaussian processes (will eventually supercede the gpsim toolbox).
 
 <a name="publications"></a>
+
 ## Publications
 
 The following conference publications were made associated with this project.
