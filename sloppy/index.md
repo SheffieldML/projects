@@ -62,7 +62,7 @@ regularisation coefficients for non-linear discriminant analysis"</span>
 in <span class="journal">Journal of Machine Learning Research</span> 7,
 pp 455--491 An earlier version is available as technical report number
 CS-04-13, see
-[\[Pena:fbd-tech04\]](/~neil/cgi-bin/publications/bibpage.cgi?keyName=Pena:fbd-tech04&printAbstract=1).\[[Software](http://inverseprobability.com/bfd/)\]\[[PDF](http://www.jmlr.org/papers/volume7/centeno06a/centeno06a.pdf)\]\[[JMLR
+[\[Pena:fbd-tech04\]](http://ml.sheffield.ac.uk/~neil/cgi-bin/publications/bibpage.cgi?keyName=Pena:fbd-tech04&printAbstract=1).\[[Software](http://inverseprobability.com/bfd/)\]\[[PDF](http://www.jmlr.org/papers/volume7/centeno06a/centeno06a.pdf)\]\[[JMLR
 Abstract](http://www.jmlr.org/papers/v7/centeno06a.html)\]\[[Google
 Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=Optimising+Kernel+Parameters+and+Regularisation+Coefficients+for+Non-linear+Discriminant+Analysis+&btnG=Search)\]
