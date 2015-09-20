@@ -1,0 +1,24 @@
+This project was a pump priming project concerning large scale learning
+of human motion capture data sets using latent variable models, in
+particular the GP-LVM. The aim of the project is to develop the
+dimensionality reduction methods for modelling human motion with a view
+towards constructing systems for markerless motion capture.
+
+The achievements in the project were:
+
+-   We have developed a set of tools for loading MOCAP data into MATLAB
+    (see software below).
+-   We now have convergent sparse GP-LVM for sparse learning, details
+    are given in the large scale learning paper below.
+-   We have developed a hierarchical model for decomposition of the
+    component parts of human motion (see the Hierarchical GP-LVM
+    paper below).
+-   We have developed a shared latent space model for jointly learning
+    about joint angles and silhouettes (see the MLMI paper below).
+-   We presented a paper on extensions of the shared latent space model
+    (see the second MLMI paper below).
+-   We presented a paper on topological extensions of the model that
+    allow different styles to be interpolated (see ICML paper below,
+    this was an international collaboration with MIT, Toronto
+    and \`Berkeley).
+
