@@ -71,8 +71,6 @@ Personnel at Sheffield
 ----------------------
 
 - [Max Zwiessele](http://www.dcs.sheffield.ac.uk/cgi-bin/makeperson?M.Zwiessele), PhD Student
-- [James McMurray](http://www.dcs.sheffield.ac.uk/cgi-bin/makeperson?J.McMurray), PhD Student
-- [James Hensman](http://www.dcs.sheffield.ac.uk/cgi-bin/makeperson?J.Hensman), MRC Fellow
 
 Software
 --------
@@ -97,7 +95,7 @@ project.
 Bayes"</span> in S. Kaski and J. Corander (eds) <span
 class="journal">Proceedings of the Seventeenth International Workshop on
 Artificial Intelligence and Statistics</span>, JMLR W&CP 33, Iceland, pp
-. \[[Software](https://github.com/SheffieldML/GPy%20)\]\[[Google Scholar
+. \[[Software](https://github.com/SheffieldML/GPy)\]\[[Google Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=Tilted+Variational+Bayes+&btnG=Search)\]
 
 #### Abstract
@@ -122,7 +120,7 @@ discriminative-generative approaches with Gaussian processes"</span> in
 S. Kaski and J. Corander (eds) <span class="journal">Proceedings of the
 Seventeenth International Workshop on Artificial Intelligence and
 Statistics</span>, JMLR W&CP 33, Iceland, pp .
-\[[Software](https://github.com/SheffieldML/GPy%20)\]\[[Google Scholar
+\[[Software](https://github.com/SheffieldML/GPy)\]\[[Google Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=Hybrid+Discriminative-Generative+Approaches+with+Gaussian+Processes+&btnG=Search)\]
 
 #### Abstract
@@ -251,7 +249,7 @@ Search](http://scholar.google.com/scholar?hl-en&lr=&q=Gaussian+Processes+for+Big
 and prominent genetic regulators provides increased accuracy in
 genetical genomics studies"</span> in <span class="journal">PLoS
 Computat Biol</span> 8, pp e1002330
-\[[Software](http://ml.sheffield.ac.uk/qtl/%20)\]\[[PDF](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002330)\]\[[DOI](http://dx.doi.org/10.1371/journal.pcbi.1002330)\]\[[Google
+\[[Software](http://ml.sheffield.ac.uk/qtl/)\]\[[PDF](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002330)\]\[[DOI](http://dx.doi.org/10.1371/journal.pcbi.1002330)\]\[[Google
 Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=Joint+Modelling+of+Confounding+Factors+and+Prominent+Genetic+Regulators+Provides+Increased+Accuracy+in+Genetical+Genomics+Studies+&btnG=Search)\]
 
