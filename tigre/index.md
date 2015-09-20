@@ -252,8 +252,8 @@ interaction networks is a key problem in estimation of the structure and
 parameters of the genetic, metabolic and protein interaction networks
 that underpin all biological processes. We present a framework for
 Bayesian marginalisation of these latent chemical species through
-Gaussian process priors.\
-\
+Gaussian process priors.
+
  **Results:** We demonstrate our general approach on three different
 biological examples of single input motifs, including both activation
 and repression of transcription. We focus in particular on the problem
@@ -267,12 +267,12 @@ continuous-time functions, which would lead to a large number of
 additional parameters to be estimated. We develop efficient exact and
 approximate inference schemes, which are much more efficient than
 competing sampling-based schemes and therefore provide us with a
-practical toolkit for model-based inference.\
-\
- **Availability:** The software and data for recreating all the
+practical toolkit for model-based inference.
+
+**Availability:** The software and data for recreating all the
 experiments in this paper is available in MATLAB from
-<http://inverseprobability.com/gpsim>\
-\
+<http://inverseprobability.com/gpsim>
+
  **Contact:** Neil Lawrence
 
 ------------------------------------------------------------------------
@@ -649,9 +649,9 @@ is difficult for a number of reasons: transcription factors' expression
 levels are often low and noisy, and many transcription factors are
 post-transcriptionally regulated. It is therefore useful to infer the
 activity of the transcription factors from the expression levels of
-their target genes.\
-\
- **Results:** We introduce a novel probabilistic model to infer
+their target genes.
+
+**Results:** We introduce a novel probabilistic model to infer
 transcription factor activities from microarray data when the structure
 of the regulatory network is known. The model is based on regression,
 retaining the computational efficiency to allow genome-wide
@@ -665,9 +665,9 @@ estimates of the activities. We demonstrate our model on two yeast data
 sets. In both cases the network structure was obtained using Chromatine
 Immunoprecipitation data. We show how predictions from our model are
 consistent with the underlying biology and offer novel quantitative
-insights into the regulatory structure of the yeast cell.\
-\
- **Availability:** MATLAB code is available from
+insights into the regulatory structure of the yeast cell.
+
+**Availability:** MATLAB code is available from
 <http://umber.sbs.man.ac.uk/resources/puma>.
 
 ------------------------------------------------------------------------
@@ -686,9 +686,9 @@ sequence information, gene expression array studies and small scale
 experiments allows one to reconstruct the regulatory network and to
 quantify the effects of transcription factors on gene expression.
 However, this goal can only be achieved if all information sources are
-used in concert.\
-\
- **Results**: Our method integrates literature information, DNA
+used in concert.
+
+**Results**: Our method integrates literature information, DNA
 sequences and expression arrays. A set of relevant transcription factors
 is defined on the basis of literature. Sequence data are used to
 identify potential target genes and the results are used to define a
@@ -698,15 +698,15 @@ identify which of the potential binding sites are actually used by the
 regulatory proteins in the studied cell conditions, the strength of
 their control, and their activation profile in a series of experiments.
 We apply our methodology to 35 expression studies in *E.Coli* with
-convincing results.\
-\
- **Availability**:
-[www.genetics.ucla.edu/labs/sabatti/software.html](www.genetics.ucla.edu/labs/sabatti/software.html)\
-\
- **Supplementary information**: The supplementary material are available
-at Bioinformatics online.\
-\
- **Contact**: csabatti@mednet.ucla.edu
+convincing results.
+
+**Availability**:
+[www.genetics.ucla.edu/labs/sabatti/software.html](www.genetics.ucla.edu/labs/sabatti/software.html)
+
+**Supplementary information**: The supplementary material are available
+at Bioinformatics online.
+
+**Contact**: csabatti@mednet.ucla.edu
 
 ------------------------------------------------------------------------
 
@@ -730,9 +730,9 @@ networks in the cell. However, it is very difficult to measure the
 concentration levels of transcription factor proteins and determine
 their regulatory effect on gene transcription. It is therefore an
 important computational challenge to infer these quantities using gene
-expression data and network architecture data.\
-\
- **Results**: We develop a probabilistic state space model that allows
+expression data and network architecture data.
+
+**Results**: We develop a probabilistic state space model that allows
 genome-wide inference of both transcription factor protein
 concentrations and their effect on the transcription rates of each
 target gene from microarray data. We use variational inference
@@ -745,9 +745,9 @@ on artificial data and on two yeast data sets in which the network
 structure has previously been obtained using Chromatine
 Immunoprecipitation data. Predictions from our model are consistent with
 the underlying biology and offer novel quantitative insights into the
-regulatory structure of the yeast cell.\
-\
- **Availability**: MATLAB code is available from
+regulatory structure of the yeast cell.
+
+**Availability**: MATLAB code is available from
 <http://umber.sbs.man.ac.uk/resources/puma>.
 
 ------------------------------------------------------------------------
@@ -766,8 +766,8 @@ Various methods have been suggested to reconstruct network architecture
 from gene expression data. However, most approaches are based on
 qualitative models that provide only rough approximations of the
 underlying events, and lack the quantitative aspects that are critical
-for understanding the proper function of biomolecular systems.\
-\
+for understanding the proper function of biomolecular systems.
+
  **Results:** We present fine-grained dynamical models of gene
 transcription and develop methods for reconstructing them from gene
 expression data within the framework of a generative probabilistic
@@ -778,11 +778,11 @@ that control them. We apply our approach to expression data sets from
 yeast and show that we can learn the unknown regulator activity
 profiles, as well as the binding affinity parameters.We also introduce a
 novel structure learning algorithm, and demonstrate its power to
-accurately reconstruct the regulatory network from those data sets.\
-\
- **Keywords:** transcription regulation, parameter learning, structure
-learning, regulatory networks\
-\
+accurately reconstruct the regulatory network from those data sets.
+
+**Keywords:** transcription regulation, parameter learning, structure
+learning, regulatory networks
+
  **Contact:** nir@cs.huji.ac.il
 
 ------------------------------------------------------------------------
