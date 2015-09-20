@@ -1,0 +1,28 @@
+# Title of the project
+shortname: "PIMS"
+longname: "Personal Information Management Systems"
+
+start: "April 2015"
+end: "April 2015"
+
+personnel:
+- name: Michael T. Smith
+  role: Post-doctoral Research Assistant
+  url: "http://www.michaeltsmith.org.uk/"
+
+sponsors:
+- name: "Innovate UK (TSB)"
+  ref: "Machine Learning 2008"
+  title: "Enhancing the value of interactions with digital content Collaborative R&D call"
+  url: "https://interact.innovateuk.org/competition-display-page/-/asset_publisher/RqEt2AKmEBhi/content/enhancing-the-value-of-interactions-with-digital-content"
+
+collaborators:
+- name: StJohn Deakins
+  institute: CitizenMe
+  url: "http://www.citizenme.com/"
+- name: Vesselin Popov
+  institute: Cambridge Psychometrics Centre
+  url: "http://www.psychometrics.cam.ac.uk/"
+
+software:
+
