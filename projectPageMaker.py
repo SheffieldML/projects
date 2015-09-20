@@ -100,7 +100,7 @@ if len(personnelDetails)>0:
     for i in range(len(personnelDetails)):
         outputString += "- [" + personnelDetails[i][0] + "](" + sheffieldPersonBase + personnelDetails[i][2] + "), " + personnelDetails[i][1] + "\n\n"
 
-    outputString += "</table>\n\n"
+    outputString += "\n\n"
 
 # Give information about software.
 if len(softwareDetails)>1:
