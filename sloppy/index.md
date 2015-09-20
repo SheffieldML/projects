@@ -36,9 +36,7 @@ GR/R84801/01](http://www.epsrc.ac.uk).
 Personnel at Sheffield
 ----------------------
 
- ---------------------------------------------------------------------------------------------------
-  [Tonatiuh Peña-Centeno](http://www.dcs.sheffield.ac.uk/cgi-bin/makeperson?T.Centeno), PhD Student
- ---------------------------------------------------------------------------------------------------
+- [Tonatiuh Peña-Centeno](http://www.dcs.sheffield.ac.uk/cgi-bin/makeperson?T.Centeno), PhD Student
 
 Software
 --------
@@ -46,11 +44,9 @@ Software
 The following software has been made available either wholly or partly
 as a result of work on this project:
 
-  -----------------------------------------------------------------------------------------------------
 -  [Bayesian interpretation of kernel Fisher's discriminants.](http://ml.sheffield.ac.uk//~neil/bfd)
 -  [Semi-supervised learning for Gaussian process classifiers.](http://ml.sheffield.ac.uk//~neil/ncnm)
 -  [Sparse approximation for Gaussian process classifiers.](http://ml.sheffield.ac.uk//~neil/ivm)
-  -----------------------------------------------------------------------------------------------------
 
 Publications
 ------------
@@ -66,7 +62,7 @@ regularisation coefficients for non-linear discriminant analysis"</span>
 in <span class="journal">Journal of Machine Learning Research</span> 7,
 pp 455--491 An earlier version is available as technical report number
 CS-04-13, see
-[\[Pena:fbd-tech04\]](/~neil/cgi-bin/publications/bibpage.cgi?keyName=Pena:fbd-tech04&printAbstract=1).\[[Software](http://staffwww.dcs.shef.ac.uk/people/N.Lawrence/bfd/%20)\]\[[PDF](http://www.jmlr.org/papers/volume7/centeno06a/centeno06a.pdf)\]\[[JMLR
+[\[Pena:fbd-tech04\]](/~neil/cgi-bin/publications/bibpage.cgi?keyName=Pena:fbd-tech04&printAbstract=1).\[[Software](http://inverseprobability.com/bfd/)\]\[[PDF](http://www.jmlr.org/papers/volume7/centeno06a/centeno06a.pdf)\]\[[JMLR
 Abstract](http://www.jmlr.org/papers/v7/centeno06a.html)\]\[[Google
 Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=Optimising+Kernel+Parameters+and+Regularisation+Coefficients+for+Non-linear+Discriminant+Analysis+&btnG=Search)\]
@@ -98,7 +94,7 @@ regularisation coefficient with the generalisation error.
 the informative vector machine"</span> in S. Becker, S. Thrun and K.
 Obermayer (eds) <span class="journal">Advances in Neural Information
 Processing Systems</span>, MIT Press, Cambridge, MA, pp 625--632.
-\[[Software](http://staffwww.dcs.shef.ac.uk/people/N.Lawrence/ivm%20)\]\[[Gzipped
+\[[Software](http://inverseprobability.com/ivm)\]\[[Gzipped
 Postscript](ftp://ftp.dcs.shef.ac.uk/home/neil/ivm.ps.gz)\]\[[Google
 Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=Fast+Sparse+Gaussian+Process+Methods:+The+Informative+Vector+Machine+&btnG=Search)\]
@@ -127,7 +123,7 @@ implementation.
 processes"</span> in L. Saul, Y. Weiss and L. Bouttou (eds) <span
 class="journal">Advances in Neural Information Processing
 Systems</span>, MIT Press, Cambridge, MA, pp 753--760.
-\[[Software](http://staffwww.dcs.shef.ac.uk/people/N.Lawrence/ncnm/%20)\]\[[Gzipped
+\[[Software](http://inverseprobability.com/ncnm/)\]\[[Gzipped
 Postscript](ftp://ftp.dcs.shef.ac.uk/home/neil/ncnm.ps.gz)\]\[[Google
 Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=Semi-supervised+Learning+via+Gaussian+Processes+&btnG=Search)\]
@@ -151,7 +147,7 @@ semi-supervised classification of handwritten digits.
 presence of label noise"</span> in C. Brodley and A. P. Danyluk (eds)
 <span class="journal">Proceedings of the International Conference in
 Machine Learning</span>, Morgan Kauffman, San Francisco, CA.
-\[[Software](http://staffwww.dcs.shef.ac.uk/people/N.Lawrence/nkfd/%20)\]\[[Gzipped
+\[[Software](http://inverseprobability.com/nkfd/)\]\[[Gzipped
 Postscript](ftp://ftp.dcs.shef.ac.uk/home/neil/noisyfisher.ps.gz)\]\[[Google
 Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=Estimating+a+Kernel+Fisher+Discriminant+in+the+Presence+of+Label+Noise+&btnG=Search)\]
@@ -179,7 +175,7 @@ real-world data-sets. The results show the feasibility of the approach.
 vector machine"</span> in J. Winkler, N. D. Lawrence and M. Niranjan
 (eds) <span class="journal">Deterministic and Statistical Methods in
 Machine Learning</span>, Springer-Verlag, Berlin, pp 56--87.
-\[[Software](http://staffwww.dcs.shef.ac.uk/people/N.Lawrence/ivm/%20)\]\[[Gzipped
+\[[Software](http://inverseprobability.com/ivm/)\]\[[Gzipped
 Postscript](ftp://ftp.dcs.shef.ac.uk/home/neil/ivmdev.ps.gz)\]\[[Springer
 Site](http://www.springeronline.com/3-540-29073-7)\]\[[Google Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=Extensions+of+the+Informative+Vector+Machine+&btnG=Search)\]
@@ -206,8 +202,8 @@ model"</span> in O. Chapelle, B. Schölkopf and A. Zien (eds) <span
 class="journal">Semi-supervised Learning</span>, MIT Press, Cambridge,
 MA, pp 152--165. \[[Gzipped
 Postscript](ftp://ftp.dcs.shef.ac.uk/home/neil/gpncnm.ps)\]\[[MATLAB
-Software](http://staffwww.dcs.shef.ac.uk/people/N.Lawrence/ncnm/)\]\[[C++
-Software](http://staffwww.dcs.shef.ac.uk/people/N.Lawrence/ivmcpp/)\]\[[Google
+Software](http://inverseprobability.com/ncnm/)\]\[[C++
+Software](http://inverseprobability.com/ivmcpp/)\]\[[Google
 Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=Gaussian+Processes+and+the+Null-Category+Noise+Model+&btnG=Search)\]
 
@@ -238,7 +234,7 @@ input data density distributions and without a special choice of kernel.
 regularisation coefficients for non-linear discriminant analysis"</span>
 Technical Report no CS-04-13, The University of Sheffield, Department of
 Computer Science.
-\[[Software](http://staffwww.dcs.shef.ac.uk/people/N.Lawrence/bfd/%20)\]\[[Gzipped
+\[[Software](http://inverseprobability.com/bfd/)\]\[[Gzipped
 Postscript](ftp://ftp.dcs.shef.ac.uk/home/neil/bfdPaper.ps.gz)\]\[[Google
 Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=Optimising+Kernel+Parameters+and+Regularisation+Coefficients+for+Non-linear+Discriminant+Analysis+&btnG=Search)\]
@@ -263,8 +259,8 @@ practical probabilistic alternative to the support vector
 machine"</span> Technical Report no CS-04-07, Department of Computer
 Science, University of Sheffield. Last updated December 2005 \[[Gzipped
 Postscript](ftp://ftp.dcs.shef.ac.uk/home/neil/ivmTechreport.ps.gz)\]\[[Matlab
-Software](http://staffwww.dcs.shef.ac.uk/people/N.Lawrence/ivm/)\]\[[C++
-Software](http://staffwww.dcs.shef.ac.uk/people/N.Lawrence/ivmcpp/)\]\[[Google
+Software](http://inverseprobability.com/ivm/)\]\[[C++
+Software](http://inverseprobability.com/ivmcpp/)\]\[[Google
 Scholar
 Search](http://scholar.google.com/scholar?hl-en&lr=&q=The+Informative+Vector+Machine:+A+Practical+Probabilistic+Alternative+to+the+Support+Vector+Machine+&btnG=Search)\]
 
