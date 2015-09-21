@@ -12,7 +12,7 @@ This is a list of research projects for the research group.
 ### Active Projects
 
 - [Deep Probabilistic](./deep/) This is an EPSRC grant that is a collaboration with [Zoubin Ghaharamani](http://mlg.eng.cam.ac.uk/zoubin/), [John Quinn](http://air.ug/~jquinn/) and [CitizenMe](http://www.citizenme.com) with additional support from Amazon and Facebook. 
-- [OpenDreamKit](./opendreamkit/) This is an EU FP7 Grant with a cross Europe Collaboration.
+- [OpenDreamKit](./opendreamkit/) This is an EU H2020 Grant with a cross Europe Collaboration.
 - [PIMS: Personal Information Management Systems.](./pims/) This is a
     Innovate UK grant in collaboration with
     [CitizenMe](http://www.citizenme.com).

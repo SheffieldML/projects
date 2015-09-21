@@ -30,7 +30,7 @@ def getReference(keyName):
     f = h.getfile()
     lines = f.read()
     f.close()
-    return lines.encode('utf8')
+    return lines
 
 def getMdReference(keyName):
     f = open('tmp.html', 'w')

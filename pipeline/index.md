@@ -6,6 +6,7 @@ title: "PUMA"
 
 ## Overview
 
+Microarray analysis allows the simultaneous evaluation of thousands of gene expression levels. In recent years both cDNA microarrays and oligonucleotide based arrays have become established technologies for genomic analysis across biology. Once the biological processes are complete the raw date generated from both the oligonucleotide arrays and the cDNA arrays consists of an image. This proposal concerns itself with the processing of the arrays once the image has been generated. We will use probabilistic models to extract information from the data, beginning with the image analysis, followed by normalisation and finally data mining. We will use Bayesian methods to integrate and propagate errors inherent in each stage of the probabilistic modelling process, eventually providing the biologist with levels of confidence for inferences made from the data.
 The project is sponsored by [BBSRC Project Ref BBS/B/0076X](http://www.bbsrc.ac.uk/research/grants-search/AwardDetails/?FundingReference=BBS/B/0076X) and is a collaboration with [Dr Marta Milo](http://www.shef.ac.uk/bms/research/milo/) of Wellcome Trust Fellow at University of Sheffield, [Dr Xuejun Liu](http://parnec.nuaa.edu.cn/liux/) of Nanjing University of Aeronautics & Astronautics (former PhD student), [Dr Guido Sanguinetti](http://homepages.inf.ed.ac.uk/gsanguin/) of University of Sheffield (former post-doc) and [Dr Antti Honkela](http://www.cis.hut.fi/ahonkela/) of Helsinki University of Technology (visitor and collaborator).
 
 <a name="personnel"></a>
@@ -22,7 +23,9 @@ The project is sponsored by [BBSRC Project Ref BBS/B/0076X](http://www.bbsrc.ac.
 
 ## Software
 
-The following software has been made available either wholly or partly as a result of work on this project:- [nppca](http://inverseprobability.com/nppca/) NPPCA: Probabilistic PCA that deals with different variances associated with each element of the data.
+The following software has been made available either wholly or partly as a result of work on this project:
+
+- [nppca](http://inverseprobability.com/nppca/) NPPCA: Probabilistic PCA that deals with different variances associated with each element of the data.
 
 - [chipdyno](http://inverseprobability.com/chipdyno/) CHIPDYNO: Inference of transcription factor activities from microarray data and network connectivity data.
 
