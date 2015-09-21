@@ -231,7 +231,7 @@ state-of-the-art in research and practice.
 
 The following publications have provided background to our work in this project.
 
-<span class="author">M. A. álvarez and N. D. Lawrence. </span> (2011)
+<span class="author">M. A. Álvarez and N. D. Lawrence. </span> (2011)
 <span class="papertitle">"Computationally efficient convolved multiple
 output Gaussian processes"</span> in <span class="journal">Journal of
 Machine Learning Research</span> 12, pp 1425--1466
