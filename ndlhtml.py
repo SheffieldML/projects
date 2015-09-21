@@ -36,9 +36,9 @@ def getMdReference(keyName):
     f = open('tmp.html', 'w')
     f.write("<!--# Citation: " + keyName + "-->\n" + getReference(keyName))
     f.close()
-    return pypandoc.convert('tmp.html', 'md').encode('utf8')
+    return pypandoc.convert('tmp.html', 'md')
 
-def writeToFile(file, string, style = '', title='', header='', footer='', navigation=''):
+def writeToFile(file, string, style ='', title='', header='', footer='', navigation=''):
     header = '<html>\n' + header
     if len(title)>0:
         header += "<head>\n  <title>" + title + "</title>\n</head>\n"
@@ -57,17 +57,14 @@ def writeToFile(file, string, style = '', title='', header='', footer='', naviga
 
 
     
-def mdWriteToFile(file, string, style = '', title='', header='', footer='', navigation=''):
+def mdWriteToFile(file, string, title):
     header = u"""---
 layout: default
 """
     if len(title)>0:
-        header += "title: \"" + title + "\"\n"
-    header += "---\n"
-    header += navigation
-    string = header + string.encode('utf8')
-    if len(footer)>0:
-        string += footer
+        header += u"title: \"" + title + "\"\n"
+    header += u"---\n"
+    string = header + unicode(string, 'utf8')
     fileHandle = open(file, 'w')
     fileHandle.write(string.encode('utf8'))
     fileHandle.close()

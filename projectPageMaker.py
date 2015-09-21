@@ -112,11 +112,11 @@ for key in project['publications']:
         outputString+="The following publications have provided background to our work in this project.\n\n"
 
     for publicationkey in project['publications'][key]:
-        outputString += ndlhtml.getMdReference(publicationkey).encode('utf8')
+        outputString += ndlhtml.getMdReference(publicationkey)
         outputString += '\n\n'
 
 
 
 
-ndlhtml.mdWriteToFile('index.md', outputString, '', project['shortname'], '', '', '')
+ndlhtml.mdWriteToFile('index.md', outputString, project['shortname'])
 
