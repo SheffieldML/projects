@@ -42,7 +42,7 @@ outputString+= "\n\n" + overview
 
 
 if len(project['sponsors'])>0:
-    outputString += "The project is sponsored by "
+    outputString += "\n\nThe project is sponsored by "
     for i, sponsor in enumerate(project['sponsors']):
         outputString += "[" + sponsor['name'] + " Project Ref " + str(sponsor['ref']) + "](" + sponsor['url'] + ")"
         if len(project['sponsors'])>1:
@@ -57,7 +57,7 @@ if len(project['sponsors'])>0:
        
 else:
     if len(project['collaborators'])>0:
-        outputString += "The project is a collaboration with "
+        outputString += "\n\nThe project is a collaboration with "
 
 if len(project['collaborators'])>0:
     for i, collaborator in enumerate(project['collaborators']):
