@@ -1,0 +1,31 @@
+# Title of the project
+shortname: "CONTESSA"
+longname: "CONTESSA: COuNt data TimE SerieS Analysis - significance tests and sequencing data application"
+
+start: "August 2015"
+end: "August 2017"
+
+personnel:
+- name: Luisa Cutillo
+  role: Research Fellow
+  url: "http://www.economia.uniparthenope.it/siti_docenti/SitoDocentiStandard/default.asp?sito=lcutillo"
+
+sponsors:
+- name: "H2020-EU.1.3.2"
+  ref: "660388"
+  title: "COuNt data TimE SerieS Analysis: significance tests and sequencing data application"
+  url: "http://cordis.europa.eu/project/rcn/195936_en.html"
+
+collaborators:
+- name: Magnus Rttray
+  institute: "University of Manchester"
+  url: "http://www.ls.manchester.ac.uk/people/profile/?personid=10584"
+- name: Winston Hide
+  institute: SITraN
+  url: "https://www.sheffield.ac.uk/neuroscience/staff/hide"
+
+software: []
+
+
+publications: []
+
