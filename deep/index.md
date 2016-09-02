@@ -19,7 +19,7 @@ health, the developing world and personal information
 management. 
 
 
-The project is sponsored by [EPSRC Project Ref EP/N014162/1]() and [Facebook Faculty Award Project Ref ](Deep Probabilistic Models for Making Sense of Unstructured Data) and [AWS in Education Grant award Project Ref ](Deep Probabilistic Models for Making Sense of Unstructured Data),  and is a collaboration with [Zoubin Ghahramani](http://mlg.eng.cam.ac.uk/zoubin/) of The University of Cambridge, [John Quinn](http://air.ug/~jquinn/) of Makerere University and Pulse Lab Kampala, [StJohn Deakins](http://www.citizenme.com/) of CitizenMe and [NewMind Network](http://www.informatics.manchester.ac.uk/NewMind/Pages/default.aspx) of .
+The project is sponsored by [EPSRC Project Ref EP/N014162/1](http://gow.epsrc.ac.uk/NGBOViewGrant.aspx?GrantRef=EP/N014162/1) and [Facebook Faculty Award Project Ref ](Deep Probabilistic Models for Making Sense of Unstructured Data) and [AWS in Education Grant award Project Ref ](Deep Probabilistic Models for Making Sense of Unstructured Data),  and is a collaboration with [Zoubin Ghahramani](http://mlg.eng.cam.ac.uk/zoubin/) of The University of Cambridge, [John Quinn](http://air.ug/~jquinn/) of Makerere University and Pulse Lab Kampala, [StJohn Deakins](http://www.citizenme.com/) of CitizenMe and [NewMind Network](http://www.informatics.manchester.ac.uk/NewMind/Pages/default.aspx) of .
 
 <a name="personnel"></a>
 
